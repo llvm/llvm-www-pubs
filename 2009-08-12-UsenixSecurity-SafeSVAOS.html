@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Memory Safety for Low-Level Software/Hardware Interactions</title>
+</head>
+<body>
+
+<div class="pub_title">
+Memory Safety for Low-Level Software/Hardware Interactions
+</div>
+<div class="pub_author">
+  John Criswell,
+  Nicolas Geoffray, and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Systems that enforce memory safety for
+today's operating system kernels and other system software
+do not account for the
+behavior of low-level software/hardware interactions such as
+memory-mapped I/O,
+MMU configuration, and context switching.  Bugs in
+such low-level interactions can lead to violations of the memory
+safety guarantees provided by a safe execution environment and
+can lead to exploitable vulnerabilities in system software.
+In this work, we present a set of program analysis and run-time instrumentation
+techniques that ensure that errors in these low-level operations
+do not violate the assumptions made by a safety checking system.
+Our design introduces a small set of abstractions and interfaces for
+manipulating processor state, kernel stacks, memory mapped I/O
+objects, MMU mappings, and self modifying code to achieve this goal,
+without moving resource allocation and management decisions out of
+the kernel.
+We have added these techniques to a compiler-based virtual machine
+called Secure Virtual Architecture (SVA), to which the standard Linux
+kernel has been ported previously.  Our design changes to SVA required
+only an additional 100 lines of code to be changed in this kernel.  Our
+experimental results show that our techniques prevent reported
+memory safety violations due to low-level Linux operations and that
+<i>these violations are not prevented by SVA
+without our techniques</i>.  Moreover, the new techniques in this paper
+introduce very little overhead over and above the existing
+overheads of SVA.  Taken together, these results indicate that it is
+clearly worthwhile to add these techniques to an existing memory
+safety system.
+</blockquote>
+
+<h2>Availability:</h2>
+This paper will be published in the Proceedings of the
+<a href="http://www.usenix.org/events/sec09/">
+Eighteenth USENIX Security Symposium</a>.
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-08-12-UsenixSecurity-SafeSVAOS.pdf">
+  Memory Safety for Low-Level Software/Hardware Interactions
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{SVAOS:UsenixSec09,
+ author = {John Criswell, Nicolas Geoffray, and Vikram Adve},
+ title = {Memory Safety for Low-Level Software/Hardware Interactions},
+ booktitle = {Proceedings of the Eighteenth Usenix Security Symposium},
+ month = {August},
+ year = {2009},
+ location = {Montreal, Canada},
+}
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

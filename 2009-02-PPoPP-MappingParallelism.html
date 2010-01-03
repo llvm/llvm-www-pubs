@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Mapping parallelism to multi-cores: a machine learning based approach</title>
+</head>
+<body>
+
+<div class="pub_title">
+Mapping parallelism to multi-cores: a machine learning based approach
+</div>
+<div class="pub_author">
+  Zheng Wang and Michael F.P. O'Boyle
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+The efficient mapping of program parallelism to multi-core processors is highly dependent on the underlying architecture. This paper proposes a portable and automatic compiler-based approach to mapping such parallelism using machine learning. It develops two predictors: a data sensitive and a data insensitive predictor to select the best mapping for parallel programs. They predict the number of threads and the scheduling policy for any given program using a model learnt off-line. By using low-cost profiling runs, they predict the mapping for a new unseen program across multiple input data sets. We evaluate our approach by selecting parallelism mapping configurations for OpenMP programs on two representative but different multi-core platforms (the Intel Xeon and the Cell processors). Performance of our technique is stable across programs and architectures. On average, it delivers above 96% performance of the maximum available on both platforms. It achieve, on average, a 37% (up to 17.5 times) performance improvement over the OpenMP runtime default scheme on the Cell platform. Compared to two recent prediction models, our predictors achieve better performance with a significant lower profiling cost.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+"Mapping parallelism to multi-cores: a machine learning based approach"<br>
+Zheng Wang and Michael F.P. O'Boyle.<br>
+<i>
+Proceedings of the 14th ACM SIGPLAN symposium on Principles and practice of parallel programming (PPoPP'09)
+</i>, Raleigh, NC, USA, February 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-02-PPoPP-MappingParallelism.pdf">
+  Mapping parallelism to multi-cores: a machine learning based approach
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{1504189,
+ author = {Wang, Zheng and O'Boyle, Michael F.P.},
+ title = {Mapping parallelism to multi-cores: a machine learning based approach},
+ booktitle = {PPoPP '09: Proceedings of the 14th ACM SIGPLAN symposium on Principles and practice of parallel programming},
+ year = {2009},
+ isbn = {978-1-60558-397-6},
+ pages = {75--84},
+ location = {Raleigh, NC, USA},
+ doi = {http://doi.acm.org/10.1145/1504176.1504189},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

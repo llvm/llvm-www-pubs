@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Architecture for a Next-Generation GCC</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Architecture for a Next-Generation GCC
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper presents a design and implementation of a whole-program
+interprocedural optimizer built in the GCC framework.  Through the introduction
+of a new language-independent intermediate representation, we extend the current
+GCC architecture to include a powerful mid-level optimizer and add link-time
+interprocedural analysis and optimization capabilities.  This intermediate
+representation is an SSA-based, low-level, strongly-typed, representation which
+is designed to support both efficient global optimizations and high-level
+analyses.  Because most of the program is available at link-time, aggressive
+``whole-program'' optimizations and analyses are possible, improving the time
+and space requirements of compiled programs.  The final proposed organization of
+GCC retains the important features which make it successful today, requires
+almost no modification to either the front- or back-ends of GCC, and is
+completely compatible with user makefiles.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Architecture For a Next-Generation GCC", Chris Lattner &amp; 
+  Vikram Adve,<br>
+  <i><a href="http://www.gccsummit.org/2003/">First Annual GCC Developers'
+  Summit</a></i>, Ottawa, Canada, May 2003.<br>
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2003-05-01-GCCSummit2003.ps">Architecture for a Next-Generation
+      GCC</a> (PS)</li>
+  <li><a href="2003-05-01-GCCSummit2003.pdf">Architecture for a Next-Generation
+      GCC</a> (PDF)</li>
+</ul>
+
+Presentation:
+<ul>
+  <li><a href="2003-05-01-GCCSummit2003pres.ppt">Architecture for a
+      Next-Generation GCC (presentation)</a> (Powerpoint)</li>
+  <li><a href="2003-05-01-GCCSummit2003pres.pdf">Architecture for a
+      Next-Generation GCC (presentation)</a> (PDF) - <i>Warning: Animation on
+      slide #13 doesn't work.</i></li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{LattnerAdve:GCCSummit03,
+    Author    = {Chris Lattner and Vikram Adve},
+    Title     = "{Architecture for a Next-Generation GCC}",
+    Booktitle = "{Proc. First Annual GCC Developers' Summit}",
+    Address   = {Ottawa, Canada},
+    Month     = {May},
+    Year      = {2003},
+    URL       = {http://llvm.cs.uiuc.edu/pubs/2003-05-01-GCCSummit2003.html}
+  }
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>The LLVM Instruction Set and Compilation Strategy</title>
+</head>
+<body>
+
+<div class="pub_title">
+  The LLVM Instruction Set and Compilation Strategy
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This document introduces the LLVM compiler infrastructure and instruction set, a
+simple approach that enables sophisticated code transformations at link time,
+runtime, and in the field.  It is a pragmatic approach to compilation,
+interfering with programmers and tools as little as possible, while still
+retaining extensive high-level information from source-level compilers for later
+stages of an application's lifetime.  We describe the LLVM instruction set,
+the design of the LLVM system, and some of its key components.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "The LLVM Instruction Set and Compilation Strategy",
+  Chris Lattner &amp; Vikram Adve<br>
+  Technical Report #UIUCDCS-R-2002-2292, Computer Science Dept., Univ. of
+  Illinois, Aug. 2002.
+</blockquote>
+
+<h2>Update:</h2>
+<blockquote>
+  <p>
+    Since this document was published, one <b>significant</b> change has been
+    made to LLVM: the GCC C front-end described in the document has been
+    completely rewritten from scratch.  The new C front-end is based on the
+    mainline GCC CVS tree (what will become GCC 3.4), and expands type-safe LLVM
+    code from the GCC AST representation, instead of from the untyped GCC RTL
+    representation.
+  </p>
+  <p>
+    This change dramatically improved the quality of code generated and the
+    stability of the system as a whole.
+  </p>
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2002-08-09-LLVMCompilationStrategy.ps">The LLVM Instruction Set
+      and Compilation Strategy</a> (PS)</li>
+  <li><a href="2002-08-09-LLVMCompilationStrategy.pdf">The LLVM Instruction Set
+      and Compilation Strategy</a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+
+<B>NOTE</b>: This document has been superseded by <a
+href="2002-12-LattnerMSThesis.html">LLVM: An Infrastructure for Multi-Stage
+Optimization</a>. If you want to cite a paper about LLVM, please cite it
+instead.
+
+<pre>
+@TechReport{LattnerAdve:LLVM:ISCS,
+  Author      = "{Chris Lattner and Vikram Adve}",
+  Title       = "{The LLVM Instruction Set and Compilation Strategy}",
+  Institution = "{CS Dept., Univ. of Illinois at Urbana-Champaign}",
+  Number      = {UIUCDCS-R-2002-2292},
+  Type        = {Tech. Report},
+  Month       = {Aug},
+  Year        = {2002}
+}
+</pre>
+
+</body>
+</html>

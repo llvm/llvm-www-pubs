@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Macroscopic Data Structure Analysis and Optimization</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Macroscopic Data Structure Analysis and Optimization
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a>, Ph.D. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>Providing high performance for pointer-intensive programs on modern
+architectures is an increasingly difficult problem for compilers.
+Pointer-intensive programs are often bound by memory latency and cache
+performance, but traditional approaches to these problems usually fail:
+Pointer-intensive programs are often highly-irregular and the compiler has
+little control over the layout of heap allocated objects.</p>
+
+<p>This thesis presents a new class of techniques named ``Macroscopic Data
+Structure Analyses and Optimizations'', which is a new approach to the problem
+of analyzing and optimizing pointer-intensive programs.  Instead of analyzing
+individual load/store operations or structure definitions, this approach
+identifies, analyzes, and transforms entire memory structures as a unit.  The
+foundation of the approach is an analysis named Data Structure Analysis and a
+transformation named Automatic Pool Allocation.  Data Structure Analysis is a
+context-sensitive pointer analysis which identifies data structures on the heap
+and their important properties (such as type safety).  Automatic Pool Allocation
+uses the results of Data Structure Analysis to segregate dynamically allocated
+objects on the heap, giving control over the layout of the data structure in
+memory to the compiler.</p>
+
+<p>Based on these two foundation techniques, this thesis describes several
+performance improving optimizations for pointer-intensive programs.  First,
+Automatic Pool Allocation itself provides important locality improvements for
+the program.  Once the program is pool allocated, several pool-specific
+optimizations can be performed to reduce inter-object padding and pool overhead.
+Second, we describe an aggressive technique, Automatic Pointer Compression,
+which reduces the size of pointers on 64-bit targets to 32-bits or less,
+increasing effective cache capacity and memory bandwidth for pointer-intensive
+programs.</p>
+
+<p>This thesis describes the approach, analysis, and transformation of programs
+with macroscopic techniques, and evaluates the net performance impact of the
+transformations.  Finally, it describes a large class of potential applications
+for the work in fields such as heap safety and reliability, program
+understanding, distributed computing, and static garbage collection.</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Macroscopic Data Structure Analysis and Optimization", Chris Lattner.<br>
+  <i>Ph.D. Thesis</i>, Computer Science Dept., University of Illinois at
+  Urbana-Champaign, May 2005.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-05-04-LattnerPHDThesis.pdf">Macroscopic Data Structure
+  Analysis and Optimization</a> (PDF)</li>
+  <li><a href="2005-05-04-LattnerPHDThesis.ps">Macroscopic Data Structure
+  Analysis and Optimization</a> (PS)</li>
+  <li><a href="2005-05-04-LattnerPHDThesis-book.pdf">Macroscopic Data Structure
+  Analysis and Optimization</a> "book form" (PDF)</li>
+  <li><a href="2005-05-04-LattnerPHDThesis-book.ps">Macroscopic Data Structure
+  Analysis and Optimization</a> "book form" (PS)</li>
+  <li><a href="2005-05-04-LattnerPHDThesis-poster.pdf">Macroscopic Data
+  Structure Analysis and Optimization</a> very high-level poster (PDF)</li>
+</ul>
+
+<p>The "book form" is useful if you plan to print this out.  Print the file out
+double sided, fold it in half, and staple it in the middle of the page.  It
+dramatically reduces the number of pages of paper used.</p>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @PhdThesis{Lattner:PHD,
+    author  = {Chris Lattner},
+    title   = "{Macroscopic Data Structure Analysis and Optimization}",
+    school  = "{Computer Science Dept., University of Illinois at Urbana-Champaign}",
+    year    = {2005},
+    address = {Urbana, IL},
+    month   = {May},
+    note    = {{\em See {\tt http://llvm.cs.uiuc.edu}.}}
+  }
+</pre>
+
+<p>This thesis is also available from the UIUC Computer Science Department as
+tech report #UIUCDCS-R-2005-2536 or the UIUC Department of Engineering
+#UILU-ENG-2005-1728.</p>
+
+</body>
+</html>

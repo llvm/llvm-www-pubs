@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>An Implementation of Swing Modulo Scheduling with Extensions for Superblocks</title>
+</head>
+<body>
+
+<div class="pub_title">
+  An Implementation of Swing Modulo Scheduling with Extensions for Superblocks
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/tonic">Tanya M. Lattner</a>, M.S. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+This thesis details the implementation of Swing Modulo Scheduling, a
+Software Pipelining technique, that is both effective and efficient in
+terms of compile time and generated code. Software Pipelining aims to
+expose Instruction Level Parallelism in loops which tend to help
+scientific and graphical applications.</p>
+
+<p>Modulo Scheduling is a category of algorithms that attempt to overlap
+iterations of single basic block loops and schedule instructions based
+upon a priority (derived from a set of heuristics). The approach used
+by Swing Modulo Scheduling is designed to achieve a highly optimized
+schedule, keeping register pressure low, and does both in a reasonable
+amount of compile time.</p>
+
+<p>One drawback of Swing Modulo Scheduling, (and all Modulo Scheduling
+algorithms) is that they are missing opportunities for further
+Instruction Level Parallelism by only handling single basic block
+loops. This thesis details extensions to the Swing Modulo Scheduling
+algorithm to handle multiple basic block loops in the form of a
+superblock. A superblock is group of basic blocks that have a single
+entry and multiple exits. Extending Swing Modulo Scheduling to support
+these types of loops increases the number of loops Swing Modulo
+Scheduling can be applied to.  In addition, it allows Modulo
+Scheduling to be performed on hot paths (also single entry, multiple
+exit), found with profile information to be optimized later offline or
+at runtime.</p>
+
+<p>Our implementation of Swing Modulo Scheduling and extensions to the
+algorithm for superblock loops were evaluated and found to be both
+effective and efficient. For the original algorithm, benchmarks were
+transformed to have performance gains of 10-33%, while the extended
+algorithm increased benchmark performance from 7-22%. </p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  An Implementation of Swing Modulo Scheduling with Extensions for Superblocks, Tanya M. Lattner.<br>
+  <i>Masters Thesis</i>, Computer Science Dept., University of Illinois at
+  Urbana-Champaign, June 2005.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-06-17-LattnerMSThesis.ps">An Implementation of Swing Modulo Scheduling with Extensions for Superblocks</a> (PS)</li>
+  <li><a href="2005-06-17-LattnerMSThesis.pdf">An Implementation of Swing Modulo Scheduling with Extensions for Superblocks</a> (PDF)</li>
+  <li><a href="2005-06-17-LattnerMSThesis-book.ps">An Implementation of Swing Modulo Scheduling with Extensions for Superblocks</a>  "book form" (PS)</li>
+ <li><a href="2005-06-17-LattnerMSThesis-book.pdf">An Implementation of Swing Modulo Scheduling with Extensions for Superblocks</a> "book form" (PDF)</li>
+</ul>
+
+<p>
+   The "book form" is useful if you plan to print this out.  Print the file out
+   double sided, fold it in half, and staple it in the middle of the page.  It
+   dramatically reduces the number of pages of paper used.
+</p>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @MastersThesis{Lattner:MSThesis05,
+    author  = {Tanya M. Lattner},
+    title   = "{An Implementation of Swing Modulo Scheduling with Extensions for Superblocks}",
+    school  = "{Computer Science Dept., University of Illinois at Urbana-Champaign}",
+    year    = {2005},
+    address = {Urbana, IL},
+    month   = {June},
+    note    = {{\em See {\tt http://llvm.cs.uiuc.edu}.}}
+  }
+</pre>
+
+</body>
+</html>

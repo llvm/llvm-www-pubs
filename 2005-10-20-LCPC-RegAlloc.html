@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Revisiting Graph Coloring Register Allocation: A Study of the Chaitin-Briggs
+  and Callahan-Koblenz Algorithms</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Revisiting Graph Coloring Register Allocation: A Study of the Chaitin-Briggs
+  and Callahan-Koblenz Algorithms</div>
+<div class="pub_author">
+  Keith Cooper, Anshuman Dasgupta, and Jason Eckhardt
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+
+<p>Techniques for global register allocation via graph coloring have 
+been extensively studied and widely implemented in compiler frameworks. This 
+paper examines a particular variant - the Callahan Koblenz allocator - and 
+compares it to the Chaitin-Briggs graph coloring register allocator. Both al- 
+gorithms were published in the 1990's, yet the academic literature does not 
+contain an assessment of the Callahan-Koblenz allocator. This paper evaluates 
+and contrasts the allocation decisions made by both algorithms. In particular, 
+we focus on two key differences between the allocators: 
+<b>Spill code</b>: The Callahan-Koblenz allocator attempts to minimize the effect of 
+spill code by using program structure to guide allocation and spill code place- 
+ment. We evaluate the impact of this strategy on allocated code. 
+<b>Copy elimination</b>: Effective register-to-register copy removal is important for 
+producing good code. The allocators use different techniques to eliminate these 
+copies. We compare the mechanisms and provide insights into the relative per- 
+formance of the contrasting techniques. 
+The Callahan-Koblenz allocator may potentially insert extra branches as part 
+of the allocation process. We also measure the performance overhead due to 
+these branches. 
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Revisiting Graph Coloring Register Allocation: A Study of the Chaitin-Briggs
+   and Callahan-Koblenz Algorithms"<br>
+  By Keith Cooper, Anshuman Dasgupta, and Jason Eckhardt.<br>
+  <i>Proceedings of the Workshop on Languages and Compilers for Parallel
+     Computing (LCPC'05)</i>, Hawthorne, NY, October 20-22, 2005
+ </blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-10-20-LCPC-RegAlloc.pdf">Revisiting Graph Coloring Register
+   Allocation: A Study of the Chaitin-Briggs
+   and Callahan-Koblenz Algorithms</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Memory Safety Without Runtime Checks or Garbage Collection</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Memory Safety Without Runtime Checks or Garbage Collection
+</div>
+<div class="pub_author">
+  Dinakar Dhurjati, Sumant Kowshik,
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a> and
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> 
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Traditional approaches to enforcing memory safety of programs rely heavily on
+runtime checks of memory accesses and on garbage collection, both of which are
+unattractive for embedded applications.  The long-term goal of our work is to
+enable 100% static enforcement of memory safety for embedded programs through
+advanced compiler techniques and minimal semantic restrictions on programs.  The
+key result of this paper is a compiler technique that ensures memory safety of
+dynamically allocated memory <i>without programmer annotations, runtime checks,
+or garbage collection</i>, and works for a large subclass of type-safe C
+programs.  The technique is based on a fully automatic pool allocation (i.e.,
+region-inference) algorithm for C programs we developed previously, and it
+ensures safety of dynamically allocated memory while retaining explicit
+deallocation of individual objects within regions (to avoid garbage collection).
+For a diverse set of embedded C programs (and using a previous technique to
+avoid null pointer checks), we show that we are able to statically ensure the
+safety of pointer and dynamic memory usage <i>in all these programs</i>.  We
+also describe some improvements over our previous work in static checking of
+array accesses.  Overall, we achieve 100% static enforcement of memory safety
+without new language syntax for a significant subclass of embedded C programs,
+and the subclass is much broader if array bounds checks are ignored.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Memory Safety Without Runtime Checks or Garbage Collection", Dinakar
+  Dhurjati, Sumant Kowshik, Vikram Adve &amp; Chris Lattner,<br>
+  <i><a href="http://www.cs.purdue.edu/s3/LCTES03/">LCTES 2003</a></i>, San
+  Diego, CA, June 2003.<br>
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2003-05-05-LCTES03-CodeSafety.ps">Memory Safety Without Runtime
+      Checks or Garbage Collection</a> (PS)</li>
+  <li><a href="2003-05-05-LCTES03-CodeSafety.pdf">Memory Safety Without Runtime
+      Checks or Garbage Collection</a> (PDF)</li>
+  <li><a href="2003-06-12-LCTES03-CodeSafety.ppt">Memory Safety Without Runtime
+      Checks or Garbage Collection - Presentation</a> (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{DKAL:LCTES03,
+    Author    = {Dinakar Dhurjati, Sumant Kowshik, Vikram Adve and Chris Lattner},
+    Title     = "{Memory Safety Without Runtime Checks or Garbage Collection}",
+    Booktitle = "{Proc. Languages Compilers and Tools for Embedded Systems 2003}",
+    Address   = {San Diego, CA},
+    Month     = {June},
+    Year      = {2003},
+    URL       = {http://llvm.cs.uiuc.edu/pubs/2003-05-05-LCTES03-CodeSafety.html}
+  }
+</pre>
+
+<h2>Links:</h2>
+<a href="http://safecode.cs.uiuc.edu/">SAFECode project</a> 
+
+</body>
+</html>

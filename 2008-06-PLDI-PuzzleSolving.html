@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+ <title>Register Allocation by Puzzle Solving</title>
+</head>
+<body>
+
+<div class="pub_title">
+ Register Allocation by Puzzle Solving
+</div>
+<div class="pub_author">
+ Fernando Magno Quintao Pereira and Jens Palsberg
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+We have shown that register allocation can be viewed as solving a collection of puzzles. We model the register file as a puzzle board and the program variables as puzzle pieces; pre-coloring and register aliasing fit in naturally. For architectures such as x86, PowerPC, and StrongARM, we can solve the puzzles in polynomial time, and we have augmented the puzzle solver with a simple heuristic for spilling. For SPEC CPU2000, our implementation is as fast as the extended version of linear scan used by LLVM, which is the JIT compiler in the openGL stack of Mac OS 10.5. Our implementation produces Pentium code that is of similar quality to the code produced by the slower, state-of-the-art iterated register coalescing algorithm of George and Appel augmented with extensions by Smith, Ramsey, and Holloway.
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@inproceedings{Pereira08PLDI,
+ author = {Fernando Magno Quintao Pereira and Jens Palsberg},
+ title = {Register Allocation by Puzzle Solving},
+ booktitle = {ACM SIGPLAN 2008 Conference on Programming Language Design and Implementation (PLDI'08)},
+ year = {2008},
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+ <li><a href="2008-06-PLDI-PuzzleSolving.pdf">Register Allocation by Puzzle Solving</a> (PDF)</li>
+ <li><a href="http://compilers.cs.ucla.edu/fernando/projects/puzzles/">Page with links to PDF and source code</a></li>
+</ul>
+
+</body>
+</html>

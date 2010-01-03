@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Coordinating Adaptations in Distributed Systems</title>
+</head>
+<body>
+
+<div class="pub_title">
+   Coordinating Adaptations in Distributed Systems
+</div>
+<div class="pub_author">
+  Brian Ensink and <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Distributed applications may use sophisticated run-time
+adaptation strategies to meet their performance
+or quality-of-service goals. Coordinating an adaptation
+that involves multiple processes can require complex
+communication or synchronization, in addition to communication
+in the base application. We propose conceptually
+simple high-level directives and a sophisticated runtime algorithm
+for coordinating adaptation automatically and
+transparently in distributed applications. The coordination
+directives specify when to adapt, in terms of the relative
+computational progress of each relevant process. The coordination
+algorithm relies on simple compiler transformations
+to track the progress of the processes, and performs
+the adaptive changes locally and asynchronously at each
+process. Measurements of the runtime overhead of the automatic
+coordination algorithm for two adaptive applications
+(a parallel PDE solver and a distributed video tracking
+code) show that the overhead is less than 1% of execution
+time for both these codes, even with relatively frequent
+adaptations, and does not grow significantly with the number
+of coordinating processes.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Coordinating Adaptations in Distributed Systems", Brian Ensink and Vikram Adve.<br>
+  Proceedings of the 24th International Conference on Distributed Computing Systems 
+  (ICDCS 2004), Tokyo, Japan, March 2004
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2004-03-ICDCS-Adaptions.pdf">Coordinating Adaptations in 
+      Distributed Systems</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

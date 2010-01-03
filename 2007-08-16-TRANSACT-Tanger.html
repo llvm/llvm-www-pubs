@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Transactifying Applications Using an Open Compiler Framework</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Transactifying Applications Using an Open Compiler Framework
+</div>
+<div class="pub_author">
+  Pascal Felber, Christof Fetzer, Ulrich Mueller, Torvald Riegel,
+Martin Suesskraut, and Heiko Sturzrehm
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Transactional memory dramatically reduces the complexity of writing concurrent
+code. Yet, seamless integration of transactional constructs in application code
+typically comes with a significant performance penalty. Recent studies have
+shown that compiler support allows producing highly efficient STM-based
+applications without putting the hassle on the programmer. So far, STM
+integration has been partially implemented in custom, proprietary compiler
+infrastructures. In this paper, we propose and evaluate the use of the LLVM
+open compiler framework to generate efficient concurrent applications using
+word-based STM libraries. Since LLVM uses the GCC compiler suite as front-end,
+it can process code written in C or C++ (with partial support for other
+languages). We also present a tool that allows ``transactifying'' assembly code
+and can complement LLVM for legacy code and libraries. Experiments using a
+lightweight C word-based STM library show that LLVM integration performs as
+well as hand-optimized calls to the STM library and better than assembly code
+instrumentation of the application code.
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@inproceedings { felber2007tanger,
+  title = {Transactifying Applications using an Open Compiler Framework},
+  author = {Pascal Felber and Christof Fetzer and Ulrich M\"uller and
+Torvald Riegel and Martin S\"u{\ss}kraut and Heiko Sturzrehm },
+  booktitle = {TRANSACT},
+  month = {August},
+  year = {2007},
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="http://tinystm.org">tinystm.org</a> The tool, including source
+code</li>
+  <li><a href="2007-08-16-TRANSACT-Tanger.pdf">Transactifying Applications
+Using an Open Compiler Framework</a> (PDF)</li>
+  <li><a href="2007-08-16-TRANSACT-Tanger-Slides.pdf">Transactifying
+Applications Using an Open Compiler Framework</a> (Slides)</li>
+</ul>
+
+</body>
+</html>

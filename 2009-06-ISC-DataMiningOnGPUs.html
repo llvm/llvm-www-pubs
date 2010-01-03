@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>A Translation System for Enabling Data Mining Applications on GPUs</title>
+</head>
+<body>
+
+<div class="pub_title">
+A Translation System for Enabling Data Mining Applications on GPUs
+</div>
+<div class="pub_author">
+  Wenjing Ma and Gagan Agrawal
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Modern GPUs offer much computing power at a very modest cost. Even though CUDA and other related recent developments are accelerating the use of GPUs for general purpose applications, several challenges still remain in programming the GPUs. Thus, it is clearly desirable to be able to program GPUs using a higher-level interface.<p>
+
+In this paper, we offer a solution that targets a specific class of applications, which are the data mining and scientific data analysis applications. Our work is driven by the observation that a common processing structure, that of generalized reductions, fits a large number of popular data mining algorithms. In our solution, the programmers simply need to specify the sequential reduction loop(s) with some additional information about the parameters. We use program analysis and code generation to map the applications to a GPU. Several additional optimizations are also performed by the system.<p>
+
+We have evaluated our system using three popular data mining applications, k-means clustering, EM clustering, and Principal Component Analysis (PCA). The main observations from our experiments are as follows. The speedup that each of these applications achieve over a sequential CPU version ranges between 20 and 50. The automatically generated version did not have any noticeable overheads compared to hand written codes. Finally, the optimizations performed in the system resulted in significant performance improvements.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+"A Translation System for Enabling Data Mining Applications on GPUs"<br>
+Wenjing Ma and Gagan Agrawal.<br>
+<i>
+Proceedings of the 23rd International Conference on Supercomputing (ISC'09)
+</i>, Yorktown Heights, NY, June 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-06-ISC-DataMiningOnGPUs.pdf">
+  A Translation System for Enabling Data Mining Applications on GPUs
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{1542331,
+ author = {Ma, Wenjing and Agrawal, Gagan},
+ title = {A translation system for enabling data mining applications on GPUs},
+ booktitle = {ICS '09: Proceedings of the 23rd international conference on Supercomputing},
+ year = {2009},
+ isbn = {978-1-60558-498-0},
+ pages = {400--409},
+ location = {Yorktown Heights, NY, USA},
+ doi = {http://doi.acm.org/10.1145/1542275.1542331},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

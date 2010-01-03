@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Interprocedural bounds checker for C programs using symbolic constraints and slicing</title>
+</head><body>
+
+<div class="pub_title">
+Interprocedural bounds checker for C programs using symbolic constraints and slicing
+</div>
+<div class="pub_author">
+  Edvin T&ouml;r&ouml;k
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+We describe a tool for finding out-of-bounds memory access bugs in C programs,
+which can be used to check programs with more than 100 000 lines of source code
+in time comparable to compilation time.
+Our tool doesn't search for out-of-bounds pointers, but only for dereferences of
+out-of-bounds pointers (not including NULL dereferences).
+An interprocedural analysis marks the variables that influence the validity of the accesses,
+and by using slicing we reduce the program to only the code corresponding to these.
+Afterwards, by using a variety of code optimization techniques, we obtain a code based on which
+we create symbolic expressions, and using them we check whether accesses are within bounds using them.
+If this  is undecidable based purely on the symbolic expressions, we take into account
+the predicates that dominate these memory accesses, and query a solver to determine the validity
+of the access.
+We eliminate the accesses we could prove, and repeat the above steps until we either prove all
+accesses, or we reach the inlining limit.
+The tool is successful in catching simple cases of common bugs encountered during application development 
+such as off-by-one bugs.
+</blockquote>
+
+<h2>BibTeX:</h2>
+<pre>
+@unpublished{ETOROK:BOUNDS,
+  author = {Edvin T\"{o}r\"{o}k},
+  title = {Interprocedural bounds checker for C programs using symbolic
+constraints and slicing},
+  note = {final year thesis},
+  school = {"Politehnica" University of Timisoara},
+  year = {2009},
+  month = {June}
+}
+</pre>
+
+<h3>Paper:</h3>
+<ul>
+  <li><a
+      href="2009-06-27-edwin.pdf">Interprocedural bounds checker for C programs using symbolic constraints and slicing</a> (PDF)</li>
+</ul>
+<h3>Slides (in Romanian):</h3>
+<ul>
+  <li><a
+      href="2009-06-27-edwin-slides.pdf">Interprocedural bounds checker for C programs using symbolic constraints and slicing - Slides</a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+</body></html>

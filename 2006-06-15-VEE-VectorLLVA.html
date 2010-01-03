@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Vector LLVA:  A Virtual Vector Instruction Set for Media Processing</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Vector LLVA:  A Virtual Vector Instruction Set for Media Processing
+</div>
+<div class="pub_author">
+  Robert L. Bocchino Jr. and Vikram S. Adve
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+We present Vector LLVA, a virtual instruction set architecture (V-ISA)
+that exposes extensive static information about vector parallelism
+while avoiding the use of hardware-specific parameters.  We provide
+both arbitrary-length vectors (for targets that allow vectors of
+arbitrary length, or where the target length is not known) and
+fixed-length vectors (for targets that have a fixed vector length,
+such as subword SIMD extensions), together with a rich set of
+operations on both vector types.  We have implemented translators that
+compile (1) Vector LLVA written with arbitrary-length vectors to the
+Motorola RSVP architecture and (2) Vector LLVA written with
+fixed-length vectors to both AltiVec and Intel SSE2.  Our
+translator-generated code achieves speedups competitive with
+handwritten native code versions of several benchmarks on all three
+architectures.  These experiments show that our V-ISA design captures
+vector parallelism for two quite different classes of architectures
+and provides virtual object code portability within the class of
+subword SIMD architectures.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Vector LLVA:  A Virtual Vector Instruction Set for Media Processing", Robert L. Bocchino Jr. and Vikram S. Adve.<br>
+  Proceedings of the Second International Conference on Virtual Execution Environments (VEE '06), Ottawa, Canada, 2006.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2006-06-15-VEE-VectorLLVA.pdf">Vector LLVA:  A Virtual Vector Instruction Set for Media Processing</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

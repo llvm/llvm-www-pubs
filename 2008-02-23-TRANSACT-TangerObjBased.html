@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Transactifying Applications Using an Open Compiler Framework</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Making Object-Based STM Practical in Unmanaged Environments
+</div>
+<div class="pub_author">
+  Torvald Riegel and Diogo Becker de Brum
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Current transactifying compilers for unmanaged environments (e.g., systems software written 
+in C/C++) target only word-based software transactional memories (STMs) because the 
+compiler cannot easily infer whether it is safe to transform a transactional access to a 
+certain memory location in an object-based way. To use object-based STMs in these 
+environments, programmers must use explicit calls to the STM or use a restricted language 
+dialect, both of which are not practical. In this paper, we show how an existing pointer 
+analysis can be used to let a transactifying compiler for C/C++ use object-based accesses 
+whenever this is possible and safe, while falling back to word-based accesses otherwise. 
+Programmers do not need to provide any annotations and do not have to use a restricted 
+language. Our evaluation also shows that an object-based STM can be significantly faster 
+than a word-based STM with an otherwise identical design and implementation, even if the 
+parameters of the latter have been tuned.
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@inproceedings{Riegel2008objbased,
+  author = {{T}orvald {R}iegel and {B}ecker de {B}rum, {D}iogo},
+  title = {{M}aking {O}bject-{B}ased {STM} {P}ractical in {U}nmanaged {E}nvironments},
+  booktitle = {{TRANSACT} 2008},
+  year = {2008},
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-02-23-TRANSACT-TangerObjBased.pdf">Making Object-Based STM Practical in Unmanaged Environments</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

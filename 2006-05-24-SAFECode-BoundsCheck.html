@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Backwards-Compatible Array Bounds Checking for C
+        with Very Low Overhead</title>
+</head>
+<body>
+
+<div class="pub_title">
+Backwards-Compatible Array Bounds Checking for C with Very Low Overhead
+</div>
+<div class="pub_author">
+  Dinakar Dhurjati and Vikram Adve
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+The problem of enforcing correct usage of array and pointer references in C
+and C++ programs remains unsolved.  The approach proposed by Jones and Kelly
+(extended by Ruwase and Lam) is the only one we know of that does not require
+significant manual changes to programs, but it has extremely high overheads of
+5x-6x and 11x--12x in the two versions.  In this paper, we describe a
+collection of techniques that dramatically reduce the overhead of this
+approach, by exploiting a fine-grain partitioning of memory called Automatic
+Pool Allocation.  Together, these techniques bring the average overhead checks
+down to only 12\% for a set of benchmarks (but 69\% for one case).
+We show that the memory partitioning is key to bringing down this overhead.
+We also show that our technique successfully detects all buffer overrun
+violations in a test suite modeling reported violations in some important
+real-world programs.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Backwards-Compatible Array Bounds Checking for C
+        with Very Low Overhead", Dinakar Dhurjati and Vikram Adve.<br>
+  Proceedings of the 28th International Conference on Software Engineering (ICSE '06), Shanghai, China, 2006.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2006-05-24-SAFECode-BoundsCheck.pdf"> Backwards-Compatible Array Bounds Checking for C
+        with Very Low Overhead </a> (PDF)</li>
+  <li><a href="2006-05-24-SAFECode-BoundsCheck.ppt"> Backwards-Compatible Array Bounds Checking for C
+        with Very Low Overhead </a> (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+
+<pre>
+@techreport{da06icse,
+  author = {Dinakar Dhurjati and Vikram Adve},
+  title = "{Backwards-Compatible Array Bounds Checking for C with Very Low Overhead}",
+  booktitle = "{Proceedings of the 2006 International Conference on Software Engineering (ICSE'06)}",
+  address   = {Shanghai, China},
+  month     = {May},
+  year      = {2006}
+  url       = {http://llvm.org/pubs/2006-05-24-SAFECode-BoundsCheck.html}
+}
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Automatic Pool Allocation: Improving Performance by Controlling  
+         Data Structure Layout in the Heap</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Automatic Pool Allocation: Improving Performance by Controlling Data Structure Layout in the Heap
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper describes <b>Automatic Pool Allocation</b>, a transformation
+framework that segregates distinct instances of heap-based data structures
+into seperate memory pools and allows heuristics to be used to
+partially control the internal layout of those data structures.
+The primary goal of this work is performance improvement, not automatic memory
+management, and the paper makes several new contributions.  The key
+contribution is a new compiler algorithm for partitioning heap objects in
+imperative programs based on a context-sensitive pointer analysis, including a
+novel strategy for correct handling of indirect (and potentially unsafe)
+function calls.  The transformation does not require type safe programs and
+works for the full generality of C and C++.  Second, the paper describes
+several optimizations that exploit data structure partitioning to further
+improve program performance.  Third, the paper evaluates how memory
+hierarchy behavior and overall program performance are impacted by the new
+transformations.  Using a number of benchmarks and a few applications, we find
+that compilation times are extremely low, and overall running times for heap
+intensive programs speed up by 10-25% in many cases, about 2x in two
+cases, and more than 10x in two small benchmarks.  Overall, we believe this
+work provides a new framework for optimizing pointer intensive programs by
+segregating and controlling the layout of heap-based data structures.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Automatic Pool Allocation: Improving Performance by Controlling Data 
+  Structure Layout in the Heap"<br>
+  Chris Lattner and Vikram Adve.<br>
+  Proc. of the 2005 ACM SIGPLAN Conference on Programming Language 
+  Design and Implementation (PLDI'05), Chicago, Illinois, Jun, 2005.
+</blockquote>
+
+  <p><b>Awarded PLDI 2005 Best Paper Award</b></p>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2005-05-21-PLDI-PoolAlloc.ps">Automatic Pool Allocation: 
+      Improving Performance by Controlling Data Structure Layout in the 
+      Heap</a> (PS)</li>
+  <li><a href="2005-05-21-PLDI-PoolAlloc.pdf">Automatic Pool Allocation: 
+      Improving Performance by Controlling Data Structure Layout in the 
+      Heap</a> (PDF)</li>
+</ul>
+<h3>Slides:</h3>
+<p>Note, animations do not work in PDF version.  Please use PPT version if
+   possible.</p>
+<ul>
+  <li><a href="2005-06-13-PLDI-PoolAllocSlides.ppt">Automatic Pool Allocation: 
+      Improving Performance by Controlling Data Structure Layout in the 
+      Heap - Slides</a> (PPT)</li>
+  <li><a href="2005-06-13-PLDI-PoolAllocSlides.pdf">Automatic Pool Allocation: 
+      Improving Performance by Controlling Data Structure Layout in the 
+      Heap - Slides</a> (PDF)</li>
+</ul>
+
+<h2>Update:</h2>
+
+<p>A more recent and expanded version of this work is available in <a 
+href="2005-05-04-LattnerPHDThesis.html">Chris Lattner's Ph.D. Thesis</a>.
+</p>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{PoolAlloc:PLDI05,
+    author    = {Chris Lattner and Vikram Adve},
+    title     = "{Automatic Pool Allocation: Improving Performance by Controlling Data Structure Layout in the Heap}",
+    booktitle = "{Proceedings of the 2005 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'05)}",
+    address   = {Chigago, Illinois},
+    month     = {June},
+    year      = {2005}
+  }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

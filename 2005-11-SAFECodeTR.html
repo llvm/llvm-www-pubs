@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Enforcing Alias Analysis for Weakly Typed Languages</title>
+</head>
+<body>
+
+<div class="pub_title">
+Enforcing Alias Analysis for Weakly Typed Languages
+</div>
+<div class="pub_author">
+Dinakar Dhurjati, Sumant Kowshik, and Vikram Adve
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+
+<p>
+Static analysis of programs in weakly typed languages such as C and C++ is
+generally not sound because of possible memory errors due to dangling
+pointer references, uninitialized pointers, and array bounds overflow.
+Optimizing compilers can produce unpredictable results when such errors
+occur, but this is quite undesirable for many tools that aim to analyze
+security and reliability properties with guarantees of soundness.  We
+describe a relatively simple compilation strategy for standard C programs
+that guarantees sound semantics for an aggressive interprocedural pointer
+analysis (or simpler ones), a call graph, and type information for a
+subset of memory. These provide the foundation for sophisticated static
+analyses to be applied to such programs with a guarantee of soundness. Our
+work builds on a previously published transformation called Automatic Pool
+Allocation to ensure that hard-to-detect memory errors (dangling pointer
+references and certain array bounds errors) cannot invalidate the call
+graph, points-to information or type information.  The key insights behind
+our approach is that pool allocation can be used to create a run-time
+partitioning of memory that matches the compile-time memory partitioning
+in a points-to graph, and efficient checks can be used to isolate the
+run-time partitions. Furthermore, we show that the sound analysis
+information enables static checking techniques that reliably eliminate
+many run-time checks. We formalize our approach as a new type system with
+the necessary run-time checks in operational semantics and prove the
+correctness of our approach for a subset of C. Our approach requires no
+source code changes, allows memory to be managed explicitly, and does not
+use meta-data on pointers or individual tag bits for memory. Using several
+benchmarks and system codes, we show experimentally that the run-time
+overheads are low (less than 10% in nearly all cases and 30% in the worst
+case we have seen).  We also show the effectiveness of reliable static
+analyses for eliminating run-time checks.
+
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Enforcing Alias Analysis for Weakly Typed Languages"<br>
+  By Dinakar Dhurjati, Sumant Kowshik, and Vikram Adve.<br>
+  Technical Report #UIUCDCS-R-2005-2657, Computer Science Dept., Univ. of
+  Illinois, Nov. 2005
+ </blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-11-SAFECodeTR.pdf">Enforcing Alias Analysis for
+      Weakly Typed Languages</a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+
+<pre>
+@techreport{dhurjati05enforcing,
+  author = {Dinakar Dhurjati and Sumant Kowshik and Vikram Adve},
+  title = "{Enforcing Alias Analysis for Weakly Typed Languages}",
+  institution = {Computer Science Dept., Univ. of Illinois},
+  year = {2005},
+  month = {Nov},
+  number = "{\#UIUCDCS-R-2005-2657}",
+  url = {http://llvm.org/pubs/2005-11-SAFECodeTR.html}
+}
+</pre>
+
+</body>
+</html>

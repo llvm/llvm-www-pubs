@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>RPython: a Step Towards Reconciling Dynamically and Statically
+Typed OO Languages
+</title>
+</head>
+<body>
+
+<div class="pub_title">
+  RPython: a Step Towards Reconciling Dynamically and Statically
+Typed OO Languages
+
+</div>
+<div class="pub_author">
+  Davide Ancona, Massimo Ancona, Antonio Cuni, and Nicholas D. Matsakis
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Although the C-based interpreter of Python is reasonably fast, implementations on the CLI or the JVM platforms offers some advantages in terms of robustness and interoperability. Unfortunately, because the CLI and JVM are primarily designed to execute statically typed, object-oriented languages, most dynamic language implementations cannot use the native bytecodes for common operations like method calls and exception handling; as a result, they are not able to take full advantage of the power offered by the CLI and JVM.<p>
+We describe a different approach that attempts to preserve the flexibility of Python, while still allowing for efficient execution. This is achieved by limiting the use of the more dynamic features of Python to an initial, bootstrapping phase. This phase is used to construct a final RPython (Restricted Python) program that is actually executed. RPython is a proper subset of Python, is statically typed, and does not allow dynamic modification of class or method definitions; however, it can still take advantage of Python features such as mixins and first-class methods and classes.<p>
+This paper presents an overview of RPython, including its design and its translation to both CLI and JVM bytecode. We show how the bootstrapping phase can be used to implement advanced features, like extensible classes and generative programming. We also discuss what work remains before RPython is truly ready for general use, and compare the performance of RPython with that of other approaches.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "RPython: a Step Towards Reconciling Dynamically and Statically
+Typed OO Languages"
+  <br>
+  Davide Ancona, Massimo Ancona, Antonio Cuni, and Nicholas D. Matsakis.
+  <br>
+<i>
+Proceedings of the 2007 symposium on Dynamic languages (DLS'07)
+</i>, Montreal, Quebec, Canada, October 2007.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2007-10-DLS-RPython.pdf">
+  RPython: a Step Towards Reconciling Dynamically and Statically
+Typed OO Languages
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{1297091,
+ author = {Ancona, Davide and Ancona, Massimo and Cuni, Antonio and Matsakis, Nicholas D.},
+ title = {RPython: a step towards reconciling dynamically and statically typed OO languages},
+ booktitle = {DLS '07: Proceedings of the 2007 symposium on Dynamic languages},
+ year = {2007},
+ isbn = {978-1-59593-868-8},
+ pages = {53--64},
+ location = {Montreal, Quebec, Canada},
+ doi = {http://doi.acm.org/10.1145/1297081.1297091},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

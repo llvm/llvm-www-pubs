@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Ensuring Code Safety Without Runtime Checks for Real-Time Control
+  Systems</title>
+</head>
+<body>
+
+<div class="pub_title">
+Ensuring Code Safety Without Runtime Checks for Real-Time Control Systems
+</div>
+<div class="pub_author">
+Sumant Kowshik, Dinakar Dhurjati and
+<a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a> 
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper considers the problem of providing safe programming
+support and enabling secure online software upgrades for control
+software in real-time control systems.
+In such systems, offline techniques for ensuring code safety are
+greatly preferable to online techniques.
+We propose a language called Control-C that is essentially a subset
+of C, but with key restrictions designed to ensure that memory safety
+of code can be verified <i>entirely</i> by static checking,
+under certain system assumptions.
+The language permits pointer-based data structures, restricted
+dynamic memory allocation, and restricted array operations,
+without requiring any runtime checks on memory operations and
+without garbage collection.
+The language restrictions have been chosen based on an understanding
+of both compiler technology and the needs of real-time control systems.
+The paper describes the language design and a
+compiler implementation for Control-C.  We use control codes
+from three different experimental control systems to evaluate the
+suitability of the language for these codes, the effort required 
+to port them to Control-C, and the effectiveness of the compiler
+in detecting a wide range of potential security violations for
+one of the systems. 
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Ensuring Code Safety Without Runtime Checks for Real-Time Control Systems",
+  Sumant Kowshik, Dinakar Dhurjati &amp; Vikram Adve,<br>
+  <i><a href="http://www.crest.gatech.edu/conferences/cases2002/">CASES
+  2002</a></i>, Grenoble, France, Oct 2002.<br>
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2002-08-08-CASES02-ControlC.ps">Ensuring Code Safety Without
+      Runtime Checks for Real-Time Control Systems</a> (PS)</li>
+  <li><a href="2002-08-08-CASES02-ControlC.pdf">Ensuring Code Safety Without
+      Runtime Checks for Real-Time Control Systems</a> (PDF)</li>
+  <li><a href="2002-08-11-CASES02-ControlC.ppt">Ensuring Code Safety Without
+      Runtime Checks for Real-Time Control Systems - Presentation</a> (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @inproceedings{KDA:LCTES03,
+    Author    = {Sumant Kowshik, Dinakar Dhurjati and Vikram Adve},
+    Title     = "{Ensuring Code Safety Without Runtime Checks for Real-Time Control Systems}",
+    Booktitle = "{Proc. Int'l Conf. on Compilers Architecture and Synthesis for Embedded Systems, 2002}",
+    Address   = {Grenoble, France},
+    Month     = {Oct},
+    Year      = {2002},
+    URL       = {http://llvm.cs.uiuc.edu/pubs/2003-08-08-CASES02-ControlC.html}
+  }
+</pre>
+
+</body>
+</html>

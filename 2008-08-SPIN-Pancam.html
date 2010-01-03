@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css" media="screen" />
+  <title>Verifying Multi-threaded C Programs with SPIN</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Verifying Multi-threaded C Programs with SPIN
+</div>
+<div class="pub_author">
+  Anna Zaks and Rajeev Joshi
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+A key challenge in model checking software is the difficulty 
+of verifying properties of implementation code, as opposed to checking an 
+abstract algorithmic description. We describe a tool for verifying 
+multithreaded C programs that uses the SPIN model checker. Our tool works 
+by compiling a multi-threaded C program into a typed bytecode format, 
+and then using a virtual machine that interprets the bytecode and 
+computes new program states under the direction of SPIN. Our virtual 
+machine is compatible with most of SPIN's search options and optimization 
+flags, such as bitstate hashing and multi-core checking. It provides 
+support for dynamic memory allocation (the malloc and free family of 
+functions), and for the pthread library, which provides primitives often 
+used by multi-threaded C programs. A feature of our approach is that it 
+can check code after compiler optimizations, which can sometimes introduce 
+race conditions. We describe how our tool addresses the state space 
+explosion problem by allowing users to define data abstraction functions 
+and to constrain the number of allowed context switches. We also describe 
+a reduction method that reduces context switches using dynamic 
+knowledge computed on-the-fly, while being sound for both safety and 
+liveness properties. Finally, we present initial experimental results with 
+our tool on some small examples. 
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@inproceedings{ZJ2008,
+      Author = {Anna Zaks and Rajeev Joshi},
+      Title = {Verifying Multi-threaded {C} Programs with {SPIN}},
+      Booktitle = {15th International SPIN Workshop on Model Checking of Software (SPIN 2008)},
+      Address = {Los Angeles, USA},
+      Month = {August},
+      Year = 2008
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-08-SPIN-Pancam.pdf">Verifying Multi-threaded C Programs with SPIN</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

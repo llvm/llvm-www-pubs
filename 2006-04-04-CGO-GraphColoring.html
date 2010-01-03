@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Tailoring Graph-coloring Register Allocation For Runtime Compilation</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Tailoring Graph-coloring Register Allocation For Runtime Compilation
+</div>
+<div class="pub_author">
+  Keith D. Cooper and Anshuman Dasgupta
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Just-in-time compilers are invoked during application 
+execution and therefore need to ensure fast compilation 
+times. Consequently, runtime compiler designers are averse 
+to implementing compile-time intensive optimization algorithms. Instead, they tend to select faster but less effective 
+transformations. In this paper, we explore this trade-off for 
+an important optimization â global register allocation. We 
+present a graph-coloring register allocator that has been 
+redesigned for runtime compilation. Compared to Chaitin-Briggs [7], a standard graph-coloring technique, the reformulated algorithm requires considerably less allocation 
+time and produces allocations that are only marginally 
+worse than those of Chaitin-Briggs. Our experimental results indicate that the allocator performs better than the 
+linear-scan and Chaitin-Briggs allocators on most benchmarks in a runtime compilation environment. By increasing 
+allocation efficiency and preserving optimization quality, 
+the presented algorithm increases the suitability and profitability of a graph-coloring register allocation strategy for 
+a runtime compiler. 
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Tailoring Graph-coloring Register Allocation For Runtime Compilation", Keith D. Cooper and Anshuman Dasgupta.<br>
+  Proceedings of the 2006 International Symposium on <a href="http://www.cgo.org/">Code Generation and Optimization</a> (CGO'06), New York, New York, 2006.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2006-04-04-CGO-GraphColoring.pdf">Tailoring Graph-coloring Register Allocation For Runtime Compilation</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Automatic generation of library bindings using static analysis</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Automatic generation of library bindings using static analysis
+</div>
+<div class="pub_author">
+  Tristan Ravitch, Steve Jackson, Eric Aderhold, and Ben Liblit
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+High-level languages are growing in popularity. However, decades of C software development have produced large libraries of fast, time-tested, meritorious code that are impractical to recreate from scratch. Cross-language bindings can expose low-level C code to high-level languages. Unfortunately, writing bindings by hand is tedious and error-prone, while mainstream binding generators require extensive manual annotation or fail to offer the language features that users of modern languages have come to expect.<p>
+
+We present an improved binding-generation strategy based on static analysis of unannotated library source code. We characterize three high-level idioms that are not uniquely expressible in C's low-level type system: array parameters, resource managers, and multiple return values. We describe a suite of interprocedural analyses that recover this high-level information, and we show how the results can be used in a binding generator for the Python programming language. In experiments with four large C libraries, we find that our approach avoids the mistakes characteristic of hand-written bindings while offering a level of Python integration unmatched by prior automated approaches. Among the thousands of functions in the public interfaces of these libraries, roughly 40% exhibit the behaviors detected by our static analyses.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Automatic generation of library bindings using static analysis"
+  <br>
+  Tristan Ravitch, Steve Jackson, Eric Aderhold, and Ben Liblit.
+  <br>
+<i>
+Proceedings of the 2009 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI09)
+</i>, Dublin, Ireland, June 2009.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-06-PLDI-LibraryBindings.pdf">
+  Automatic generation of library bindings using static analysis
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@article{1542516,
+ author = {Ravitch, Tristan and Jackson, Steve and Aderhold, Eric and Liblit, Ben},
+ title = {Automatic generation of library bindings using static analysis},
+ journal = {SIGPLAN Not.},
+ volume = {44},
+ number = {6},
+ year = {2009},
+ issn = {0362-1340},
+ pages = {352--362},
+ doi = {http://doi.acm.org/10.1145/1543135.1542516},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

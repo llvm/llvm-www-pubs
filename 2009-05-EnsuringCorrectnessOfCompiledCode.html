@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Ensuring Correctness of Compiled Code</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Ensuring Correctness of Compiled Code
+</div>
+<div class="pub_author">
+  Ganna Zaks, Ph.D. thesis
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Traditionally, the verification effort is applied to the abstract
+algorithmic descriptions of the underlining software. However, even
+well understood protocols such as Peterson’s protocol for mutual
+exclusion, whose algorithmic description takes only half a page, have
+published implementations that are erroneous. Furthermore, the
+semantics of the implementations can be altered by optimizing
+compilers, which are very large applications and, consequently, are
+bound to have bugs. Thus, it is highly desirable to ensure the
+correctness of the compiled code especially in safety critical and
+high-assurance software. This dissertation describes two alternative
+approaches that bring us closer to solving the problem.</p>
+
+<p>First, we present Compiler Validation via Analysis of the
+Cross-Product (CoVaC) - a deductive framework for proving program
+equivalence and its application to automatic verification of
+transformations performed by optimizing compilers. To leverage the
+existing program analysis techniques, we reduce the equivalence
+checking problem to analysis of one system - a cross-product of the
+two input programs. We show how the approach can be effectively used
+for checking equivalence of single-threaded programs that are
+structurally similar. Unlike the existing frameworks, our approach
+accommodates absence of compiler annotations and handles most of the
+classical intraprocedural optimizations such as constant folding,
+reassociation, common subexpression elimination, code motion, branch
+optimizations, and others. In addition, we have developed rules for
+translation validation of interprocedural optimizations, which can be
+applied when compiler annotations are available.</p>
+
+<p>
+The second contribution is the pancam framework for model checking
+multi-threaded C programs. pancam first compiles a multi-threaded C
+program into  optimized bytecode format. The framework relies on Spin,
+an existing explicit state model checker, to orchestrate the program's
+state space search. However, the program transitions and states are
+computed by the pancam bytecode interpreter. A feature of our approach
+is that not only pancam checks the actual implementation, but it can
+also check the code after compiler optimizations. Pancam addresses the
+state space explosion problem by allowing users to define data
+abstraction functions and to constrain the number of allowed context
+switches. We also describe a partial order reduction method that
+reduces context switches using dynamic knowledge computed on-the-fly,
+while being sound for both safety and liveness properties.
+</p>
+
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Ensuring Correctness of Compiled Code", Ganna Zaks,<br>
+  <i>Ph.D. Thesis</i>, Computer Science Dept., New York University, New York, NY, May 2009.<br>
+</blockquote>
+
+<h2>Download Presentation:</h2>
+<ul>
+  <li><a href="2009-05-EnsuringCorrectnessOfCompiledCode.pdf">Ensuring Correctness of Compiled Code</a> (PDF)</li>
+  <li><a href="2009-05-EnsuringCorrectnessOfCompiledCode.ps.gz">Ensuring Correctness of Compiled Code</a> (PS)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+
+<blockquote>
+<pre>
+@PhdThesis{GZAKS:PHD,
+   author  = {Ganna Zaks},
+   title   = "{Ensuring Correctness of Compiled Code}",
+   school  = "{Computer Science Dept., New York University}",
+   year    = {2009},
+   address = {New York, NY},
+   month   = {May}
+}
+</pre>
+</blockquote>
+
+</body>
+</html>

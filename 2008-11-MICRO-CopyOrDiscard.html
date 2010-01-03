@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css" media="screen" />
+  <title>Copy Or Discard Execution Model For Speculative Parallelization On Multicores</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Copy Or Discard Execution Model For Speculative Parallelization On Multicores
+</div>
+<div class="pub_author">
+  Chen Tian, Min Feng, V. Nagarajan, R. Gupta
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+The advent of multicores presents a promising opportunity for speeding up sequential programs via profile-based speculative parallelization of these programs. In this paper we present a novel solution for efficiently supporting software speculation on multicore processors. We propose the Copy or Discard (CorD) execution model in which the state of speculative parallel threads is maintained separately from the nonspeculative computation state. If speculation is successful, the results of the speculative computation are committed by copying them into the non-speculative state. If misspeculation is detected, no costly state recovery mechanisms are needed as the speculative state can be simply discarded. Optimizations are proposed to reduce the cost of data copying between nonspeculative and speculative state. A lightweight mechanism that maintains version numbers for non-speculative data values enables misspeculation detection. We also present an algorithm for profile-based speculative parallelization that is effective in extracting parallelism from sequential programs. Our experiments show that the combination of CorD and our speculative parallelization algorithm achieves speedups ranging from 3.7 to 7.8 on a Dell PowerEdge 1900 server with two Intel Xeon quad-core processors.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-11-MICRO-CopyOrDiscard.pdf">Copy Or Discard Execution Model For Speculative Parallelization On Multicores</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>LLVA: A Low-level Virtual Instruction Set Architecture</title>
+</head>
+<body>
+
+<div class="pub_title">
+  LLVA: A Low-level Virtual Instruction Set Architecture
+</div>
+<div class="pub_author">
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>,
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a>, 
+  <a href="http://misha.brukman.net">Michael Brukman</a>,
+  Anand Shukla, and
+  <a href="http://www.students.uiuc.edu/~gaeke/">Brian Gaeke</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+A virtual instruction set architecture (V-ISA) implemented via a
+processor-specific software translation layer can provide great flexibility to
+processor designers.  Recent examples such as Crusoe and DAISY, however, have
+used existing hardware instruction sets as virtual ISAs, which complicates
+translation and optimization. In fact, there has been little research on
+specific designs for a virtual ISA for processors.  This paper proposes a novel
+virtual ISA (LLVA) and a translation strategy for implementing it on arbitrary
+hardware.  The instruction set is typed, uses an infinite virtual register set
+in Static Single Assignment form, and provides explicit control-flow and
+dataflow information, and yet uses low-level operations closely matched to
+traditional hardware.  It includes novel mechanisms to allow more flexible
+optimization of native code, including a flexible exception model and minor
+constraints on self-modifying code.  We propose a translation strategy that
+enables offline translation and transparent offline caching of native code and
+profile information, while remaining completely OS-independent.  It also
+supports optimizations directly on the representation at install-time, runtime,
+and offline between executions.  We show experimentally that the virtual ISA is
+compact, it is closely matched to ordinary hardware instruction sets, and
+permits very fast code generation, yet has enough high-level information to
+permit sophisticated program analyses and optimizations.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "LLVA: A Low-level Virtual Instruction Set Architecture", Vikram Adve, Chris
+  Lattner, Michael Brukman, Anand Shukla, and Brian Gaeke.<br>
+  Proceedings of the 36th annual ACM/IEEE international symposium on
+  Microarchitecture (MICRO-36), San Diego, California, Dec. 2003.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2003-10-01-LLVA.ps">LLVA: A Low-level Virtual Instruction Set
+      Architecture</a> (PS)</li>
+  <li><a href="2003-10-01-LLVA.pdf">LLVA: A Low-level Virtual Instruction Set
+      Architecture</a> (PDF)</li>
+  <li><a href="2003-10-01-LLVA.ppt">LLVA: A Low-level Virtual Instruction Set
+      Architecture</a> slides (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{ALBSG:MICRO36,
+    author    = {Vikram Adve and Chris Lattner and Michael Brukman and Anand Shukla and Brian Gaeke},
+    title     = "{LLVA: A Low-level Virtual Instruction Set Architecture}",
+    booktitle = "{Proceedings of the 36th annual ACM/IEEE international symposium on Microarchitecture (MICRO-36)}",
+    address   = {San Diego, California},
+    month     = {Dec},
+    year      = {2003}
+  }
+</pre>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css" media="screen" />
+  <title>A Scalable Memory Model for Low-Level Code</title>
+</head>
+<body>
+
+<div class="pub_title">
+  A Scalable Memory Model for Low-Level Code
+</div>
+<div class="pub_author">
+  Zvonimir Rakamaric and Alan J. Hu
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Because of its critical importance underlying all other software, low-level 
+system software is among the most important targets for formal verification. 
+Low-level systems software must sometimes make type-unsafe memory accesses, 
+but because of the vast size of available heap memory in today's computer systems, 
+faithfully representing each memory allocation and access does not scale 
+when analyzing large programs. Instead, verification tools rely on abstract memory 
+models to represent the program heap. This paper reports on two related 
+investigations to develop an accurate (i.e., providing a useful level of soundness 
+and precision) and scalable memory model: First, we compare a recently introduced 
+memory model, specifically designed to more accurately model low-level 
+memory accesses in systems code, to an older, widely adopted memory model. 
+Unfortunately, we find that the newer memory model scales poorly compared to 
+the earlier, less accurate model. Next, we investigate how to improve the 
+soundness of the less accurate model. A direct approach is to add assertions to the code 
+that each memory access does not break the assumptions of the memory model, 
+but this causes verification complexity to blow-up. Instead, we develop a novel, 
+extremely lightweight static analysis that quickly and conservatively guarantees 
+that most memory accesses safely respect the assumptions of the memory model, 
+thereby eliminating almost all of these extra type-checking assertions. Furthermore, 
+this analysis allows us to create automatically memory models that flexibly 
+use the more scalable memory model for most of memory, but resorting to a more 
+accurate model for memory accesses that might need it. 
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2009-01-VMCAI-ScalableMemoryModel.pdf">A 
+    Scalable Memory Model for Low-Level Code</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

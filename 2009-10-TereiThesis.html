@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Low Level Virtual Machine for Glasgow Haskell Compiler</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Low Level Virtual Machine for Glasgow Haskell Compiler
+</div>
+<div class="pub_author">
+  David Terei, Bachelor's Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+This thesis details the motivation, design and implementation of a new back-end for the Glasgow Haskell Compiler which uses the Low Level Virtual Machine compiler infrastructure for code generation. Haskell as implemented by GHC was found to map remarkably well onto the LLVM Assembly language, although some new approaches were required. The most notable of these being the use of a custom calling convention in order to implement GHC's optimisation feature of pinning STG virtual registers to hardware registers. In the evaluation of the LLVM back-end in regards to GHC's C and native code generator back-end, the LLVM back-end was found to offer comparable results in regards to performance in most situations with the surprising finding that LLVM's optimisations didn't offer any improvement to the run-time of the generated code. The complexity of the LLVM back-end proved to be far simpler though then either the native code generator or C back-ends and as such it offers a compelling primary back-end target for GHC.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  Low Level Virtual Machine for Glasgow Haskell Compiler, David Terei.<br>
+  <i>Bachelor's Thesis</i>, Computer Science and Engineering Dept., The University of New South Wales, Oct 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2009-10-TereiThesis.pdf">Low Level Virtual Machine for Glasgow Haskell Compiler</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

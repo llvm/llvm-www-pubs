@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Execution Context Optimization for Disk Energy</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Execution Context Optimization for Disk Energy
+</div>
+<div class="pub_author">
+  Jerry Hom and Ulrich Kremer
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Power, energy, and thermal concerns have constrained embedded systems designs. Computing capability and storage density have increased dramatically, enabling the emergence of handheld devices from special to general purpose computing. In many mobile systems, the disk is among the top energy consumers. Many previous optimizations for disk energy have assumed uniprogramming environments. However, many optimizations degrade in multiprogramming because programs are unaware of other programs (execution context). We introduce a framework to make programs aware of and adapt to their runtime execution context.<p>
+
+We evaluated real workloads by collecting user activity traces and characterizing the execution contexts. The study confirms that many users run a limited number of programs concurrently. We applied execution context optimizations to eight programs and tested ten combinations. The programs ran concurrently while the disk's power was measured. Our measurement infrastructure allows interactive sessions to be scripted, recorded, and replayed to compare the optimizations' effects against the baseline. Our experiments covered two write cache policies. For write-through, energy savings was in the range 3-63% with an average of 21%. For write-back, energy savings was in the range -33-61% with an average of 8%. In all cases, our optimizations incurred less than 1% performance penalty.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Execution Context Optimization for Disk Energy"
+  <br>
+  Jerry Hom and Ulrich Kremer.
+  <br>
+<i>
+Proceedings of the 2008 international conference on Compilers, architectures and synthesis for embedded systems (CASES'08)
+</i>, Atlanta, GA, USA, October 2008.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2008-10-CASES-ExecutionContextOptimization.pdf">
+  Execution Context Optimization for Disk Energy
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{1450132,
+ author = {Hom, Jerry and Kremer, Ulrich},
+ title = {Execution context optimization for disk energy},
+ booktitle = {CASES '08: Proceedings of the 2008 international conference on Compilers, architectures and synthesis for embedded systems},
+ year = {2008},
+ isbn = {978-1-60558-469-0},
+ pages = {255--264},
+ location = {Atlanta, GA, USA},
+ doi = {http://doi.acm.org/10.1145/1450095.1450132},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

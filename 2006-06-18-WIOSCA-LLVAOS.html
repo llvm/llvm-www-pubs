@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>A Virtual Instruction Set Interface for Operating System Kernels</title>
+</head>
+<body>
+
+<div class="pub_title">
+  A Virtual Instruction Set Interface for Operating System Kernels
+</div>
+<div class="pub_author">
+  John Criswell, Brent Monroe, and Vikram Adve
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+In this paper, we propose and evaluate a virtual instruction set interface
+between an operating system (OS) kernel and a general purpose processor
+architecture.  This interface is a set of operations added to a previously
+proposed virtual instruction set architecture called LLVA (Low Level Virtual
+Architecture) and can be implemented on existing processor hardware.  The
+long-term benefits of such an interface include
+richer OS-information for hardware,
+greater flexibility in evolving hardware,
+and
+sophisticated analysis and optimization capabilities for kernel code,
+including
+across the application-kernel boundary transformations.
+Our interface design (LLVA-OS) contains
+several novel features for machine-independence and performance, including
+efficient saving and restoring of (hidden) native state,
+mechanisms for error recovery, and several primitive
+abstractions that expose semantic information to the underlying translator and
+hardware.  We describe the design, a prototype implementation of LLVA-OS 
+on x86, and our experience porting the Linux 2.4.22 kernel to LLVA-OS.
+We perform a performance evaluation of this kernel, identifying and
+explaining the root causes of key sources of virtualization overhead.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "A Virtual Instruction Set Interface for Operating System Kernels", John Criswell, Brent Monroe, and Vikram Adve.<br>
+  Workshop on the Interaction between Operating Systems and Computer Architecture (WIOSCA '06), Boston, Massachusetts, 2006.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2006-06-18-WIOSCA-LLVAOS.pdf">A Virtual Instruction Set Interface for Operating System Kernels</a> (PDF)</li>
+  <li><a href="2006-06-18-WIOSCA-LLVAOS.ppt">A Virtual Instruction Set Interface for Operating System Kernels</a> (slides)</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Speculative Parallelization of Sequential Loops on Multicores</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Speculative Parallelization of Sequential Loops on Multicores
+</div>
+<div class="pub_author">
+  Chen Tian, Min Feng, Vijay Nagarajan, Rajiv Gupta
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+The advent of multicores presents a promising opportunity for speeding up the execution of sequential programs through their parallelization. In this paper we present a novel solution for efficiently supporting software-based speculative parallelization of sequential loops on multicore processors. The execution model we employ is based upon state separation, an approach for separately maintaining the speculative state of parallel threads and non-speculative state of the computation. If speculation is successful, the results produced by parallel threads in speculative state are committed by copying them into the computation’s non-speculative state. If misspeculation is detected, no costly state recovery mechanisms are needed as the speculative state can be simply discarded. Techniques are proposed to reduce the cost of data copying between non-speculative and speculative state and efficiently carrying out misspeculation detection. We apply the above approach to speculative parallelization of loops in several sequential programs which results in significant speedups on a Dell PowerEdge 1900 server with two Intel Xeon quad-core processors.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Speculative Parallelization of Sequential Loops on Multicores"
+  <br>
+  Chen Tian, Min Feng, Vijay Nagarajan, Rajiv Gupta.
+  <br>
+<i>
+International Journal of Parallel Programming
+</i>, June 2009
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-06-JPP-SpeculativeParallel.pdf">
+  Speculative Parallelization of Sequential Loops on Multicores
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

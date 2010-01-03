@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>DMP: deterministic shared memory multiprocessing</title>
+</head>
+<body>
+
+<div class="pub_title">
+DMP: deterministic shared memory multiprocessing
+</div>
+<div class="pub_author">
+Joseph Devietti, Brandon Lucia, Luis Ceze, and Mark Oskin
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Current shared memory multicore and multiprocessor systems are nondeterministic. Each time these systems execute a multithreaded application, even if supplied with the same input, they can produce a different output. This frustrates debugging and limits the ability to properly test multithreaded code, becoming a major stumbling block to the much-needed widespread adoption of parallel programming.<p>
+In this paper we make the case for fully deterministic shared memory multiprocessing (DMP). The behavior of an arbitrary multithreaded program on a DMP system is only a function of its inputs. The core idea is to make inter-thread communication fully deterministic. Previous approaches to coping with nondeterminism in multithreaded programs have focused on replay, a technique useful only for debugging. In contrast, while DMP systems are directly useful for debugging by offering repeatability by default, we argue that parallel programs should execute deterministically in the field as well. This has the potential to make testing more assuring and increase the reliability of deployed multithreaded software. We propose a range of approaches to enforcing determinism and discuss their implementation trade-offs. We show that determinism can be provided with little performance cost using our architecture proposals on future hardware, and that software-only approaches can be utilized on existing systems.
+
+
+</blockquote>
+
+<h2>To Appear:</h2>
+<blockquote>
+  "DMP: deterministic shared memory multiprocessing"<br>
+  Joseph Devietti, Brandon Lucia, Luis Ceze, and Mark Oskin.<br>
+  Proceedings of the Fourteenth International Conference on
+  Architectural Support for Programming Languages and Operating Systems (ASPLOS '09), 
+  Washington DC, March, 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-03-ASPLOS-DMP.pdf">
+      DMP: deterministic shared memory multiprocessing</a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

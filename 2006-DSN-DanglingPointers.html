@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>
+  Efficiently Detecting All Dangling Pointer Uses in Production Servers
+  </title>
+</head>
+<body>
+
+<div class="pub_title">
+Efficiently Detecting All Dangling Pointer Uses in Production Servers
+</div>
+<div class="pub_author">
+  Dinakar Dhurjati and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+In this paper, we propose a novel technique to detect all
+dangling pointer uses at run-time that is efficient enough
+for production use in server codes. One idea (previously
+used by Electric Fence, PageHeap) is to use a new virtual
+page for each allocation of the program and rely on page
+protection mechanisms to check dangling pointer accesses.
+This naive approach has two limitations that makes it im-
+practical to use in production software: increased physical
+memory usage and increased address space usage. We pro-
+pose two key improvements that alleviate both these prob-
+lems. First, we use a new virtual page for each allocation
+of the program but map it to the same physical page as the
+original allocator. This allows using nearly identical physi-
+cal memory as the original program while still retaining the
+dangling pointer detection capability. We also show how to
+implement this idea without requiring any changes to the
+underlying memory allocator. Our second idea alleviates
+the problem of virtual address space exhaustion by using
+a previously developed compiler transformation called Au-
+tomatic Pool Allocation to reuse many virtual pages. The
+transformation partitions the memory of the program based
+on their lifetimes and allows us to reuse virtual pages when
+portions of memory become inaccessible. Experimentally
+we find that the run-time overhead for five unix servers is
+less than 4%, for other unix utilities less than 15%. How-
+ever, in case of allocation intensive benchmarks, we find our
+overheads are much worse (up to 11x slowdown).
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2006-DSN-DanglingPointers.pdf">
+  Efficiently Detecting All Dangling Pointer Uses in Production Servers
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{1135707,
+ author = {Dinakar Dhurjati and Vikram Adve},
+ title = {Efficiently Detecting All Dangling Pointer Uses in Production Servers},
+ booktitle = {DSN '06: Proceedings of the International Conference on Dependable Systems and Networks},
+ year = {2006},
+ isbn = {0-7695-2607-1},
+ pages = {269--280},
+ doi = {http://dx.doi.org/10.1109/DSN.2006.31},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Increasing the scope and resolution of Interprocedural Static Single Assignment</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Increasing the scope and resolution of Interprocedural Static Single Assignment
+</div>
+<div class="pub_author">
+  Silvian Calman and Jianwen Zhu
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+While intraprocedural Static Single Assignment (SSA) is ubiquitous in modern compilers, the use of interprocedural SSA, although seemingly a natural extension, is limited. We find that part of the impediment is due to the narrow scope of variables handled by previously reported approaches, leading to limited benefits in optimization.<p>
+
+In this study, we increase the scope of Interprocedural SSA (ISSA) to record elements and singleton heap variables. We show that ISSA scales reasonably well (to all MediaBench and most of the SPEC2K), while resolving on average 1.72 times more loads to their definition. We propose and evaluate an interprocedural copy propagation and an interprocedural liveness analysis and demonstrate their effectiveness on reducing input and output instructions by 44.5% and 23.3%, respectively. ISSA is then leveraged for constant propagation and dead code removal, where 11.8% additional expressions are folded.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Increasing the scope and resolution of Interprocedural Static Single Assignment"
+  <br>
+  Silvian Calman and Jianwen Zhu.
+  <br>
+<i>
+Proceeding of the 16th International Static Analysis Symposium (SAS 2009)
+</i>, Los Angeles, CA, August, 2009.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-08-SAS-IPSSA.pdf">
+  Increasing the scope and resolution of Interprocedural Static Single Assignment
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

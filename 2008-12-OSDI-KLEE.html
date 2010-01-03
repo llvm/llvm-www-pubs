@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="http://llvm.org/llvm.css" type="text/css" media="screen" />
+  <title>KLEE: Unassisted and Automatic Generation of High-Coverage 
+Tests for Complex Systems Programs</title>
+</head>
+<body>
+
+<div class="pub_title">
+  KLEE: Unassisted and Automatic Generation of High-Coverage 
+Tests for Complex Systems Programs
+</div>
+<div class="pub_author">
+  Cristian Cadar, Daniel Dunbar, Dawson Engler
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+We present a new symbolic execution tool, KLEE, capable of automatically 
+generating tests that achieve high coverage on a diverse set of complex and 
+environmentally-intensive programs. We used KLEE to thoroughly check all 
+89 stand-alone programs in the GNU COREUTILS utility suite, which form the core 
+user-level environment installed on millions of Unix systems, and arguably 
+are the single most heavily tested set of open-source programs in 
+existence. KLEE-generated tests achieve high line coverage — on average over 90% 
+per tool (median: over 94%) — and significantly beat the coverage of the 
+developers' own hand-written test suites. When we did the same for 75 
+equivalent tools in the BUSYBOX embedded system suite, results were even 
+better, including 100% coverage on 31 of them. 
+We also used KLEE as a bug finding tool, applying it to 452 applications (over 
+430K total lines of code), where it found 56 serious bugs, including 
+three in COREUTILS that had been missed for over 15 years. Finally, we 
+used KLEE to cross-check purportedly identical BUSY-BOX and COREUTILS utilities, 
+finding functional correctness errors and a myriad of inconsistencies.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-12-OSDI-KLEE.pdf">KLEE: Unassisted and Automatic Generation 
+of High-Coverage Tests for Complex Systems Programs</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

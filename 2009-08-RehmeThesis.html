@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>AN INTERNAL REPRESENTATION FOR ADAPTIVE ONLINE PARALLELIZATION</title>
+</head>
+<body>
+
+<div class="pub_title">
+  AN INTERNAL REPRESENTATION FOR ADAPTIVE ONLINE PARALLELIZATION
+</div>
+<div class="pub_author">
+  Koy D. Rehme, M.S. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+Future computer processors may have tens or hundreds of cores, increasing the need for efficient parallel programming models. The nature of multicore processors will present applications with the challenge of diversity: a variety of operating environments, architectures, and data will be available and the compiler will have no foreknowledge of the environment until run time. Adaptive Online Parallelization (ADOPAR) is a unifying framework that attempts to overcome diversity by separating discovery and packaging of parallelism. Scheduling for execution may then occur at run time when diversity may best be resolved.<p>
+This work presents a compact representation of parallelism based on the task graph programming model, tailored especially for ADOPAR and for regular and irregular parallel computations. Task graphs can be unmanageably large for fine-grained parallelism. Rather than representing each task individually, similar tasks are grouped into task descriptors. From these, a task descriptor graph, with relationship descriptors forming the edges of the graph, may be represented. While even highly irregular computations often have structure, previous representations have chosen to restrict what can be easily represented, thus limiting full exploitation by the back end. Therefore, in this work, task and relationship descriptors have been endowed with instantiation functions (methods of descriptors that act as factories) so the front end may have a full range of expression when describing the task graph. The representation uses descriptors to express a full range of regular and irregular computations in a very flexible and compact manner.<p>
+The representation also allows for dynamic optimization and transformation, which assists ADOPAR in its goal of overcoming various forms of diversity. We have successfully implemented this representation using new compiler intrinsics, allow ADOPAR schedulers to operate on the described task graph for parallel execution, and demonstrate the low code size overhead and the necessity for native schedulers.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  AN INTERNAL REPRESENTATION FOR ADAPTIVE ONLINE PARALLELIZATION, Koy D. Rehme.<br>
+  <i>M.S. Thesis</i>, Department of Electrical and Computer Engineering, Brigham Young University, August 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2009-08-RehmeThesis.pdf">AN INTERNAL REPRESENTATION FOR ADAPTIVE ONLINE PARALLELIZATION</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

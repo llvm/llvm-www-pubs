@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Making Context-Sensitive Points-to Analysis with Heap Cloning
+        Practical For The Real World</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Making Context-Sensitive Points-to Analysis with Heap Cloning
+        Practical For The Real World
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a>,
+  <a href="http://www.lenharth.org/~andrewl/">Andrew Lenharth</a>, and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+Context-sensitive pointer analysis algorithms with full "heap
+cloning" are powerful but are widely considered to be too expensive
+to include in production compilers.  This paper shows, for the first
+time, that a context-sensitive, field-sensitive algorithm with full
+heap cloning (by acyclic call paths) can indeed be both scalable and
+extremely fast in practice.  Overall, the algorithm is able to analyze
+programs in the range of 100K-200K lines of C code in 1-3 seconds,
+takes less than 5% of the time it takes for GCC to compile the code
+(which includes no whole-program
+analysis), and scales well across five orders of magnitude of code
+size.  It is also able to analyze the Linux kernel (about 355K lines
+of code) in 3.1 seconds.  The paper describes the major algorithmic
+and engineering design choices that are required to achieve these
+results, including (a) using flow-insensitive and unification-based
+analysis, which are essential to avoid exponential behavior in
+practice;
+(b) sacrificing context-sensitivity within strongly connected components
+of the call graph; and
+(c) carefully eliminating several kinds of O(N<sup>2</sup>) behaviors (largely
+without affecting precision).
+The techniques used for (b) and (c) eliminated several major bottlenecks
+to scalability, and both are generalizable to
+other context-sensitive algorithms.  We show that the engineering
+choices collectively reduce analysis time by factors of up to 3x-21x
+in our ten largest programs, and that the savings grow strongly 
+with program size.
+Finally, we briefly summarize results demonstrating the precision of the
+analysis.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Making Context-Sensitive Points-to Analysis with Heap Cloning
+        Practical For The Real World"<br>
+  Chris Lattner, Andrew Lenharth, and Vikram Adve.<br>
+  Proc. of the 2007 ACM SIGPLAN Conference on Programming Language 
+  Design and Implementation (PLDI'07), San Diego, CA, Jun, 2007.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2007-06-10-PLDI-DSA.pdf">Making Context-Sensitive Points-to
+       Analysis with Heap Cloning Practical For The Real World</a> (PDF)</li>
+</ul>
+
+<h3>Slides:</h3>
+<ul>
+  <li><a href="2007-06-10-PLDI-DSA-Presentation.pdf">Making Context-Sensitive Points-to
+       Analysis with Heap Cloning Practical For The Real World</a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{DSA:PLDI07,
+    author    = {Chris Lattner and Andrew Lenharth and Vikram Adve},
+    title     = "{Making Context-Sensitive Points-to Analysis with Heap Cloning Practical For The Real World}",
+    booktitle = "{Proceedings of the 2007 ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI'07)}",
+    address   = {San Diego, California},
+    month     = {June},
+    year      = {2007}
+  }
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

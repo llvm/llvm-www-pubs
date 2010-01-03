@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Segment Protection for Embedded Systems Using Run-time Checks</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Segment Protection for Embedded Systems Using Run-time Checks
+</div>
+<div class="pub_author">
+  Matthew Simpson, Bhuvan Middha and Rajeev Barua
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+
+<p>The lack of virtual memory protection is a serious source of unreliability in many embedded systems. Without the segment-level 
+protection it provides, these systems are subject to memory access 
+violations, stemming from programmer error, whose results can be 
+dangerous and catastrophic in safety-critical systems. The traditional method of testing embedded software before its deployment 
+is an insufficient means of detecting and debugging all software 
+errors, and the reliance on this practice is a severe gamble when 
+the reliable performance of the embedded device is critical. Additionally, the use of safe languages and programming semantic restrictions as prevention mechanisms is often infeasible when considering the adoptability and compatibility of these languages since 
+most embedded applications are written in C and C++.</p>
+
+<p>This work improves system reliability by providing a completely 
+automatic software technique for guaranteeing segment protection 
+for embedded systems lacking virtual memory. This is done by 
+inserting optimized run-time checks before memory accesses that 
+detect segmentation violations in cases in which there would otherwise be no error, enabling remedial action before system failure 
+or corruption. This feature is invaluable for safety-critical embedded systems. Other advantages of our method include its low overhead, lack of any programming language or semantic restrictions, 
+and ease of implementation. Our compile-time analysis, known as 
+intended segment analysis, is a uniquely structured analysis that allows for the realization of optimizations used to reduce the number 
+of required run-time checks and foster our technique into a truly 
+viable solution for providing segment protection in embedded systems lacking virtual memory. </p>
+<p>Our experimental results show that these optimizations are effective at reducing the performance overheads associated with providing software segment protection to low, and in many cases, negligible levels. For the eight evaluated embedded benchmarks, the 
+average increase in run-time is 0.72%, the average increase in energy consumption is 0.44%, and the average increase in code size 
+is 3.60%. </p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Segment Protection for Embedded Systems Using Run-time Checks"<br>
+  By Matthew Simpson, Bhuvan Middha and Rajeev Barua.<br>
+  <i>Proceedings of the ACM International Conference on Compilers, <br>
+  Architecture, and Synthesis for Embedded Systems (CASES)</i>,<br>
+  San Francisco, CA, September 25-27, 2005<br>
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-09-25-CASES05-SegmentProtection.pdf">Segment Protection for Embedded Systems Using Run-time Checks</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

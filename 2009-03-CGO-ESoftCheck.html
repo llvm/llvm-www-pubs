@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>ESoftCheck: Removal of Non-vital Checks for Fault Tolerance</title>
+</head>
+<body>
+
+<div class="pub_title">
+ESoftCheck: Removal of Non-vital Checks for Fault Tolerance
+</div>
+<div class="pub_author">
+  Jing Yu,
+  Maria Jesus Garzaran,
+  Marc Snir
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+As semiconductor technology scales into the deep 
+submicron regime the occurrence of transient or soft errors will 
+increase. This will require new approaches to error detection. 
+Software checking approaches are attractive because they require 
+little hardware modiﬁcation and can be easily adjusted to ﬁt different reliability and performance requirements. Unfortunately, 
+software checking adds a signiﬁcant performance overhead. 
+  
+In this paper we present ESoftCheck, a set of compiler 
+optimization techniques to determine which are the vital checks, 
+that is, the minimum number of checks that are necessary to 
+detect an error and roll back to a correct program state. ESoftCheck identiﬁes the vital checks on platforms where registers 
+are hardware-protected with parity or ECC, when there are 
+redundant checks and when checks appear in loops. ESoftCheck 
+also provides knobs to trade reliability for performance based 
+on the support for recovery and the degree of trustiness of the 
+operations. Our experimental results on a Pentium 4 show that 
+ESoftCheck can obtain 27.1% performance improvement without 
+losing fault coverage.
+
+</blockquote>
+
+<h2>To Appear:</h2>
+<blockquote>
+  "ESoftCheck: Removal of Non-vital Checks for Fault Tolerance"<br>
+  Jing Yu, Maria Jesus Garzaran, and Marc Snir<br>
+  Proceedings of the Seventh International Symposium on
+  Code Generation and Optimization (CGO '09), 
+  Seattle WA, March, 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2009-03-CGO-ESoftCheck.pdf">ESoftCheck: Removal of Non-vital Checks for Fault Tolerance</a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

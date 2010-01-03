@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>
+  Memory Safety Without Garbage Collection for Embedded Applications
+  </title>
+</head>
+<body>
+
+<div class="pub_title">
+Memory Safety Without Garbage Collection for Embedded Applications
+</div>
+<div class="pub_author">
+<a href="http://llvm.cs.uiuc.edu/~dhurjati">Dinakar Dhurjati</a>,
+<a href="http://www-rtsl.cs.uiuc.edu/~kowshik">Sumant Kowshik</a>,
+<a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a> and 
+<a href="http://www.nondot.org/sabre/">Chris Lattner</a>
+</div>
+
+<h2>Abstract:</h2> <blockquote> Traditional approaches to enforcing memory 
+safety of programs rely heavily on run-time checks of memory accesses and 
+on garbage collection, both of which are unattractive for embedded 
+applications. The goal of our work is to develop advanced compiler 
+techniques for enforcing memory safety with minimal run-time overheads. In 
+this paper, we describe a set of compiler techniques that, together with 
+minor semantic restrictions on C programs and no new syntax, ensure memory 
+safety and provide most of the error-detection capabilities of type-safe 
+languages, without using garbage collection, and with no run-time software 
+checks, (on systems with standard hardware support for memory management). 
+The language permits arbitrary pointer-based data structures, explicit 
+deallocation of dynamically allocated memory, and restricted array 
+operations. One of the key results of this paper is a compiler technique 
+that ensures that dereferencing dangling pointers to freed memory does not 
+violate memory safety, without annotations, run-time checks, or garbage 
+collection, and works for arbitrary type-safe C programs. Furthermore, we 
+present a new interprocedural analysis for static array bounds checking 
+under certain assumptions. For a diverse set of embedded C programs, we 
+show that we are able to ensure memory safety of pointer and dynamic 
+memory usage in all these programs with no run-time software checks (on 
+systems with standard hardware memory protection), requiring only minor 
+restructuring to conform to simple type restrictions. Static array bounds 
+checking fails for roughly half the programs we study due to complex array 
+references, and these are the only cases where explicit run-time software 
+checks would be needed under our language and system assumptions. 
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Memory Safety Without Garbage Collection for Embedded
+Applications", Dinakar Dhurjati, Sumant Kowshik, Vikram Adve and 
+Chris Lattner.<br>
+In ACM Transactions in Embedded Computing Systems (TECS),  February 2005.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2005-02-TECS-SAFECode.pdf">Memory Safety Without
+      Garbage Collection for Embedded Applications
+      </a> (PDF)</li>
+</ul>
+<h2>BibTeX Entry:</h2>
+<pre>
+@article{DKAL:TECS05,
+ author = {Dinakar Dhurjati and Sumant Kowshik and Vikram Adve and Chris Lattner},
+ title = {Memory safety without garbage collection for embedded applications},
+ journal = {Trans. on Embedded Computing Sys.},
+ volume = {4},
+ number = {1},
+ year = {2005},
+ issn = {1539-9087},
+ pages = {73--111},
+ URL       = {http://llvm.cs.uiuc.edu/pubs/2005-02-TECS-SAFECode.html}
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+ }
+</pre>
+
+<h2>Links:</h2>
+<a href="http://safecode.cs.uiuc.edu/">SAFECode project</a> 
+
+</body>
+</html>

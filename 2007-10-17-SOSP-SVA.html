@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Secure Virtual Architecture: A Safe Execution Environment for
+Commodity Operating Systems</title>
+</head>
+<body>
+
+<div class="pub_title">
+Secure Virtual Architecture: A Safe Execution Environment for
+Commodity Operating Systems
+</div>
+<div class="pub_author">
+  John Criswell,
+  Andrew Lenharth,
+  Dinakar Dhurjati, and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper describes an efficient and robust
+approach to provide a <i>safe execution environment</i> for an entire
+operating system, such as Linux, and all its applications.  The
+approach, which we call <i>Secure Virtual Architecture</i> (SVA),
+defines a virtual, low-level, typed instruction set suitable for
+executing <i>all</i> code on a system, including kernel and
+application code.  SVA code is translated for execution by a virtual
+machine transparently, offline or online.
+SVA aims to enforce <i>fine-grained (object level) memory safety</i>,
+<i>control-flow integrity</i>,
+<i>type safety for a subset of objects</i>, and <i>sound analysis</i>.
+A virtual machine implementing SVA achieves these goals by using a
+novel approach that exploits properties of existing memory pools in
+the kernel and by preserving the kernel's explicit control over
+memory, including custom allocators and explicit deallocation.
+Furthermore, the safety properties can be encoded compactly as
+extensions to the SVA type system,
+allowing the (complex) safety checking compiler to be outside
+the trusted computing base.  SVA also defines a set of OS interface
+operations that abstract all privileged hardware instructions,
+allowing the virtual machine to monitor all privileged operations
+and control the physical resources on a given hardware platform.
+We have ported the Linux kernel to SVA, treating it as a new
+architecture, and made only minimal code changes (less than 300 lines of code)
+to the machine-independent parts of the kernel and device drivers.
+SVA is able to prevent 4 out of 5 memory safety exploits previously reported
+for the Linux 2.4.22 kernel for which exploit code is available, and would
+prevent the fifth one simply by compiling an additional kernel library.
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2007-SOSP-SVA.pdf">
+  Secure Virtual Architecture: A Safe Execution Environment for
+Commodity Operating Systems
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@inproceedings{SVA:SOSP07,
+ author = {John Criswell, Andrew Lenharth , Dinakar Dhurjati, and Vikram Adve},
+ title = {Secure Virtual Architecture: A Safe Execution Environment for Commodity Operating Systems},
+ booktitle = {SOSP '07: Proceedings of the Twenty First ACM Symposium on Operating Systems Principles},
+ month = {October},
+ year = {2007},
+ location = {Stevenson, WA},
+}
+</pre>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>The LLVM Compiler Framework and Infrastructure Tutorial</title>
+</head>
+<body>
+
+<div class="pub_title">
+   The LLVM Compiler Framework and Infrastructure Tutorial
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+
+<p>The Low-Level Virtual Machine (LLVM) is a collection of libraries and tools that make it easy to build compilers, optimizers, Just-In-Time code generators, and many other compiler-related programs. LLVM uses a single, language-independent virtual instruction set both as an offline code representation (to communicate code between compiler phases and to run-time systems) and as the compiler internal representation (to analyze and transform programs). This persistent code representation allows a common set of sophisticated compiler techniques to be applied at compile-time, link-time, install-time, run-time, or "idle-time" (between program runs).<p>
+<p>The strengths of the LLVM infrastructure are its extremely simple design (which makes it easy to understand and use), source-language independence, powerful mid-level optimizer, automated compiler debugging support, extensibility, and its stability and reliability. LLVM is currently being used to host a wide variety of academic research projects and commercial projects. LLVM includes C and C++ front-ends (based on GCC 3.4), a front-end for a Forth-like language (Stacker), a young scheme front-end, and Java support is in development. LLVM can generate code for X86, SparcV9, PowerPC, or it can emit C code.</p>
+<p>This tutorial describes the LLVM virtual instruction set and the high-level design of the LLVM compiler system.  To illustrate the ideas in the LLVM IR, we use a running example (by-reference to by-value argument promotion) to illustrate several important API's in the LLVM system.  Next, we describe some of the key tools provided by LLVM, and mention several projects that are natural targets for the LLVM system.</p>
+</blockquote>
+
+<h2>Presented:</h2>
+<blockquote>
+  "The LLVM Compiler Framework and Infrastructure Tutorial", Chris Lattner and Vikram Adve.<br>
+   <a href="http://www.ecn.purdue.edu/LCPC2004/">LCPC'04</a> <a 
+   href="http://www.ecn.purdue.edu/LCPC2004/miniws.html">Mini Workshop</a> on Compiler Research 
+   Infrastructures, West Lafayette, Indiana, Sep. 2004.
+</blockquote>
+
+<h2>Download:</h2>
+
+Slides:
+<ul>
+  <li><a href="2004-09-22-LCPCLLVMTutorial.ppt">The LLVM Compiler Framework and Infrastructure 
+       Tutorial Presentation</a> (PPT)</li>
+  <li><a href="2004-09-22-LCPCLLVMTutorial.pdf">The LLVM Compiler Framework and Infrastructure 
+       Tutorial Presentation</a> (PDF) [note, some slides are impossible to read due to lack of animations]</li>
+</ul>
+
+Handout:
+<ul>
+  <li><a href="2004-09-22-LCPCLLVMTutorial-Handout.pdf">The LLVM Compiler Framework and Infrastructure Tutorial Handout</a> (PDF)</li>
+  <li><a href="2004-09-22-LCPCLLVMTutorial-Handout.txt">The LLVM Compiler Framework and Infrastructure Tutorial Handout</a> (TXT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@InProceedings{LattnerAdve:tutorial,
+  author={Chris Lattner and Vikram Adve},
+  title="{The LLVM Compiler Framework and Infrastructure Tutorial}",
+  month={Sep},
+  year={2004},
+  address={West Lafayette, Indiana},
+  booktitle="{LCPC'04 Mini Workshop on Compiler Research Infrastructures}"
+}
+</pre>
+
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+ <title>User-Input Dependence Analysis via Graph Reachability</title>
+</head>
+<body>
+
+<div class="pub_title">
+ User-Input Dependence Analysis via Graph Reachability
+</div>
+<div class="pub_author">
+  <a href="http://research.sun.com/techrep/authors/Scholz,+Bernard.html">
+  Bernard Scholz</a>,
+  <a href="http://research.sun.com/techrep/authors/Zhang,+Chenyi.html">
+  Chenyi Zhang</a>,
+  and
+  <a href="http://research.sun.com/techrep/authors/Cifuentes,+Cristina.html">
+  Cristina Cifuentes</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Security vulnerabilities are software bugs that are exploited by an attacker. Systems software is at high risk of exploitation: attackers commonly exploit security vulnerabilities to gain control over a system, remotely, over the internet. Bug-checking tools have been used with fair success in recent years to automatically find bugs in software. However, for finding software bugs that can cause security vulnerabilities, a bug checking tool must determine whether the software bug can be controlled by user-input.
+</p>
+
+<p>
+In this paper we introduce a static program analysis for computing user-input dependencies. This analysis is used as a pre-processing filter to our static bug checking tool, currently under development, to identify bugs that can be exploited as security vulnerabilities. Runtime speed and scalability of the user-input dependence analysis is of key importance if the analysis is used for large commercial systems software.
+</p>
+
+<p>
+Our user-input dependency analysis takes both data and control dependencies into account. We extend Static Single Assignment (SSA) form by augmenting phi-nodes with control dependencies of its arguments. A formal definition of user-input dependency is expressed in a dataflow analysis framework as a Meet-Over-all-Paths (MOP) solution. We reduce the equation system to a sparse equation system exploiting the properties of SSA. The sparse equation system is solved as a reachability problem that results in a fast algorithm for computing user-input dependencies. We have implemented a call-insensitive and a call-sensitive version of the analysis. The paper compares their efficiency for various systems codes.
+</p>
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@techreport{SunTR171:2008,
+    author = "Bernard Scholz and Chenyi Zhang and Cristina Cifuentes",
+    title = "{User-Input Dependence Analysis via Graph Reachability}",
+    number = "TR-2008-171",
+    month = "March",
+    year = "2008",
+    url = "http://research.sun.com/techrep/2008/abstract-171.html"
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+ <li><a href="2008-03-TR-UIDependAnalysis.pdf">User-Input Dependence Analysis via Graph Reachability</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation</title>
+</head>
+<body>
+
+<div class="pub_title">
+  LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+  <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper describes LLVM (Low Level Virtual Machine),
+a compiler framework designed to support <i>transparent,
+lifelong program analysis and transformation</i> for arbitrary programs,
+by providing high-level information to compiler transformations
+at compile-time, link-time, run-time, and in idle time between runs.
+LLVM defines a
+common, low-level code representation in Static Single Assignment (SSA)
+form, with several novel features:
+a simple, <i>language-independent</i> type-system that exposes the
+primitives commonly used to implement high-level language features; 
+an instruction for typed address arithmetic;
+and a simple mechanism that can be used to implement the exception handling
+features of high-level languages (and <tt>setjmp</tt>/<tt>longjmp</tt> in C) uniformly and
+efficiently.  The LLVM compiler framework and code representation together
+provide a combination of key capabilities that are important for practical,
+lifelong analysis and transformation of programs.  To our knowledge,
+no existing compilation approach provides all these capabilities.
+We describe the design of the LLVM representation and compiler framework,
+and evaluate the design in three ways: 
+(a) the size and effectiveness of the representation, including the type
+information it provides;
+(b) compiler performance for several interprocedural problems; and
+(c) illustrative examples of the benefits LLVM provides for several
+challenging compiler problems.
+</blockquote>
+
+<p>Note this paper supersedes the <a href="2003-09-30-LifelongOptimizationTR.html">earlier tech report</a>.</p>
+
+<h2>Published:</h2>
+<blockquote>
+  "LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation", Chris Lattner and Vikram Adve.<br>
+  Proceedings of the 2004 International Symposium on <a href="http://www.cgo.org/">Code Generation and Optimization</a> (CGO'04), Palo Alto, California, Mar. 2004.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2004-01-30-CGO-LLVM.ps">LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation</a> (PS)</li>
+  <li><a href="2004-01-30-CGO-LLVM.pdf">LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation</a> (PDF)</li>
+  <li><a href="2004-03-22-CGO-LLVM-Presentation.ppt">LLVM: A Compilation Framework for Lifelong Program Analysis &amp; Transformation Presentation</a> (PPT)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @InProceedings{LLVM:CGO04,
+    author    = {Chris Lattner and Vikram Adve},
+    title     = "{LLVM: A Compilation Framework for Lifelong Program Analysis \&amp; Transformation}",
+    booktitle = "{Proceedings of the 2004 International Symposium on Code Generation and Optimization (CGO'04)}",
+    address   = {Palo Alto, California},
+    month     = {Mar},
+    year      = {2004}
+  }
+</pre>
+
+</body>
+</html>

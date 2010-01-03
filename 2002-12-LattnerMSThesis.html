@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>LLVM: An Infrastructure for Multi-Stage Optimization</title>
+</head>
+<body>
+
+<div class="pub_title">
+  LLVM: An Infrastructure for Multi-Stage Optimization
+</div>
+<div class="pub_author">
+  <a href="http://www.nondot.org/sabre/">Chris Lattner</a>, M.S. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Modern programming languages and software engineering principles are causing
+increasing problems for compiler systems.  Traditional approaches, which use 
+a simple compile-link-execute model, are unable to provide adequate application
+performance under the demands of the new conditions.  Traditional approaches to
+interprocedural and profile-driven compilation can provide the application
+performance needed, but require infeasible amounts of compilation time to build
+the application.</p>
+
+<p>
+This thesis presents LLVM, a design and implementation of a compiler 
+infrastructure which supports a unique <i>multi-stage</i> optimization system.
+This system is designed to support extensive interprocedural and 
+profile-driven optimizations, while being efficient enough for use in
+commercial compiler systems.</p>
+
+<p>
+The LLVM virtual instruction set is the glue that holds the system together.  It
+is a low-level representation, but with <i>high-level type information</i>.
+This provides the benefits of a low-level representation (compact
+representation, wide variety of available transformations, etc.) as well as
+providing high-level information to support aggressive interprocedural
+optimizations at link- and post-link time.  In particular, this system is
+designed to support optimization in the field, both at run-time and during
+otherwise unused idle time on the machine.</p>
+
+<p>
+This thesis also describes an implementation of this compiler design, the LLVM 
+compiler infrastructure, proving that the design is feasible.  The LLVM
+compiler infrastructure is a maturing and efficient system, which we show is a 
+good host for a variety of research.  More information about LLVM can be found
+on its web site at: <a
+href="http://llvm.cs.uiuc.edu/"><tt>http://llvm.cs.uiuc.edu/</tt></a></p>
+</blockquote>
+
+<p>
+This thesis supercedes an older 
+<a href="2002-08-09-LLVMCompilationStrategy.html">technical report</a>.
+</p>
+
+<h2>Published:</h2>
+<blockquote>
+  "LLVM: An Infrastructure for Multi-Stage Optimization", Chris Lattner.<br>
+  <i>Masters Thesis</i>, Computer Science Dept., University of Illinois at
+  Urbana-Champaign, Dec. 2002.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2002-12-LattnerMSThesis.ps">LLVM: An Infrastructure for
+      Multi-Stage Optimization</a> (PS)</li>
+  <li><a href="2002-12-LattnerMSThesis.pdf">LLVM: An Infrastructure for
+      Multi-Stage Optimization</a> (PDF)</li>
+  <li><a href="2002-12-LattnerMSThesis-book.ps">LLVM: An Infrastructure for
+      Multi-Stage Optimization</a> "book form" (PS)</li>
+  <li><a href="2002-12-LattnerMSThesis-book.pdf">LLVM: An Infrastructure for
+      Multi-Stage Optimization</a> "book form" (PDF)</li>
+
+<p>
+   The "book form" is useful if you plan to print this out.  Print the file out
+   double sided, fold it in half, and staple it in the middle of the page.  It
+   dramatically reduces the number of pages of paper used.
+</p>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @MastersThesis{Lattner:MSThesis02,
+    author  = {Chris Lattner},
+    title   = "{LLVM: An Infrastructure for Multi-Stage Optimization}",
+    school  = "{Computer Science Dept., University of Illinois at Urbana-Champaign}",
+    year    = {2002},
+    address = {Urbana, IL},
+    month   = {Dec},
+    note    = {{\em See {\tt http://llvm.cs.uiuc.edu}.}}
+  }
+</pre>
+
+</body>
+</html>

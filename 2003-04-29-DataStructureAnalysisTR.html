@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Data Structure Analysis: An Efficient Context-Sensitive Heap
+  Analysis</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Data Structure Analysis:<br>An Efficient Context-Sensitive Heap Analysis
+</div>
+<div class="pub_author">
+   <a href="http://www.nondot.org/sabre/">Chris Lattner</a> and
+   <a href="http://www.cs.uiuc.edu/~vadve">Vikram Adve</a>
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+This paper presents an efficient context-sensitive heap analysis algorithm
+called Data Structure Analysis designed to enable analyses and transformations
+on entire disjoint recursive data structures.  The analysis has several
+challenging properties needed to enable such transformations:
+<i>context-sensitivity with cloning</i> (essential for proving disjointness),
+<i>field-sensitivity</i>, and the use of an <i>explicit heap model</i> rather
+than just alias information.  It is also applicable to arbitrary C programs.  To
+our knowledge no prior work provides all these properties <i>and</i> is
+efficient and scalable enough for large programs.  Measurements for 29 programs
+show that the algorithm is extremely fast, space-efficient, and scales almost
+linearly across 3 orders-of-magnitude of code size.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Data Structure Analysis: An Efficient Context-Sensitive Heap Analysis",
+  Chris Lattner &amp; Vikram Adve<br>
+  Technical Report #UIUCDCS-R-2003-2340, Computer Science Dept., Univ. of
+  Illinois, Apr. 2003.
+</blockquote>
+
+<h2>Update:</h2>
+<blockquote>
+This document was updated on 15 November 2003 to reflect improvements to the
+algorithm, and to be more clear and precise. 
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2003-11-15-DataStructureAnalysisTR.ps">Data Structure Analysis:
+      An Efficient Context-Sensitive Heap Analysis</a> (PS)</li>
+  <li><a href="2003-11-15-DataStructureAnalysisTR.pdf">Data Structure Analysis:
+      An Efficient Context-Sensitive Heap Analysis</a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+  @TechReport{LattnerAdve:DSA,
+    Author      = {Chris Lattner and Vikram Adve},
+    Title       = "{Data Structure Analysis: An Efficient Context-Sensitive Heap Analysis}",
+    Institution = "{Computer Science Dept., Univ. of Illinois at Urbana-Champaign}",
+    Number      = {UIUCDCS-R-2003-2340},
+    Type        = {Tech. Report},
+    Month       = {Apr},
+    Year        = {2003}
+  }
+</pre>
+
+</body>
+</html>

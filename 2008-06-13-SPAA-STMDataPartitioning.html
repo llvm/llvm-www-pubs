@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Automatic Data Partitioning in Software Transactional Memories</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Automatic Data Partitioning in Software Transactional Memories
+</div>
+<div class="pub_author">
+  Torvald Riegel, Christof Fetzer, and Pascal Felber
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+We investigate to which extent data partitioning can help improve the performance of
+software transactional memory (STM). Our main idea is that the access patterns of the
+various data structures of an application might be sufficiently different so that it would
+be beneficial to tune the behavior of the STM for individual data partitions. We evaluate
+our approach using standard transactional memory benchmarks. We show that these
+applications contain partitions with different characteristics and, despite the runtime
+overhead introduced by partition tracking and dynamic tuning, that partitioning provides
+significant performance improvements.
+</blockquote>
+
+<h2>Bibtex:</h2>
+<pre>
+@inproceedings{Riegel2008partitioning,
+  author = {{T}orvald {R}iegel and {C}hristof {F}etzer and {P}ascal {F}elber},
+  title = {{A}utomatic {D}ata {P}artitioning in {S}oftware {T}ransactional {M}emories},
+  booktitle = {20th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)},
+  year = {2008},
+}
+</pre>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-06-13-SPAA-STMDataPartitioning.pdf">Automatic Data Partitioning in Software Transactional Memories</a> (PDF)</li>
+  <li><a href="http://wwwse.inf.tu-dresden.de/ABSTRACTS/riegel2008partitioning.html">Page with links to PDF and BibTex files</a></li>
+  <li>Source code for the compiler tool (LLVM-based) and the STM runtime can be downloaded at <a href="http://tinystm.org">tinystm.org</a></li> 
+</ul>
+
+</body>
+</html>
