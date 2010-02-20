@@ -9,6 +9,14 @@ var PUBS = [
    month: 4,
    year: 2010},
 
+  {url: "2009-10-LCPC-DataRestructuring.html",
+   title: "Automatic Restructuring of Linked Data Structures",
+   published: "Proc. of the 22nd International Workshop on Languages and Compilers for Parallel Computing (LCPC'09)",
+   author: "H.L.A. van der Spek, C.W.M. Holm and H.A.G. Wijshof",
+   location: "Newark, DE",
+   month: 10,
+   year: 2009},
+
   {url: "2009-10-TereiThesis.html",
    title: "Low Level Virtual Machine for Glasgow Haskell Compiler",
    published: "Bachelor's Thesis, Computer Science and Engineering Dept., The University of New South Wales",
