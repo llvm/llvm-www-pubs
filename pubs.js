@@ -9,6 +9,14 @@ var PUBS = [
    month: 4,
    year: 2010},
 
+  {url: "2010-01-Wennborg-Thesis.html",
+   title: "Emulator Speed-up Using JIT and LLVM",
+   published: "Master's Thesis, Lund University",
+   location: "Lund, Sweden",
+   author: "Hans Wennborg",
+   month: 1,
+   year: 2010},
+
   {url: "2009-10-LCPC-DataRestructuring.html",
    title: "Automatic Restructuring of Linked Data Structures",
    published: "Proc. of the 22nd International Workshop on Languages and Compilers for Parallel Computing (LCPC'09)",
