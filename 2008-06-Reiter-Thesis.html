@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Real-Time Ray Tracing of Dynamic Scenes</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Real-Time Ray Tracing of Dynamic Scenes
+</div>
+<div class="pub_author">
+  Stephan Reiter, Diploma Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+In this thesis ray tracing of dynamic scenes in real-time is explored based on a separation of static from animated primitives in acceleration structures suited for each type of geometry.<p>
+
+For dynamic geometry a two-level bounding volume hierarchy (BVH) is introduced that efficiently supports rigidly animated geometry, deformable geometry and fully dynamic geometry with incoherent motion and topology changes. With selective rebuilding an updating technique for BVHs is described that limits costly rebuilding operations to degenerated parts of the hierarchy and allows for balancing updating and rendering times. Furthermore a new ordered traversal scheme for BVHs is introduced that is based on a probabilistic model.<p>
+
+Kd-trees are the acceleration structure of choice for static geometry and are commonly built by employing the surface area heuristic to determine optimal splitting planes. In this thesis two approaches for reducing the memory footprint of kd-trees are presented. Index list compaction compresses the list of triangle indices used by leaves to reference triangles. The cost-scaling termination criterion for kd-tree construction, on the other hand, limits the creation of deep trees by weighing the costs of splitting a node higher with an increasing depth.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  Real-Time Ray Tracing of Dynamic Scenes, Stephan Reiter.<br>
+  <i>Diploma Thesis</i>, Institute for Graphics and Parallel Processing, 
+Johannes Kepler University, Linz, Austria, June 2008
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2008-06-Reiter-Thesis.pdf">Real-Time Ray Tracing of Dynamic Scenes</a> (PDF)</li>
+</ul>
+
+</body>
+</html>

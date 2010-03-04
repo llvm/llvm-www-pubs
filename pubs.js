@@ -474,6 +474,14 @@ var PUBS = [
    month: 7,
    year: 2008},
 
+  {url: '2008-06-Reiter-Thesis.html',
+   title: 'Real-Time Ray Tracing of Dynamic Scenes',
+   author: 'Stephan Reiter',
+   published: 'Diploma Thesis, Institute for Graphics and Parallel Processing, Johannes Kepler University',
+   location: "Linz, Austria",
+   month: 6,
+   year: 2008},
+
   {url: '2008-06-CompilingHaskelltoLLVM.html',
    title: 'Compiling Haskell to LLVM',
    author: 'John van Schie',
