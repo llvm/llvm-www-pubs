@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Reverse Engineering of Binary Device Drivers with RevNIC</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Reverse Engineering of Binary Device Drivers with RevNIC
+</div>
+<div class="pub_author">
+ Vitaly Chipounov and George Candea
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>	This paper presents a technique that helps automate the reverse engineering of device drivers. It takes a closed-source binary driver, automatically reverse engineers the driver’s logic, and synthesizes new device driver code that implements the exact same hardware protocol as the original driver. This code can be targeted at the same or a different OS. No vendor documentation or source code is required.</p>
+
+<p>Drivers are often proprietary and available for only one or two operating systems, thus restricting the range of device support on all other OSes. Restricted device support leads to low market viability of new OSes and hampers OS researchers in their efforts to make their ideas available to the “real world.” Reverse engineering can help automate the porting of drivers, as well as produce replacement drivers with fewer bugs and fewer security vulnerabilities.</p>
+
+<p>Our technique is embodied in RevNIC, a tool for reverse engineering network drivers. We use RevNIC to reverse engineer four proprietary Windows drivers and port them to four different OSes, both for PCs and embedded systems. The synthesized network drivers deliver performance nearly identical to that of the original drivers.</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Reverse Engineering of Binary Device Drivers with RevNIC"
+  <br>
+  Vitaly Chipounov and George Candea
+  <br>
+<i>
+Proc. of the 5th ACM European Conference on Computer Systems
+</i>, Paris, France, April 2010.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2010-04-EUROSYS-RevNIC.pdf">
+  Reverse Engineering of Binary Device Drivers with RevNIC
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>
