@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Shoestring: Probabilistic Soft Error Reliability on the Cheap</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Shoestring: Probabilistic Soft Error Reliability on the Cheap
+</div>
+<div class="pub_author">
+ Shuguang Feng, Shantanu Gupta, Amin Ansari, and Scott Mahlke
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>Aggressive technology scaling provides designers with an ever increasing budget of cheaper and faster transistors. Unfortunately, this trend is accompanied by a decline in individual device reliability as transistors become increasingly susceptible to soft errors. We are quickly approaching a new era where resilience to soft errors is no longer a luxury that can be reserved for just processors in high-reliability, mission-critical domains. Even processors used in mainstream computing will soon require protection. However, due to tighter profit margins, reliable operation for these devices must come at little or no cost. This paper presents Shoestring, a minimally invasive software solution that provides high soft error coverage with very little overhead, enabling its deployment even in commodity processors with "shoestring" reliability budgets. Leveraging intelligent analysis at compile time, and exploiting low-cost, symptom-based error detection, Shoestring is able to focus its efforts on protecting statistically-vulnerable portions of program code. Shoestring effectively applies instruction duplication to protect only those segments of code that, when subjected to a soft error, are likely to result in user-visible faults without first exhibiting symptomatic behavior. Shoestring is able to recover from an additional 33.9% of soft errors that are undetected by a symptom-only approach, achieving an overall user-visible failure rate of 1.6%. This reliability improvement comes at a modest performance overhead of 15.8%.</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Shoestring: Probabilistic Soft Error Reliability on the Cheap"
+  <br>
+  Shuguang Feng, Shantanu Gupta, Amin Ansari, and Scott Mahlke
+  <br>
+<i>
+Proc. of the 15th international conference on Architectural Support for Programming Languages and Operating Systems</i>, Pittsburgh, PA, March 2010.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2010-03-ASPLOS-Shoestring.pdf">
+  Shoestring: Probabilistic Soft Error Reliability on the Cheap
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>
