@@ -1,6 +1,13 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-03-GPGPU-ModelingGPGPU.html",
+   title: "Modeling GPU-CPU Workloads and Systems",
+   published: "Proc. of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units (GPGPU-3)",
+   author: "Andrew Kerr, Gregory Diamos, and Sudhakar Yalamanchili",
+   location: "Pittsburgh, PA",
+   month: 3,
+   year: 2010},
   {url: "2010-03-ASPLOS-Shoestring.html",
    title: "Shoestring: Probabilistic Soft Error Reliability on the Cheap",
    published: "Proc. of the Fifteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '10)",
