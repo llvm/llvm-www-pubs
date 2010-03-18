@@ -1,12 +1,19 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-03-ASPLOS-SpeculativeParallelization.html",
+   title: "Speculative Parallelization using Software Multi-Threaded Transactions",
+   published: "Proc. of the Fifteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '10)",
+   author: "Arun Raman, Hanjun Kim, Thomas R. Mason, Thomas B. Jablin, David I. August",
+   location: "Pittsburgh, PA",
+   month: 3,
+   year: 2010},
   {url: "2010-04-ASPLOS-DeterministicCompiler.html",
    title: "CoreDet: A Compiler and Runtime System for Deterministic Multithreaded Execution",
    published: "Proc. of the Fifteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '10)",
    author: "Tom Bergan, Owen Anderson, Joseph Devietti, Luis Ceze, and Dan Grossman",
    location: "Pittsburgh, PA",
-   month: 4,
+   month: 3,
    year: 2010},
 
   {url: "2010-01-Wennborg-Thesis.html",
