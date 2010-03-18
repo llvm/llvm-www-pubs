@@ -1,6 +1,13 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-05-ICSE-QualityOfService.html",
+   title: "Quality of Service Profiling",
+   published: "Proc. of the 2010 IEEE 32st International Conference on Software Engineering (ICSE'10)",
+   author: "Sasa Misailovic, Stelios Sidiroglou, Henry Hoffmann, Martin Rinard",
+   location: "Cape Town, South Africa",
+   month: 5,
+   year: 2010},
   {url: "2010-03-GPGPU-ModelingGPGPU.html",
    title: "Modeling GPU-CPU Workloads and Systems",
    published: "Proc. of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units (GPGPU-3)",
@@ -45,7 +52,7 @@ var PUBS = [
    year: 2010},
   {url: "2010-02-FPGA-BitLevel.html",
    title: "Bit-Level Optimization for High-Level Synthesis and FPGA-Based Acceleration",
-   published: "Proc. of the 18th Annual ACM/SIGDA International Symposium on Field programmable Gate Arrays (FPGA'10)",
+   published: "Proc. of the 18th Annual ACM/SIGDA International Symposium on Field Programmable Gate Arrays (FPGA'10)",
    author: "Jiyu Zhang, Zhiru Zhang, Sheng Zhou, Mingxing Tan, Xianhua Liu, Xu Cheng, Jason Cong",
    location: "Monterey, CA",
    month: 2,
