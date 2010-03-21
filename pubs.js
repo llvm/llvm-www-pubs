@@ -91,6 +91,13 @@ var PUBS = [
     author: "Hans Wennborg",
     month: 1,
     year: 2010},
+  {url: "2009-12-MICRO-DDT.html",
+    title: "DDT: Design and Evaluation of a Dynamic Program Analysis for Optimizing Data Structure Usage",
+    published: "Proc. of the 42nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-42)",
+    author: "Changhee Jung, Nathan Clark",
+    location: "New York, NY",
+    month: 12,
+    year: 2009},
 
   {url: "2009-10-LCPC-DataRestructuring.html",
    title: "Automatic Restructuring of Linked Data Structures",
