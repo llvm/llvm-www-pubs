@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>TITLE</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Automatic Packetization
+</div>
+<div class="pub_author">
+  Ralf Karrenberg, M.S. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+Modern processor architectures provide the possibility to execute an instruction
+on multiple values at once. So-called SIMD (Single Instruction, Multiple
+Data) instructions work on <i>packets</i> (or <i>vectors</i>) of data instead
+of scalar values. They offer a significant performance boost for data-parallel
+algorithms that perform the same operations on large amounts of data, e.g. data
+encoding and decoding, image processing, or ray tracing.
+However, the performance gain comes at a price: programming languages
+provide no elegant means to exploit SIMD instruction sets. Packet operations
+have to be coded by hand, which is complicated, unintuitive, and error prone.
+Thus, <i>packetization</i>&#8212;the transformation of scalar code to packet
+form&#8212;is mostly applied automatically by local compiler optimizations
+(e.g. during loop vectorization) or with a lot of manual effort at
+performance-critical parts of a system.
+<p>
+This thesis describes an algorithm for <i>automatic packetization</i> that
+allows a programmer to write <i>scalar</i> functions but use them on
+<i>packets</i> of data. A compiler pass automatically transforms those
+functions to work on packets of the target-architecture's SIMD width. The
+resulting packetized function computes the same results as multiple executions
+of the scalar code.
+<p>
+The algorithm is implemented in a source-language and target-architecture
+independent intermediate representation (the <i>Low Level Virtual Machine
+(LLVM)</i>), which enables its use in many different environments.
+<p>
+The performance of the generated code is shown in a real-world case
+study in the context of real-time ray tracing: serial shader code written in
+C++ is automatically specialized, optimized, and packetized at runtime. The
+packetized shaders outperform their scalar counterparts by an average factor
+of 3.6 on a standard SSE architecture of SIMD width 4.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  Automatic Packetization, Ralf Karrenberg.<br>
+  <i>Masters Thesis</i>, Universit&auml;t des Saarlandes, July 2009.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2009-07-Karrenberg-Thesis.pdf">Automatic Packetization</a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@MASTERSTHESIS{Karrenberg:09:MSc,
+     author  = {Ralf Karrenberg},
+     title   = {{Automatic Packetization}},
+     school  = {Saarland University},
+     year    = {2009},
+     month   = {July},
+     webpdf  = {http://www.prog.uni-saarland.de/people/karrenberg/content/karrenberg_automatic_packetization.pdf}
+ }
+</pre>
+
+</body>
+</html>
