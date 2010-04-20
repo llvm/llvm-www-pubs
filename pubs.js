@@ -8,6 +8,15 @@ var PUBS = [
    location: "Cape Town, South Africa",
    month: 5,
    year: 2010},
+  {url: "2010-04-EUROSYS-DresdenTM.html",
+   title: "Dresden TM Compiler (DTMC)",
+   published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
+            author: "Dave Christie and Jae-Woong Chung and Stephan Diestelhorst 
+            and Michael Hohmuth and Martin Pohlack and Christof Fetzer and Martin Nowack 
+            and Torvald Riegel and Pascal Felber and Patrick Marlier and Etienne Riviere",
+   location: "Paris, France",
+   month: 4,
+   year: 2010},
   {url: "2010-04-EUROSYS-RevNIC.html",
    title: "Reverse Engineering of Binary Device Drivers with RevNIC",
    published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
