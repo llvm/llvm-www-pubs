@@ -11,9 +11,7 @@ var PUBS = [
   {url: "2010-04-EUROSYS-DresdenTM.html",
    title: "Dresden TM Compiler (DTMC)",
    published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
-            author: "Dave Christie and Jae-Woong Chung and Stephan Diestelhorst 
-            and Michael Hohmuth and Martin Pohlack and Christof Fetzer and Martin Nowack 
-            and Torvald Riegel and Pascal Felber and Patrick Marlier and Etienne Riviere",
+   author: "Dave Christie, Jae-Woong Chung, et al",
    location: "Paris, France",
    month: 4,
    year: 2010},
