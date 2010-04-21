@@ -9,7 +9,7 @@ var PUBS = [
    month: 5,
    year: 2010},
   {url: "2010-04-EUROSYS-DresdenTM.html",
-   title: "Dresden TM Compiler (DTMC)",
+   title: "Evaluation of AMD's Advanced Synchronization Facility within a Complete Transactional Memory Stack",
    published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
    author: "Dave Christie, Jae-Woong Chung, et al",
    location: "Paris, France",
