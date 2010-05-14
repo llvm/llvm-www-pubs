@@ -1,6 +1,12 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-05-01-ClangBSD.html",
+   title: "ClangBSD",
+   published: "BSDcan 2010",
+   author: "Roman Divacky",
+   month: 5,
+   year: 2010},
   {url: "2010-05-ICSE-QualityOfService.html",
    title: "Quality of Service Profiling",
    published: "Proc. of the 2010 IEEE 32st International Conference on Software Engineering (ICSE'10)",
