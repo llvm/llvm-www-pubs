@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity</title>
+</head>
+<body>
+
+<div class="pub_title">
+  HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity
+</div>
+<div class="pub_author">
+ Zhi Wang and Xuxian Jiang
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Virtualization is being widely adopted in today’s 
+computing systems. Its unique security advantages in isolating 
+and introspecting commodity OSes as virtual machines (VMs) 
+have enabled a wide spectrum of applications. However, a com- 
+mon, fundamental assumption is the presence of a trustworthy 
+hypervisor. Unfortunately, the large code base of commodity 
+hypervisors and recent successful hypervisor attacks (e.g., VM 
+escape) seriously question the validity of this assumption. 
+In this paper, we present HyperSafe, a lightweight approach 
+that endows existing Type-I bare-metal hypervisors with a 
+unique self-protection capability to provide lifetime control- 
+ﬂow integrity. Speciﬁcally, we propose two key techniques. The 
+ﬁrst one – non-bypassable memory lockdown – reliably protects 
+the hypervisor’s code and static data from being compromised 
+even in the presence of exploitable memory corruption bugs 
+(e.g., buffer overﬂows), therefore successfully providing hyper- 
+visor code integrity. The second one – restricted pointer indexing 
+– introduces one layer of indirection to convert the control data 
+into pointer indexes. These pointer indexes are restricted such 
+that the corresponding call/return targets strictly follow the 
+hypervisor control ﬂow graph, hence expanding protection to 
+control-ﬂow integrity. We have built a prototype and used it to 
+protect two open-source Type-I hypervisors: BitVisor and Xen. 
+The experimental results with synthetic hypervisor exploits 
+and benchmarking programs show HyperSafe can reliably 
+enable the hypervisor self-protection and provide the integrity 
+guarantee with a small performance overhead. 
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity"
+  <br>
+  Zhi Wang and Xuxian Jiang
+  <br>
+<i>
+Proceedings of the Thirty First IEEE Symposium on Security & Privacy (Oakland
+2010),
+</i> Oakland, CA, May 2010.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="http://www.csc.ncsu.edu/faculty/jiang/pubs/OAKLAND10.pdf">
+  HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

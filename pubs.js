@@ -1,6 +1,12 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-05-Oakland-HyperSafe.html",
+   title: "HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity",
+   published: "IEEE Symposium on Security & Privacy 2010",
+   author: " Zhi Wang and Xuxian Jiang",
+   month: 5,
+   year: 2010},
   {url: "2010-05-01-ClangBSD.html",
    title: "ClangBSD",
    published: "BSDcan 2010",
@@ -18,6 +24,13 @@ var PUBS = [
    title: "Evaluation of AMD's Advanced Synchronization Facility within a Complete Transactional Memory Stack",
    published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
    author: "Dave Christie, Jae-Woong Chung, et al",
+   location: "Paris, France",
+   month: 4,
+   year: 2010},
+  {url: "2010-04-EUROSYS-Returnless.html",
+   title: "Defeating Return-Oriented Rootkits with "Return-Less" Kernels",
+   published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
+   author: "Jinku Li, Zhi Wang, Xuxian Jiang, Michael Grace, and Sina Bahram",
    location: "Paris, France",
    month: 4,
    year: 2010},
