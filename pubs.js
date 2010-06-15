@@ -28,7 +28,7 @@ var PUBS = [
    month: 4,
    year: 2010},
   {url: "2010-04-EUROSYS-Returnless.html",
-   title: "Defeating Return-Oriented Rootkits with "Return-Less" Kernels",
+   title: "Defeating Return-Oriented Rootkits with \"Return-Less\" Kernels",
    published: "Proc. of the 5th ACM European Conference on Computer Systems (EuroSys'10)",
    author: "Jinku Li, Zhi Wang, Xuxian Jiang, Michael Grace, and Sina Bahram",
    location: "Paris, France",
