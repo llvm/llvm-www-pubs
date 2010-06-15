@@ -1,10 +1,16 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-06-ISMM-CETS.html",
+   title: "CETS: Compiler Enforced Temporal Safety for C",
+   published: "International Conference on Memory Management 2010",
+   author: "Santosh Nagarakatte, Jianzhou Zhao, Milo M K Martin and Steve Zdancewic",
+   month: 6,
+   year: 2010},
   {url: "2010-05-Oakland-HyperSafe.html",
    title: "HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity",
    published: "IEEE Symposium on Security & Privacy 2010",
-   author: " Zhi Wang and Xuxian Jiang",
+   author: "Zhi Wang and Xuxian Jiang",
    month: 5,
    year: 2010},
   {url: "2010-05-01-ClangBSD.html",
