@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Efficient SSI Conversion</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Efficient SSI Conversion
+</div>
+<div class="pub_author">
+  Andr&eacute; Tavares, Fernando Magno Pereira, Mariza Bigonha and
+Roberto Bigonha
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Static Single Information form (SSI) is a program
+representation that enables optimizations such as array bound checking
+elimination and conditional constant propagation. Transforming a program
+into SSI form has a non-negligible impact on compilation time; but, only
+a few SSI clients, that is, optimizations that use SSI, require a full
+conversion. This paper describes the SSI framework we have implemented
+for the LLVM compiler, and that is now part of this compiler's standard
+distribution. In our design, optimizing passes inform the compiler a list
+of variables of interest, which are then transformed to present, fully
+or partially, the SSI properties. It is provided to each client only the
+subset of SSI that the client needs. Our implementation orchestrates the
+execution of clients in sequence, avoiding redundant work when two
+clients request the conversion of the same variable. As empirically
+demonstrated, in the context of an industrial strength compiler, our
+approach saves compilation time and keeps the program representation
+small, while enabling a vast array of code optimizations.
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Efficient SSI Conversion"
+  <br>
+   Andr&eacute; Tavares and Fernando Magno Pereira and Mariza Bigonha and
+Roberto Bigonha
+  <br>
+<i>
+In Proceedings of the 14th Brazilian Symposium on Programming Languages,
+</i> Salvador, Brazil, September 2010.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2010-08-SBLP-SSI.pdf">
+  Efficient SSI Conversion
+  </a> (PDF)</li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@INPROCEEDINGS{x:2010,
+ AUTHOR="Andr&eacute; Tavares and Fernando Magno Pereira and Mariza Bigonha and
+  Roberto Bigonha",
+ TITLE="Efficient SSI Conversion",
+ BOOKTITLE="SBLP 2010",
+ ADDRESS="",
+ DAYS="27-29",
+ MONTH="sep",
+ YEAR="2010",
+ ABSTRACT="Static Single Information form (SSI) is a program
+  representation that enables optimizations such as array bound checking
+  elimination and conditional constant propagation. Transforming a program
+  into SSI form has a non-negligible impact on compilation time; but, only
+  a few SSI clients, that is, optimizations that use SSI, require a full
+  conversion. This paper describes the SSI framework we have implemented
+  for the LLVM compiler, and that is now part of this compiler's standard
+  distribution.In our design, optimizing passes inform the compiler a list
+  of variables of interest, which are then transformed to present, fully
+  or partially, the SSI properties. It is provided to each client only the
+  subset of SSI that the client needs. Our implementation orchestrates the
+  execution of clients in sequence, avoiding redundant work when two
+  clients request the conversion of the same variable. As empirically
+  demonstrated, in the context of an industrial strength compiler, our
+  approach saves compilation time and keeps the program representation
+  small, while enabling a vast array of code optimizations.",
+ KEYWORDS="Program transformations; Program analysis and verification;
+  Compilation and interpretation techniques",
+ URL="http://llvm.org/pubs/2010-08-SBLP-SSI.pdf",
+ }
+</pre>
+
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

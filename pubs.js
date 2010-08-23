@@ -1,6 +1,13 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-08-SBLP-SSI.html",
+   title: "Efficient SSI Conversion",
+   published: "Brazilian Symposium on Programming Languages 2010",
+   location: "Salvador, Brazil",
+   author: "Andr&eacute; Tavares, Fernando Magno Pereira, Mariza Bigonha and Roberto Bigonha",
+   month: 9,
+   year: 2010},
   {url: "2010-06-ISMM-CETS.html",
    title: "CETS: Compiler Enforced Temporal Safety for C",
    published: "International Conference on Memory Management 2010",
