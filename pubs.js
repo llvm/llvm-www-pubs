@@ -27,6 +27,13 @@ var PUBS = [
    author: "Santosh Nagarakatte, Jianzhou Zhao, Milo M K Martin and Steve Zdancewic",
    month: 6,
    year: 2010},
+            
+   {url: "2010-06-06-Clang-LLVM.html",
+    title: "Clang/LLVM Maturity Report",
+    published: "Proceedings of the Summer 2010 Research Seminar",
+    author: "Dominic Fandrey",
+    month: 6,
+    year: 2010},
   {url: "2010-05-Oakland-HyperSafe.html",
    title: "HyperSafe: A Lightweight Approach to Provide Lifetime Hypervisor Control-Flow Integrity",
    published: "IEEE Symposium on Security & Privacy 2010",
