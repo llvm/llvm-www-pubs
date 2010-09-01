@@ -594,6 +594,13 @@ var PUBS = [
    published: "Proc. International Conference on Principles and Practice of Programming In Java (PPPJ 2008)",
    month: 9,
    year: 2008},
+            
+  {url: "2008-09-Lightspark.html",
+   title: "An Efficient ActionScript 3.0 Just-In-Time Compiler Implementation",
+   author: "Alessandro Pignotti",
+   published: "Bachelor Thesis, Universita degli Studi di Pisa",
+   month: 9,
+   year: 2008},
 
   {url: '2008-08-RTCodegen.html',
    title: 'Run-Time Code Generation for Materials',
