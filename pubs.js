@@ -1,6 +1,13 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS = [
+  {url: "2010-09-HASKELLSYM-LLVM-GHC.html",
+   title: "An LLVM Backend for GHC",
+   published: "ACM SIGPLAN Haskell Symposium 2010",
+   location: "Baltimore, Maryland",
+   author: "David A. Terei and Manuel M. T. Chakravarty",
+   month: 9,
+   year: 2010},
   {url: "2010-08-SBLP-SSI.html",
    title: "Efficient SSI Conversion",
    published: "Brazilian Symposium on Programming Languages 2010",
