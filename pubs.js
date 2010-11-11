@@ -8,6 +8,15 @@ var PUBS = [
    author: "David A. Terei and Manuel M. T. Chakravarty",
    month: 9,
    year: 2010},
+  {
+            url: "2010-09-ESORICS-FixOverflows.html",
+            title: "IntPatch: Automatically Fix Integer-Overflow-to-Buffer-Overflow Vulnerability at Compile-Time",
+            published: "Proc. of the 15th European Symposium on Research in Computer Security (ESORICS 2010)",
+            location: "Athen, Greece",
+            author: "Chao Zhang, Tielei Wang, Tao Wei, Yu Chen, and Wei Zou",
+            month: 9,
+            year: 2010
+  },            
   {url: "2010-08-SBLP-SSI.html",
    title: "Efficient SSI Conversion",
    published: "Brazilian Symposium on Programming Languages 2010",
