@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Stable Deterministic Multithreading through Schedule Memoization</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Stable Deterministic Multithreading through Schedule Memoization
+</div>
+<div class="pub_author">
+  Heming Cui, Jingyue Wu, Chia-che Tsai, Junfeng Yang
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+A deterministic multithreading (DMT) system eliminates nondeterminism in thread scheduling, simplifying the development of multithreaded programs. However, existing DMT systems are unstable; they may force a program to (ad)venture into vastly different schedules even for slightly different inputs or execution environments, defeating many benefits of determinism. Moreover, few existing DMT systems work with server programs whose inputs arrive continuously and nondeterministically.</p>
+
+<p>TERN	is a	stable	DMT	system.	The	key	novelty	in TERN is the idea of schedule memoization that memoizes past working schedules and reuses them on future inputs, making program behaviors stable across different inputs.	A	second	novelty	in	TERN	is	the	idea	of	windowing that extends schedule memoization to server programs by splitting continuous request streams into windows	of	requests.	Our	TERN	implementation	runs	on Linux. It operates as user-space schedulers, requiring no changes to the OS and only a few lines of changes to the application programs. We evaluated TERN on a diverse set of 14 programs (e.g., Apache and MySQL) with real and	synthetic	workloads.	Our	results	show	that	TERN is easy to use, makes programs more deterministic and stable, and has reasonable overhead.
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Stable Deterministic Multithreading through Schedule Memoization"<br>
+   Heming Cui, Jingyue Wu, Chia-che Tsai, Junfeng Yang<br>
+<i>In Proceedings of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10),</i>
+Vancouver, BC, Canada, Oct 2010
+</blockquote>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="2010-10-OSDI-DeterministicMT.pdf">
+  Stable Deterministic Multithreading through Schedule Memoization
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

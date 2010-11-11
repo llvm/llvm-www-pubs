@@ -9,6 +9,24 @@ author: "Cristiano Giuffrida, Lorenzo Cavallaro, and Andrew S. Tanenbaum",
  month: 10,
   year: 2010
  },
+ 
+ [{ url: "2010-10-OSDI-DeterministicMT.html",
+  title: "Stable Deterministic Multithreading through Schedule Memoization",
+published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
+location: "Vancouver, BC, Canada",
+ author: "Heming Cui and Jingyue Wu and Chia-che Tsai and Junfeng Yang",
+  month: 10,
+   year: 2010
+  },
+  
+ [{ url: "2010-10-OSDI-BypassingRaces.html",
+  title: "Bypassing Races in Live Applications with Execution Filters",
+published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
+location: "Vancouver, BC, Canada",
+ author: "Jingyue Wu, Heming Cui, Junfeng Yang",
+  month: 10,
+   year: 2010
+  },
             
   {url: "2010-09-HASKELLSYM-LLVM-GHC.html",
    title: "An LLVM Backend for GHC",
