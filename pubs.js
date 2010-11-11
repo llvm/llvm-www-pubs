@@ -10,7 +10,7 @@ author: "Cristiano Giuffrida, Lorenzo Cavallaro, and Andrew S. Tanenbaum",
   year: 2010
  },
  
- [{ url: "2010-10-OSDI-DeterministicMT.html",
+ { url: "2010-10-OSDI-DeterministicMT.html",
   title: "Stable Deterministic Multithreading through Schedule Memoization",
 published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
 location: "Vancouver, BC, Canada",
@@ -19,7 +19,7 @@ location: "Vancouver, BC, Canada",
    year: 2010
   },
   
- [{ url: "2010-10-OSDI-BypassingRaces.html",
+ { url: "2010-10-OSDI-BypassingRaces.html",
   title: "Bypassing Races in Live Applications with Execution Filters",
 published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
 location: "Vancouver, BC, Canada",
