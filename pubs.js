@@ -15,6 +15,18 @@ var PUBS = [
    author: "Andr&eacute; Tavares, Fernando Magno Pereira, Mariza Bigonha and Roberto Bigonha",
    month: 9,
    year: 2010},
+
+  {
+            url: "2010-07-CAV-LazyAnnot.html",
+            title: "Lazy Annotation for Program Testing and Verification",
+            published: "In Proceedings of Computer Aided Verification (CAV 2010)",
+            author: "Kenneth McMillan",
+            location: "Edinburgh, UK",
+            month: 7,
+            year: 2010
+  },
+            
+            
   {url: "2010-06-ISCA-Relax.html",
    title: "Relax: An Architectural Framework for Software Recovery of Hardware Faults",
    published: "ISCA '10: International Symposium on Computer Architecture",
