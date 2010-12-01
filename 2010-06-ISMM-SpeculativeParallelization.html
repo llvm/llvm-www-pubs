@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Speculative Parallelization Using State Separation and Multiple Value Prediction</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Speculative Parallelization Using State Separation and Multiple Value Prediction
+</div>
+<div class="pub_author">
+  Chen Tian, Min Feng and Rajiv Gupta
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+With the availability of chip multiprocessor (CMP) and simultaneous
+multithreading (SMT) machines, extracting thread level parallelism from a
+sequential program has become crucial for improving performance. However, many
+sequential programs cannot be easily parallelized due to the presence of
+dependences. To solve this problem, different solutions have been proposed. Some
+of them make the optimistic assumption that such dependences rarely manifest
+themselves at runtime. However, when this assumption is violated, the recovery
+causes very large overhead. Other approaches incur large synchronization or
+computation overhead when resolving the dependences. Consequently, for a loop
+with frequently arising cross-iteration dependences, previous techniques are not
+able to speed up the execution. In this paper we propose a compiler technique
+which uses state separation and multiple value prediction to speculatively
+parallelize loops in sequential programs that contain frequently arising
+cross-iteration dependences. The key idea is to generate multiple versions of a
+loop iteration based on multiple predictions of values of variables involved in
+cross-iteration dependences (i.e., live-in variables). These speculative
+versions and the preceding loop iteration are executed in separate memory states
+simultaneously. After the execution, if one of these versions is correct (i.e.,
+its predicted values are found to be correct), then we merge its state and the
+state of the preceding iteration because the dependence between the two
+iterations is correctly resolved. The memory states of other incorrect versions
+are completely discarded. Based on this idea, we further propose a runtime
+adaptive scheme that not only gives a good performance but also achieves better
+CPU utilization. We conducted experiments on 10 benchmark programs on a real
+machine. The results show that our technique can achieve 1.7x speedup on average
+across all used benchmarks.
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Speculative Parallelization Using State Separation and Multiple Value Prediction"
+  <br>
+   Chen Tian, Min Feng and Rajiv Gupta.
+  <br>
+<i>
+Proceedings of the International Symposium on Memory Management,
+</i> Toronto, Canada, June 2010.
+</blockquote>
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="http://www.cs.ucr.edu/~gupta/research/Publications/Comp/ismm10.pdf">
+  Speculative Parallelization Using State Separation and Multiple Value Prediction
+  </a> (PDF)</li>
+</ul>
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>
