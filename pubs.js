@@ -820,7 +820,7 @@ location: "Vancouver, BC, Canada",
 
  {url: '2007-10-PekkaTTA.html',
   title: 'Retargetable Compiler Backend for Transport Triggered Architectures',
-  author: 'Pekka Jaaskelainen',
+  author: 'Veli-Pekka Jaaskelainen',
   published: "Masters Thesis",
   location: 'Tampere University of Technology',
   month: 10,
