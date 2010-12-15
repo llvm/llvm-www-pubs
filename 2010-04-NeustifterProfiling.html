@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen" />
+  <title>Efficient Profiling in the LLVM Compiler Infrastructure</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Efficient Profiling in the LLVM Compiler Infrastructure
+</div>
+<div class="pub_author">
+  Andreas Neustifter, M.S. Thesis
+</div>
+
+
+<h2>Abstract:</h2>
+<blockquote>
+In computer science profiling is the process of determining the execution frequencies of parts of a program. This can be done by instrumenting the program code with counters that are incremented when a part of the program is executed or by sampling the program counter at certain time intervals. From this data it is possible to calculate exact (in the case of counters) or relative (in the case of sampling) execution frequencies of all parts of the program.<p>
+
+Currently the LLVM Compiler Infrastructure supports the profiling of programs by placing counters in the code and reading the resulting profiling data during consecutive compilations. But these counters are placed with a naive and inefficient algorithm that uses more counters than necessary. Also the recorded profiling information is not used in the compiler during optimisation or in the code generating backend when recompiling the program.<p>
+
+This work tries to improve the existing profiling support in LLVM in several ways. First, the number of counters placed in the code is decreased as presented by Ball and Larus. Counters are placed only at the leaves of each functions control flow graph (CFG), which gives an incomplete profile after the program execution. This incomplete profile can be completed by propagating the values of the leaves back into the tree.<p>
+
+Secondly, the profiling information is made available to the code generating backend. The CFG modifications and instruction selection passes are modified where necessary to preserve the profiling information so that backend passes and code generation can benefit from it. For example the register allocator is one such backend pass that could benefit since the spilling decisions are based on the execution frequency information.<p>
+
+Thirdly, a compile time estimator to predict execution frequencies when no profiling information is available is implemented and evaluated as proposed by Wu et. al. This estimator is based on statistical data which is combined in order to give more accurate branch predictions as compared to methods where only a single heuristic is used for prediction.<p>
+
+The efficiency of the implemented counter placing algorithm is evaluated by measuring profiling overhead for the naive and for the improved counter placement. The improvements from having the profiling information in the code generating backend is measured by the program performance for code which was compiled without and with profiling information as well as for code that was compiled using the compile time estimator.
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  Efficient Profiling in the LLVM Compiler Infrastructure, Andreas Neustifter.<br>
+  <i>Masters Thesis</i>, Vienna University of Technology, April 2010.
+</blockquote>
+
+<h2>Download:</h2>
+<ul>
+  <li><a href="2010-04-NeustifterProfiling.pdf">Efficient Profiling in the LLVM Compiler Infrastructure</a> (PDF)</li>
+</ul>
+
+</body>
+</html>
