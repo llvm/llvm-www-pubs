@@ -138,7 +138,7 @@ location: "Vancouver, BC, Canada",
   published: "Masters Thesis",
   location: 'Vienna University of Technology',
   month: 4,
-  year: 2007},
+  year: 2010},
  
   {url: "2010-03-VEE-VMKit.html",
    title: "VMKit: a Substrate for Managed Runtime Environments",
