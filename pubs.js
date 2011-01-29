@@ -1,15 +1,24 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
-var PUBS = 
-[{ url: "2010-10-HotDep-CrashRecovery.html",
- title: "We Crashed, Now What?",
+var PUBS =
+[{ url: "2010-12-Preuss-PathProfiling.html",
+ title: "Implementation of Path Profiling in the Low-Level Virtual-Machine (LLVM) Compiler Infrastructure",
+published: "Technical Report #10-05, University of Alberta",
+location: "Alberta, Canada",
+author: "Adam Preuss",
+ month: 12,
+  year: 2010
+ },
+
+ { url: "2010-10-HotDep-CrashRecovery.html",
+  title: "We Crashed, Now What?",
 published: "Proc. of the 6th Workshop on Hot Topics in System Dependability (HotDep '10)",
 location: "Vancouver, BC, Canada",
 author: "Cristiano Giuffrida, Lorenzo Cavallaro, and Andrew S. Tanenbaum",
  month: 10,
   year: 2010
  },
- 
+
  { url: "2010-10-OSDI-DeterministicMT.html",
   title: "Stable Deterministic Multithreading through Schedule Memoization",
 published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
@@ -18,7 +27,7 @@ location: "Vancouver, BC, Canada",
   month: 10,
    year: 2010
   },
-  
+
  { url: "2010-10-OSDI-BypassingRaces.html",
   title: "Bypassing Races in Live Applications with Execution Filters",
 published: "Proc. of the Ninth Symposium on Operating Systems Design and Implementation (OSDI '10)",
@@ -130,8 +139,8 @@ location: "Vancouver, BC, Canada",
    location: "Paris, France",
    month: 4,
    year: 2010},
- 
- 
+
+
  {url: '2010-04-NeustifterProfiling.html',
   title: 'Efficient Profiling in the LLVM Compiler Infrastructure',
   author: 'Andreas Neustifter',
@@ -139,7 +148,7 @@ location: "Vancouver, BC, Canada",
   location: 'Vienna University of Technology',
   month: 4,
   year: 2010},
- 
+
   {url: "2010-03-VEE-VMKit.html",
    title: "VMKit: a Substrate for Managed Runtime Environments",
    published: "Proc. of the Virtual Execution Environments Conference (VEE '10)",
@@ -189,7 +198,7 @@ location: "Vancouver, BC, Canada",
    location: "Pittsburgh, PA",
    month: 3,
    year: 2010},
- 
+
   {url: "2010-02-FPGA-BitLevel.html",
    title: "Bit-Level Optimization for High-Level Synthesis and FPGA-Based Acceleration",
    published: "Proc. of the 18th Annual ACM/SIGDA International Symposium on Field Programmable Gate Arrays (FPGA'10)",
@@ -269,7 +278,7 @@ location: "Vancouver, BC, Canada",
 
   {url: "",
    title: "Performance Modelling for Avionics Systems",
-   published: "Computer Aided Systems Theory (EUROCAST 2009)", 
+   published: "Computer Aided Systems Theory (EUROCAST 2009)",
    author: "Visar Januzaj, Ralf Mauersberger and Florian Biechele",
    location: "",
    month: 9,
@@ -281,7 +290,7 @@ location: "Vancouver, BC, Canada",
    author: "Yonghyun Hwang, Gunar Schirner, and Samar Abdi",
    location: "Langenargen, Germany",
    month: 9,
-   year: 2009}, 
+   year: 2009},
 
   {url: "2009-09-SBCCI.html",
    title: "An Early Real-Time Checker for Retargetable Compile-Time Analysis",
@@ -512,7 +521,7 @@ location: "Vancouver, BC, Canada",
    year: 2009 },
 
   {url: '2009-03-ASPLOS-DMP.html',
-   title: 'DMP: deterministic shared memory multiprocessing', 
+   title: 'DMP: deterministic shared memory multiprocessing',
    author: 'Joseph Devietti, Brandon Lucia, Luis Ceze, and Mark Oskin',
    published: "Proc. of the Fourteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS '09)",
    month: 3,
@@ -583,7 +592,7 @@ location: "Vancouver, BC, Canada",
     published: "Proc. of the 14th Asia South Pacific Design Automation Conference (ASP-DAC'09)",
     location: 'Yokohama, Japan',
     month: 1,
-    year: 2009}, 
+    year: 2009},
 
   {url: '2009-01-ASP-DAC-MemorySimulation.html',
    title: "Memory subsystem simulation in software TLM/T models",
@@ -606,7 +615,7 @@ location: "Vancouver, BC, Canada",
    published: "Proc. 8th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2008)",
    month: 12,
    year: 2008},
-   
+
    {url : '2008-11-MICRO-CopyOrDiscard.html',
     title: 'Copy Or Discard Execution Model For Speculative Parallelization On Multicores ',
     author: 'Chen Tian, Min Feng, V. Nagarajan, R. Gupta',
@@ -667,7 +676,7 @@ location: "Vancouver, BC, Canada",
    published: "Proc. International Conference on Principles and Practice of Programming In Java (PPPJ 2008)",
    month: 9,
    year: 2008},
-            
+
   {url: "2008-09-Lightspark.html",
    title: "An Efficient ActionScript 3.0 Just-In-Time Compiler Implementation",
    author: "Alessandro Pignotti",
@@ -740,7 +749,7 @@ location: "Vancouver, BC, Canada",
    month: 6,
    year: 2008},
 
-  {url: '2008-06-DSNPDS-ErrorDerating.html', 
+  {url: '2008-06-DSNPDS-ErrorDerating.html',
    title: "A characterization of instruction-level error derating and its implications for error detection",
    author: "Jeffrey J. Cook and Craig Zilles",
    published: "IEEE International Conference on Dependable Systems and Networks With FTCS and DCC (DSN'08)",
@@ -836,7 +845,7 @@ location: "Vancouver, BC, Canada",
   location: 'Tampere University of Technology',
   month: 10,
   year: 2007},
- 
+
   {url: '2007-10-DLS-RPython.html',
    title: "RPython: a Step Towards Reconciling Dynamically and Statically Typed OO Languages",
    author: "Davide Ancona, Massimo Ancona, Antonio Cuni, and Nicholas D. Matsakis",
@@ -1243,7 +1252,7 @@ location: "Vancouver, BC, Canada",
    title: 'LLVM: An Infrastructure for Multi-Stage Optimization',
    author: 'Chris Lattner',
    published: 'Masters Thesis',
-   location: 'Computer Science Dept., University of Illinois at Urbana-Champaign', 
+   location: 'Computer Science Dept., University of Illinois at Urbana-Champaign',
    month: 12,
    year: 2002},
 
@@ -1268,7 +1277,7 @@ location: "Vancouver, BC, Canada",
 
 /**
  * HTML-escapes entities for display in a web page.
- * 
+ *
  * @param {string} str The input to be escaped.
  * @return {string} HTML-escaped version of str.
  */
@@ -1317,8 +1326,8 @@ function displayAllPubs(id) {
       item.innerHTML += '"<a href="' + pub.url + '">' + htmlEscape(pub.title) +
                         '</a>"<br>';
     } else {
-      item.innerHTML += '"' + htmlEscape(pub.title) + '" ' + 
-                        '<a href="http://www.google.com/search?q=' + 
+      item.innerHTML += '"' + htmlEscape(pub.title) + '" ' +
+                        '<a href="http://www.google.com/search?q=' +
                         encodeURIComponent(pub.title) + '">search</a><br>';
     }
     item.innerHTML += htmlEscape(pub.author) + '<br>';
