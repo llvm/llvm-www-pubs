@@ -1,6 +1,15 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS =
+[{ url: "2011-02-FOSDEM-LLVMAndClang.html",
+   title: "LLVM and Clang: Advancing Compiler Technology",
+   published: 'Keynote Talk, <a href="http://fosdem.org/2011/">FOSDEM 2011</a>: Free and Open Source Developers European Meeting',
+   location: "Brussels, Belgium",
+   author: "Chris Lattner",
+   month: 2,
+   year: 2011
+ },
+ 
 [{ url: "2010-12-Preuss-PathProfiling.html",
  title: "Implementation of Path Profiling in the Low-Level Virtual-Machine (LLVM) Compiler Infrastructure",
 published: "Technical Report #10-05, University of Alberta",
