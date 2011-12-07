@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://systems.cs.columbia.edu/files/wpid-peregrine-sosp11.pdf",
+    author: "Heming Cui, Jingyue Wu, John Gallagher, Huayang Guo, Junfeng Yang",
+    title: "Efficient Deterministic Multithreading through Schedule Relaxation",
+    published: "ACM Symposium on Operating Systems Principles (SOSP)",
+    month: 10,
+    year: 2011,
+  },
+
   { url: "",
     author: "Haohui Mai, Ahmed Khurshid, Rachit Agarwal, Matthew Caesar, P. Brighten Godfrey, and Samuel T. King",
     title: "Debugging the Data Plane with Anteater",
