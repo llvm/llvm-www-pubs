@@ -1396,6 +1396,7 @@ function displayAllPubs(id) {
     if (isDef(pub.award)) {
       item.innerHTML += '<br><b>' + pub.award + '.</b>';
     }
+    item.innerHTML += '<br><br>';
     list.appendChild(item);
   }
 }
