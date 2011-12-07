@@ -1,7 +1,16 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
 // the page in the order listed.
 var PUBS =
-[{ url: "2011-02-FOSDEM-LLVMAndClang.html",
+[ { url: "http://homepages.uni-paderborn.de/mgrad/Mariusz_Grad_Homepage/Publications_files/grad11_raw_paper.pdf",
+    author: "Mariusz Grad and Christian Plessl",
+    title: "Just-in-time Instruction Set Extension - Feasibility and Limitations for an FPGA-based Reconfigurable ASIP Architecture",
+    published: "Reconfigurable Architectures Workshop (RAW 2011), Proceedings of the International Parallel and Distributed Processing Symposium",
+    location: "Anchorage, Alaska, USA.",
+    month:  5,
+    year: 2011
+  },
+
+ { url: "2011-02-FOSDEM-LLVMAndClang.html",
    title: "LLVM and Clang: Advancing Compiler Technology",
    published: "Keynote Talk, <a href='http://fosdem.org/2011/'>FOSDEM 2011</a>: Free and Open Source Developers European Meeting",
    location: "Brussels, Belgium",
@@ -9,7 +18,16 @@ var PUBS =
    month: 2,
    year: 2011
  },
- 
+
+  { url: "http://homepages.uni-paderborn.de/mgrad/Mariusz_Grad_Homepage/Publications_files/grad10_reconfig_paper.pdf",
+    author: "Mariusz Grad and Christian Plessl",
+    title: "Pruning the Design Space for Just-in-time Processor Customization",
+    published: "Proceedings of the International Conference on Reconfigurable Computing (ReConFig 2010)",
+    location: "Cancun, Mexico",
+    month: 12,
+    year: 2010.
+  },
+
  { url: "2010-12-Preuss-PathProfiling.html",
  title: "Implementation of Path Profiling in the Low-Level Virtual-Machine (LLVM) Compiler Infrastructure",
 published: "Technical Report #10-05, University of Alberta",
@@ -365,6 +383,15 @@ location: "Vancouver, BC, Canada",
    month: 8,
    year: 2009},
 
+  { url: "http://homepages.uni-paderborn.de/mgrad/Mariusz_Grad_Homepage/Publications_files/grad09_ersa_paper.pdf",
+    author: "Mariusz Grad and Christian Plessl",
+    title: "Woolcano: An Architecture and Tool Flow for Dynamic Instruction Set Extension on Xilinx Virtex-4 FX",
+    published: "Proceedings of the International Conference on Engineering of Reconfigurable Systems and Algorithms (ERSA 2009)",
+    location: "Las Vegas, Nevada, USA",
+    month: 7,
+    year: 2009
+  },
+
   {url: '2009-07-ISSTA-BegBunch.html',
    title: 'BegBunch: benchmarking for C bug detection tools',
    author: 'Cristina Cifuentes, Christian Hoermann, Nathan Keynes, Lian Li, Simon Long, Erica Mealy, Michael Mounteney, and Bernhard Scholz',
@@ -490,6 +517,15 @@ location: "Vancouver, BC, Canada",
    location: "New York, NY",
    month: 5,
    year: 2009},
+
+  { url: "http://homepages.uni-paderborn.de/mgrad/Mariusz_Grad_Homepage/Publications_files/grad09_fccm_poster.pdf",
+    author: "Mariusz Grad and Christian Plessl",
+    title: "Woolcano: An Architecture and Tool Flow for Dynamic Instruction Set Extension on Xilinx Virtex-4 FX",
+    published: "Proceedings of IEEE Symposium on Field-Programmable Custom Machines (FCCM 2009)",
+    location: "Napa, CA, USA",
+    month: 4,
+    year: 2009
+  },
 
   {url: '2009-04-TECS-MEMMU.html',
    title: 'MEMMU: Memory expansion for MMU-less embedded systems',
