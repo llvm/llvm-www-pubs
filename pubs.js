@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cis.upenn.edu/~stevez/papers/ZNMZ12.pdf",
+    author: "Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, Steve Zdancewic",
+    title: "Formalizing the LLVM Intermediate Representation for Verified Program Transformations",
+    published: "SIGACT Symposium on Principles of Programming Languages (POPL)",
+    month: 1,
+    year: 2012,
+  },
+
   { url: "http://systems.cs.columbia.edu/files/wpid-peregrine-sosp11.pdf",
     author: "Heming Cui, Jingyue Wu, John Gallagher, Huayang Guo, Junfeng Yang",
     title: "Efficient Deterministic Multithreading through Schedule Relaxation",
