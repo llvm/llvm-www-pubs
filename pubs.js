@@ -26,6 +26,14 @@ var PUBS =
     year: 2011,
   },
 
+  { url: "http://llvm-md.org/pldi.pdf",
+    author: "Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett",
+    title: "Evaluating Value-Graph Translation Validation for LLVM",
+    published: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+    month: 6,
+    year: 2011,
+  },
+
   { url: "http://www.hipeac.net/system/files?file=standaloneopencl.pdf",
     author: "Pekka J&auml;&auml;skel&auml;inen, Carlos S. de La Lama, Pablo Huerta, and Jarmo Takala",
     title: "OpenCL-based Design Methodology for Application-Specific Processors",
