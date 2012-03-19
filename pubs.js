@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "2012-05-13-InPar-ispc.html",
+    author: "Matt Pharr and William R. Mark",
+    title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
+    published: "Innovative Parallel Computing (InPar)",
+    month: 5,
+    year: 2012,
+  },
+
   { url: "http://www.cis.upenn.edu/~stevez/papers/ZNMZ12.pdf",
     author: "Jianzhou Zhao, Santosh Nagarakatte, Milo M. K. Martin, Steve Zdancewic",
     title: "Formalizing the LLVM Intermediate Representation for Verified Program Transformations",
