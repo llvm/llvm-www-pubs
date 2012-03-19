@@ -84,6 +84,14 @@ var PUBS =
   },
 
   { url: "",
+    author: "Rodolfo Pellizzoni, Emiliano Betti, Stanley Bak, Gang Yao, John Criswell, Marco Caccamo, and Russell Kegley",
+    title: "A Predictable Execution Model for COTS-Based Embedded Systems",
+    published: "Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+    month: 4,
+    year: 2011,
+  },
+
+  { url: "",
     author: "Ben Hardekopf and Calvin Lin",
     title: "Flow-Sensitive Pointer Analysis for Millions of Lines of Code",
     published: "International Symposium on Code Generation and Optimization (CGO)",
