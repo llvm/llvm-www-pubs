@@ -34,6 +34,14 @@ var PUBS =
     year: 2011,
   },
 
+  { url: "http://www.eecs.harvard.edu/~greg/papers/cfiDataSandboxing.pdf",
+    author: "Bin Zeng, Gang Tan, Greg Morrisett",
+    title: "Combining Control-Flow Integrity and Static Analysis for Efficient and Validated Data Sandboxing",
+    published: "ACM Conference on Computer and Communications Security (CCS)",
+    month: 10,
+    year: 2011,
+  },
+
   { url: "",
     author: "Haohui Mai, Ahmed Khurshid, Rachit Agarwal, Matthew Caesar, P. Brighten Godfrey, and Samuel T. King",
     title: "Debugging the Data Plane with Anteater",
