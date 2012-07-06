@@ -18,6 +18,14 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker",
+    author: "Konstantin Serebryany, Derek Bruening, Alexander Potapenko, Dmitry Vyukov",
+    title: "AddressSanitizer: A Fast Address Sanity Checker",
+    published: "Proc. of the 2012 USENIX Annual Technical Conference",
+    month: 6,
+    year: 2012,
+  },
+
   { url: "http://systems.cs.columbia.edu/files/wpid-peregrine-sosp11.pdf",
     author: "Heming Cui, Jingyue Wu, John Gallagher, Huayang Guo, Junfeng Yang",
     title: "Efficient Deterministic Multithreading through Schedule Relaxation",
