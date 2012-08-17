@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
+    author: "Jingyue Wu, Yang Tang, Gang Hu, Heming Cui, and Junfeng Yang",
+    title: "Sound and Precise Analysis of Parallel Programs through Schedule Specialization",
+    published: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+    month: 6,
+    year: 2012,
+  },
+
   { url: "2012-05-13-InPar-ispc.html",
     author: "Matt Pharr and William R. Mark",
     title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
