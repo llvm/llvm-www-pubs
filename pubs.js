@@ -21,8 +21,8 @@ var PUBS =
   { url: "2012-06-08-ICSE-UnderstandingIntegerOverflow.html",
     author: "Will Dietz, Peng Li, John Regehr, Vikram Adve",
     title: "Understanding Integer Overflow in C/C++",
-    published: "Proc. of the 2012 International Conference on Software Engineering (ICSE'12)"
-   award: 'Received an ACM SIGSOFT Distinguished Paper Award',
+    published: "Proc. of the 2012 International Conference on Software Engineering (ICSE'12)",
+    award: 'Received an ACM SIGSOFT Distinguished Paper Award',
     month: 6,
     year: 2012,
   },
