@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="../llvm.css" type="text/css" media="screen">
+  <title>Understanding Integer Overflow in C/C++</title>
+</head>
+<body>
+
+<div class="pub_title">
+  Understanding Integer Overflow in C/C++
+</div>
+<div class="pub_author">
+  Will Dietz, Peng Li, John Regehr, and Vikram Adve
+</div>
+
+<h2>Abstract:</h2>
+<blockquote>
+<p>
+Integer overflow bugs in C and C++ programs are difficult to track down and may lead to fatal errors or exploitable vulnerabilities. Although a number of tools for finding these bugs exist, the situation is complicated because not all overflows are bugs. Better tools need to be constructed&mdash;but a thorough understanding of the issues behind these errors does not yet exist. We developed IOC, a dynamic checking tool for integer overflows, and used it to conduct the first detailed empirical study of the prevalence and patterns of occurrence of integer overflows in C and C++ code. Our results show that intentional uses of wraparound behaviors are more common than is widely believed; for example, there are over 200 distinct locations in the SPEC CINT2000 benchmarks where overflow occurs. Although many overflows are intentional, a large number of accidental overflows also occur. Orthogonal to programmers' intent, overflows are found in both well-defined and undefined flavors. Applications executing undefined operations can be, and have been, broken by improvements in compiler optimizations. Looking beyond SPEC, we found and reported undefined integer overflows in SQLite, PostgreSQL, SafeInt, GNU MPC and GMP, Firefox, GCC, LLVM, Python, BIND, and OpenSSL; many of these have since been fixed. Our results show that integer overflow issues in C and C++ are subtle and complex, that they are common even in mature, widely used programs, and that they are widely misunderstood by developers.
+</p>
+</blockquote>
+
+<h2>Published:</h2>
+<blockquote>
+  "Understanding Integer Overflow in C/C++"<br>
+  Will Dietz, Peng Li, John Regehr, and Vikram Adve<br>
+<i>Proc. of the 2012 International Conference on Software Engineering (ICSE'12)</i>
+Zurich, Switzerland, June 2012.
+</blockquote>
+
+  <p><b>Awarded an ACM SIGSOFT Distinguished Paper Award</b></p>
+
+<h2>Download:</h2>
+<h3>Paper:</h3>
+<ul>
+  <li><a href="http://www.cs.utah.edu/~regehr/papers/overflow12.pdf">
+  Understanding Integer Overflow in C/C++
+  </a> (PDF)</li>
+</ul>
+
+<h3>Tool:</h3>
+<ul>
+  <li><a href="http://embed.cs.utah.edu/ioc">
+  IOC: An Integer Overflow Checker for C/C++
+  </a> </li>
+</ul>
+
+<h2>BibTeX Entry:</h2>
+<pre>
+@InProceedings{DietzLi:ICSE12,
+ author = {Dietz, Will and Li, Peng and Regehr, John and Adve, Vikram},
+ title = {Understanding Integer Overflow in C/C++},
+ booktitle = {Proceedings of the 2012 International Conference on Software Engineering},
+ series = {ICSE 2012},
+ year = {2012},
+ isbn = {978-1-4673-1067-3},
+ location = {Zurich, Switzerland},
+ pages = {760--770},
+ numpages = {11},
+ url = {http://dl.acm.org/citation.cfm?id=2337223.2337313},
+ acmid = {2337313},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+}
+</pre>
+
+
+<!-- *********************************************************************** -->
+<hr>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer"><img
+  src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"></a>
+  <a href="http://validator.w3.org/check/referer"><img
+  src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01!" /></a>
+
+</body>
+</html>

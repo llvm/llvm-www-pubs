@@ -18,6 +18,15 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "2012-06-08-ICSE-UnderstandingIntegerOverflow.html",
+    author: "Will Dietz, Peng Li, John Regehr, Vikram Adve",
+    title: "Understanding Integer Overflow in C/C++",
+    published: "Proc. of the 2012 International Conference on Software Engineering (ICSE'12)"
+   award: 'Received an ACM SIGSOFT Distinguished Paper Award',
+    month: 6,
+    year: 2012,
+  },
+
   { url: "2012-05-13-InPar-ispc.html",
     author: "Matt Pharr and William R. Mark",
     title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
