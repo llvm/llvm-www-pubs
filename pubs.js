@@ -10,6 +10,14 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker",
+    author: "Konstantin Serebryany, Derek Bruening, Alexander Potapenko, Dmitry Vyukov",
+    title: "AddressSanitizer: A Fast Address Sanity Checker",
+    published: "Proc. of the 2012 USENIX Annual Technical Conference",
+    month: 6,
+    year: 2012,
+  },
+
   { url: "2012-05-13-InPar-ispc.html",
     author: "Matt Pharr and William R. Mark",
     title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
@@ -23,14 +31,6 @@ var PUBS =
     title: "Formalizing the LLVM Intermediate Representation for Verified Program Transformations",
     published: "SIGACT Symposium on Principles of Programming Languages (POPL)",
     month: 1,
-    year: 2012,
-  },
-
-  { url: "https://www.usenix.org/conference/usenixfederatedconferencesweek/addresssanitizer-fast-address-sanity-checker",
-    author: "Konstantin Serebryany, Derek Bruening, Alexander Potapenko, Dmitry Vyukov",
-    title: "AddressSanitizer: A Fast Address Sanity Checker",
-    published: "Proc. of the 2012 USENIX Annual Technical Conference",
-    month: 6,
     year: 2012,
   },
 
@@ -58,19 +58,19 @@ var PUBS =
     year: 2011,
   },
 
-  { url: "http://llvm-md.org/pldi.pdf",
-    author: "Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett",
-    title: "Evaluating Value-Graph Translation Validation for LLVM",
-    published: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
-    month: 6,
-    year: 2011,
-  },
-
   { url: "http://www.hipeac.net/system/files?file=standaloneopencl.pdf",
     author: "Pekka J&auml;&auml;skel&auml;inen, Carlos S. de La Lama, Pablo Huerta, and Jarmo Takala",
     title: "OpenCL-based Design Methodology for Application-Specific Processors",
     published: "Transactions on HiPEAC",
     month: 7,
+    year: 2011,
+  },
+
+  { url: "http://llvm-md.org/pldi.pdf",
+    author: "Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett",
+    title: "Evaluating Value-Graph Translation Validation for LLVM",
+    published: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+    month: 6,
     year: 2011,
   },
 
