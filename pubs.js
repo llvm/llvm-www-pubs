@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://erllvm.softlab.ntua.gr/files/erlang03-sagonas.pdf",
+    author: "K. Sagonas, C. Stavrakakis, and Y. Tsiouris",
+    title: "ErLLVM: An LLVM backend for Erlang",
+    published: "ACM SIGPLAN Erlang Workshop",
+    month: 9,
+    year: 2012,
+  },
+
   { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
     author: "Jingyue Wu, Yang Tang, Gang Hu, Heming Cui, and Junfeng Yang",
     title: "Sound and Precise Analysis of Parallel Programs through Schedule Specialization",
