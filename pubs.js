@@ -35,6 +35,14 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6270679&isnumber=6270391",
+    author: "Stripf, T.; Koenig, R.; Rieder, P.; Becker, J.;",
+    title: "A Compiler Back-End for Reconfigurable, Mixed-ISA Processors with Clustered Register Files",
+    published: "Parallel and Distributed Processing Symposium Workshops & PhD Forum (IPDPSW), 2012 IEEE 26th International",
+    month: 5,
+    year: 2012,
+  },
+
   { url: "2012-05-13-InPar-ispc.html",
     author: "Matt Pharr and William R. Mark",
     title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
@@ -72,6 +80,14 @@ var PUBS =
     title: "Debugging the Data Plane with Anteater",
     published: "Annual Conference of the ACM Special Interest Group on Data Communication (SIGCOMM)",
     month: 8,
+    year: 2011,
+  },
+
+  { url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6045457&isnumber=6045429",
+    author: "Stripf, T.; Koenig, R.; Becker, J.;",
+    title: "A novel ADL-based compiler-centric software framework for reconfigurable mixed-ISA processors",
+    published: "Embedded Computer Systems (SAMOS), 2011 International Conference",
+    month: 7,
     year: 2011,
   },
 
