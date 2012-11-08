@@ -10,6 +10,15 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final181.pdf",
+    author: "Cristiano Giuffrida, Anton Kuijsten, and Andrew S. Tanenbaum",
+    title: "Enhanced Operating System Security Through Efficient and Fine-grained Address Space Randomization",
+    published: "Twenty First Usenix Security Symposium",
+    month: 8,
+    year: 2012,
+  },
+
+  { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
   { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
     author: "Jingyue Wu, Yang Tang, Gang Hu, Heming Cui, and Junfeng Yang",
     title: "Sound and Precise Analysis of Parallel Programs through Schedule Specialization",
