@@ -19,7 +19,6 @@ var PUBS =
   },
 
   { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
-  { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
     author: "Jingyue Wu, Yang Tang, Gang Hu, Heming Cui, and Junfeng Yang",
     title: "Sound and Precise Analysis of Parallel Programs through Schedule Specialization",
     published: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
