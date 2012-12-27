@@ -18,6 +18,14 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "http://www.cs.vu.nl/~giuffrida/papers/hotswup-2012.pdf",
+    author: "Cristiano Giuffrida and Andrew S. Tanenbaum",
+    title: "Safe and Automated State Transfer for Secure and Reliable Live Update",
+    published: "Proc. of the Fourth International Workshop on Hot Topics in Software Upgrades (HotSWUp '12)",
+    month: 6,
+    year: 2012,
+  },
+
   { url: "http://systems.cs.columbia.edu/archive/pub/2012/06/sound-and-precise-analysis-of-parallel-programs-through-schedule-specialization/",
     author: "Jingyue Wu, Yang Tang, Gang Hu, Heming Cui, and Junfeng Yang",
     title: "Sound and Precise Analysis of Parallel Programs through Schedule Specialization",
