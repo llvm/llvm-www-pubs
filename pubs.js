@@ -2,11 +2,27 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://dl.acm.org/citation.cfm?id=2380498",
+    author: " Marcelo Sousa and  Alper Sen",
+    title: "Generation of TLM Testbenches Using Mutation Testing",
+    published: "IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis",
+    month: 9,
+    year: 2012,
+  },
+
   { url: "http://erllvm.softlab.ntua.gr/files/erlang03-sagonas.pdf",
     author: "K. Sagonas, C. Stavrakakis, and Y. Tsiouris",
     title: "ErLLVM: An LLVM backend for Erlang",
     published: "ACM SIGPLAN Erlang Workshop",
     month: 9,
+    year: 2012,
+  },
+
+  { url: "http://igitur-archive.library.uu.nl/student-theses/2012-0925-200740/UUindex.html",
+    author: " Marcelo Sousa",
+    title: "A Framework for Formal Verification of Concurrent Software",
+    published: "MSc Thesis",
+    month: 8,
     year: 2012,
   },
 
