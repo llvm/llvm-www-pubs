@@ -2,8 +2,16 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://link.springer.com/chapter/10.1007/978-3-642-37051-9_8",
+    author: "Ryan Whelan, Tim Leek, and David Kaeli",
+    title: "Architecture-Independent Dynamic Information Flow Tracking",
+    published: "Proceedings of the 22nd International Conference on Compiler Construction (CC '13)",
+    month: 3,
+    year: 2013,
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2380498",
-    author: " Marcelo Sousa and  Alper Sen",
+    author: " Marcelo Sousa and Alper Sen",
     title: "Generation of TLM Testbenches Using Mutation Testing",
     published: "IEEE/ACM/IFIP International Conference on Hardware/Software Codesign and System Synthesis",
     month: 9,
