@@ -2,10 +2,50 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://dl.acm.org/citation.cfm?id=2451131",
+    author: "Swarup Kumar Sahoo, John Criswell, Chase Geigle, and Vikram Adve"
+    title: "Using Likely Invariants for Automated Software Fault Localization",
+    published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
+    month: 3,
+    year: 2013,
+  },
+
+  { url: "http://dl.acm.org/citation.cfm?id=2451147",
+    author: "Cristiano Giuffrida, Anton Kuijsten, and Andrew S. Tanenbaum"
+    title: "Safe and Automatic Live Update for Operating Systems",
+    published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
+    month: 3,
+    year: 2013,
+  },
+
+  { url: "http://dl.acm.org/citation.cfm?id=2451120&CFID=194387348&CFTOKEN=71893868",
+    author: "Benjamin Wester, David Devecsery, Peter M. Chen, Jason Flinn, and Satish Narayanasamy"
+    title: "Parallelizing Data Race Detection",
+    published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
+    month: 3,
+    year: 2013,
+  },
+
+  { url: "http://dl.acm.org/citation.cfm?id=2451121&CFID=194387348&CFTOKEN=71893868",
+    author: "Brandon Lucia and Luis Ceze"
+    title: "Cooperative Empirical Failure Avoidance for Multithreaded Programs",
+    published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
+    month: 3,
+    year: 2013,
+  },
+
+  { url: "http://dl.acm.org/citation.cfm?id=2451129&CFID=194387348&CFTOKEN=71893868",
+    author: "Wei Zhang, Marc de Kruijf, Ang Li, Shan Lu, and Karthikeyan Sankaralingam",
+    title: "ConAir: Featherweight Concurrency Bug Recovery via Single-Threaded Idempotent Execution"
+    published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
+    month: 3,
+    year: 2013,
+  },
+
   { url: "http://link.springer.com/chapter/10.1007/978-3-642-37051-9_8",
     author: "Ryan Whelan, Tim Leek, and David Kaeli",
     title: "Architecture-Independent Dynamic Information Flow Tracking",
-    published: "Proceedings of the 22nd International Conference on Compiler Construction (CC '13)",
+    published: "Proceedings of the 22nd International Conference on Compiler Construction (CC 2013)",
     month: 3,
     year: 2013,
   },
