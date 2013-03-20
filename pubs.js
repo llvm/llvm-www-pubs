@@ -3,7 +3,7 @@
 var PUBS =
 [
   { url: "http://dl.acm.org/citation.cfm?id=2451131",
-    author: "Swarup Kumar Sahoo, John Criswell, Chase Geigle, and Vikram Adve"
+    author: "Swarup Kumar Sahoo, John Criswell, Chase Geigle, and Vikram Adve",
     title: "Using Likely Invariants for Automated Software Fault Localization",
     published: "Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2013)",
     month: 3,
