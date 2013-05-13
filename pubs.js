@@ -82,6 +82,14 @@ var PUBS =
     year: 2013,
   },
 
+  { url: "http://www.ics.uci.edu/~ahomescu/multicompiler_cgo13.pdf",
+    author: "Andrei Homescu, Steven Neisius, Per Larsen, Stefan Brunthaler, and Michael Franz",
+    title: "Profile-guided Automated Software Diversity",
+    published: "Proceedings of the 2013 International Symposium on Code Generation and Optimization (CGO 2013)",
+    month: 2,
+    year: 2013,
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2380498",
     author: " Marcelo Sousa and Alper Sen",
     title: "Generation of TLM Testbenches Using Mutation Testing",
