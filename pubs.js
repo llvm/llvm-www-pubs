@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/pldi2013.pdf",
+    author: "Jianzhou Zhao, Santosh Nagarakatte, Milo M K Martin, and Steve Zdancewic",
+    title: "Formal Verification of SSA Optimizations for LLVM",
+    published: "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2013)",
+    month: 6,
+    year: 2013,
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2451131",
     author: "Swarup Kumar Sahoo, John Criswell, Chase Geigle, and Vikram Adve",
     title: "Using Likely Invariants for Automated Software Fault Localization",
