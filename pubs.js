@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://rd.springer.com/article/10.1007/s10836-013-5405-9",
+    author: "Marcelo Sousa, Alper Sen",
+    title: "LLVMVF: A Generic Approach for Verification of Multicore Software",
+    published: "Journal of Electronic Testing: Theory and Applications",
+    month: 9,
+    year: 2013,
+  },
+
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/pldi2013.pdf",
     author: "Jianzhou Zhao, Santosh Nagarakatte, Milo M K Martin, and Steve Zdancewic",
     title: "Formal Verification of SSA Optimizations for LLVM",
