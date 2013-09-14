@@ -1740,7 +1740,7 @@ function displayPubsHistogram(id) {
   var image = document.createElement('img');
   image.src = 'http://chart.apis.google.com/chart' +
       '?cht=bvs' +                                     // vertical bars
-      '&chs=320x200' +                                 // size
+      '&chs=360x200' +                                 // size
       '&chco=76A4FB' +                                 // color
       '&chtt=Number of papers per year' +              // title
       '&chxt=x,y' +                                    // axes
