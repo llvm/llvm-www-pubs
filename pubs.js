@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://dx.doi.org/10.1145/2512432",
+    author: " Ghassan Shobaki, Maxim Shawabkeh, and Najm Abu-Rmaileh",
+    title: "Preallocation Instruction Scheduling with Register Pressure Minimization Using a Combinatorial Optimization Approach",
+    published: "ACM Transactions on Architecture and Code Optimization (TACO)",
+    month: 9,
+    year: 2013,
+  },
+
   { url: "http://rd.springer.com/article/10.1007/s10836-013-5405-9",
     author: "Marcelo Sousa, Alper Sen",
     title: "LLVMVF: A Generic Approach for Verification of Multicore Software",
