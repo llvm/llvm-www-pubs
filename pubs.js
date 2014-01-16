@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://sva.cs.illinois.edu/pubs/VirtualGhost-ASPLOS-2014.pdf",
+    author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
+    title: "Virtual Ghost: Protecting Applications from Hostile Operating Systems ",
+    published: "Proceedings of the Nineteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2014)",
+    month: 3,
+    year: 2014,
+  },
+
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
     author: "Santosh Nagarakatte, Milo M.K. Martin and Steve Zdancewic",
     title: "WatchdogLite: Hardware-Accelerated Compiler-Based Pointer Checking",
