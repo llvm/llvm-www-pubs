@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
+    author: "Santosh Nagarakatte, Milo M.K. Martin and Steve Zdancewic",
+    title: "WatchdogLite: Hardware-Accelerated Compiler-Based Pointer Checking",
+    published: "Proceedings of the 2014 International Symposium on Code Generation and Optimization (CGO 2014)",
+    month: 2,
+    year: 2014,
+  },
+
   { url: "http://dx.doi.org/10.1145/2512432",
     author: " Ghassan Shobaki, Maxim Shawabkeh, and Najm Abu-Rmaileh",
     title: "Preallocation Instruction Scheduling with Register Pressure Minimization Using a Combinatorial Optimization Approach",
