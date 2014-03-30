@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://sva.cs.illinois.edu/pubs/KCoFI-Oakland-2014.pdf",
+    author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
+    title: "KCoFI: Complete Control-Flow Integrity for Commodity Operating System Kernels ",
+    published: "Proceedings of the Thirty Fifth IEEE Symposium on Security and Privacy (Oakland 2014)",
+    month: 5,
+    year: 2014,
+  },
+
   { url: "http://sva.cs.illinois.edu/pubs/VirtualGhost-ASPLOS-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
     title: "Virtual Ghost: Protecting Applications from Hostile Operating Systems ",
