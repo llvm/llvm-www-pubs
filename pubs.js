@@ -4,7 +4,7 @@ var PUBS =
 [
   { url: "http://sva.cs.illinois.edu/pubs/KCoFI-Oakland-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
-    title: "KCoFI: Complete Control-Flow Integrity for Commodity Operating System Kernels ",
+    title: "KCoFI: Complete Control-Flow Integrity for Commodity Operating System Kernels",
     published: "Proceedings of the Thirty Fifth IEEE Symposium on Security and Privacy (Oakland 2014)",
     month: 5,
     year: 2014,
@@ -12,7 +12,7 @@ var PUBS =
 
   { url: "http://sva.cs.illinois.edu/pubs/VirtualGhost-ASPLOS-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
-    title: "Virtual Ghost: Protecting Applications from Hostile Operating Systems ",
+    title: "Virtual Ghost: Protecting Applications from Hostile Operating Systems",
     published: "Proceedings of the Nineteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2014)",
     month: 3,
     year: 2014,
