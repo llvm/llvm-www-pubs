@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://soarlab.org/2014/05/smack-decoupling-source-language-details-from-verifier-implementations",
+    author: "Zvonimir Rakamaric and Michael Emmi",
+    title: "SMACK: Decoupling Source Language Details from Verifier Implementations",
+    published: "Proceedings of the Twenty Sixth International Conference on Computer Aided Verification (CAV 2014)",
+    month: 7,
+    year: 2014,
+  },
+
   { url: "http://sva.cs.illinois.edu/pubs/KCoFI-Oakland-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
     title: "KCoFI: Complete Control-Flow Integrity for Commodity Operating System Kernels",
