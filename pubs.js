@@ -90,6 +90,14 @@ var PUBS =
     year: 2013,
   },
 
+  { url: "http://dl.acm.org/citation.cfm?id=2465380",
+    author: "Kapil Anand, Matthew Smithson, Khaled Elwazeer, Aparna Kotha, Jim Gruen, Nathan Giles, and Rajeev Barua",
+    title: "A Compiler-Level Intermediate Representation Based Binary Analysis and Rewriting System",
+    published: "Proceedings of the Eighth ACM European Conference on Computer Systems (Eurosys 2013)",
+    month: 4,
+    year: 2013,
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2451131",
     author: "Swarup Kumar Sahoo, John Criswell, Chase Geigle, and Vikram Adve",
     title: "Using Likely Invariants for Automated Software Fault Localization",
@@ -307,6 +315,14 @@ var PUBS =
     year: 2011,
   },
 
+  { url: "http://dslab.epfl.ch/pubs/revgen.pdf",
+    author: "Vitaly Chipounov and George Candea",
+    title: "Enabling Sophisticated Analysis of x86 Binaries with RevGen",
+    published: "Seventh Workshop on Hot Topics in System Dependability (HotDep)",
+    month: 6,
+    year: 2011,
+  },
+
   { url: "http://llvm-md.org/pldi.pdf",
     author: "Jean-Baptiste Tristan, Paul Govereau, Greg Morrisett",
     title: "Evaluating Value-Graph Translation Validation for LLVM",
@@ -369,6 +385,14 @@ var PUBS =
     title: "Whole-Function Vectorization",
     published: "International Symposium on Code Generation and Optimization (CGO)",
     month: 4,
+    year: 2011,
+  },
+
+  { url: "http://dslab.epfl.ch/pubs/s2e.pdf",
+    author: "Vitaly Chipounov, Volodymyr Kuznetsov, and George Candea",
+    title: "S2E: A Platform for In-Vivo Multi-Path Analysis of Software Systems",
+    published: "Proceedings of the Sixteenth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2011)",
+    month: 3,
     year: 2011,
   },
 
