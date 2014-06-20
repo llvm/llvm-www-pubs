@@ -10,6 +10,14 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://dl.acm.org/citation.cfm?id=2601397",
+    author: "Justin M. LaPre, Elsa J. Gonsiorowski, and Christopher D. Carothers",
+    title: "LORAIN: A Step Closer to the PDES 'Holy Grail'",
+    published: "Proceedings of the Second ACM SIGSIM/PADS Conference on Principles of Advanced Discrete Simulation (SIGSIM-PADS 2014)",
+    month: 5,
+    year: 2014,
+  },
+
   { url: "http://sva.cs.illinois.edu/pubs/KCoFI-Oakland-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
     title: "KCoFI: Complete Control-Flow Integrity for Commodity Operating System Kernels",
