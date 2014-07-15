@@ -34,6 +34,15 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://dl.acm.org/citation.cfm?id=2576213&dl=ACM&coll=DL&CFID=513590721&CFTOKEN=44228041",
+    author: "Yi-Hong Lyu, Ding-Yong Hong, Tai-Yi Wu, Jan-Jan Wu, Wei-Chung Hsu, Pangfeng Liu, and Pen-Chung Yew",
+    title: "DBILL: An Efficient and Retargetable Dynamic Binary Instrumentation Framework Using LLVM Backend",
+    published: "Proceedings of the Tenth ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments (VEE 2014)",
+    month: 3,
+    year: 2014,
+  },
+
+  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
     author: "Santosh Nagarakatte, Milo M.K. Martin and Steve Zdancewic",
     title: "WatchdogLite: Hardware-Accelerated Compiler-Based Pointer Checking",
