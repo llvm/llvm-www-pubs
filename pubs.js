@@ -43,7 +43,6 @@ var PUBS =
   },
 
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
-  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/cgo2014-final.pdf",
     author: "Santosh Nagarakatte, Milo M.K. Martin and Steve Zdancewic",
     title: "WatchdogLite: Hardware-Accelerated Compiler-Based Pointer Checking",
     published: "Proceedings of the 2014 International Symposium on Code Generation and Optimization (CGO 2014)",
