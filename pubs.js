@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://verify.rwth-aachen.de/giesl/papers/IJCAR14-LLVM.pdf",
+    author: "Thomas Str&ouml;der, J&uuml;rgen Giesl, Marc Brockschmidt, Florian Frohn, Carsten Fuhs, Jera Hensel, and Peter Schneider-Kamp",
+    title: "Proving Termination and Memory Safety for Programs with Pointer Arithmetic",
+    published: "Proceedings of the Seventh International Joint Conference on Automated Reasoning (IJCAR 2014)",
+    month: 7,
+    year: 2014,
+  },
+
   { url: "http://soarlab.org/2014/05/smack-decoupling-source-language-details-from-verifier-implementations",
     author: "Zvonimir Rakamaric and Michael Emmi",
     title: "SMACK: Decoupling Source Language Details from Verifier Implementations",
