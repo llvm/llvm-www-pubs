@@ -2,6 +2,22 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.pds.ewi.tudelft.nl/fileadmin/pds/homepages/fang/papers/icpp2k14a214.pdf",
+    author: "Jianbin Fang, Henk Sips, Pekka J&auml;&auml;skel&auml;inen, Ana Lucia Varbanescu",
+    title: "Grover: Looking for Performance Improvement by Disabling Local Memory Usage in OpenCL Kernels",
+    published: "Proceedings of the 43rd International Conference on Parallel Processing (ICPP-2014)",
+    month: 9,
+    year: 2014,
+  },
+
+  { url: "http://link.springer.com/article/10.1007/s10766-014-0320-y",
+    author: "Pekka J&auml;&auml;skel&auml;inen, Carlos S&aacute;nchez de La Lama, Erik Schnetter, Kalle Raiskila, Jarmo Takala, Heikki Berg",
+    title: "pocl: A Performance-Portable OpenCL Implementation",
+    published: "International Journal of Parallel Programming (IJPP)",
+    month: 8,
+    year: 2014,
+  },
+
   { url: "http://verify.rwth-aachen.de/giesl/papers/IJCAR14-LLVM.pdf",
     author: "Thomas Str&ouml;der, J&uuml;rgen Giesl, Marc Brockschmidt, Florian Frohn, Carsten Fuhs, Jera Hensel, and Peter Schneider-Kamp",
     title: "Proving Termination and Memory Safety for Programs with Pointer Arithmetic",
@@ -15,6 +31,15 @@ var PUBS =
     title: "SMACK: Decoupling Source Language Details from Verifier Implementations",
     published: "Proceedings of the Twenty Sixth International Conference on Computer Aided Verification (CAV 2014)",
     month: 7,
+    year: 2014,
+  },
+
+  { url: "https://dspace.cc.tut.fi/dpub/handle/123456789/22234",
+    author: "Mikko J&auml;rvel&auml;",
+    title: "Vector Operation Support for Transport Triggered Architectures",
+    published: "Master's Thesis",
+    location: "Tampere University of Technology",
+    month: 6,
     year: 2014,
   },
 
