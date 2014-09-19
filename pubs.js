@@ -10,6 +10,14 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://arcade.cs.columbia.edu/parashares-europar14.pdf",
+    author: "Melanie Kambadur, Kui Tang, and Martha Kim",
+    title: "ParaShares: Finding the Important Basic Blocks in Multithreaded Programs",
+    published: "International Conference on Parallel Processing (Euro-Par)",
+    month: 8,
+    year: 2014,
+  },
+
   { url: "http://link.springer.com/article/10.1007/s10766-014-0320-y",
     author: "Pekka J&auml;&auml;skel&auml;inen, Carlos S&aacute;nchez de La Lama, Erik Schnetter, Kalle Raiskila, Jarmo Takala, Heikki Berg",
     title: "pocl: A Performance-Portable OpenCL Implementation",
@@ -256,6 +264,15 @@ var PUBS =
     title: "Enhanced Operating System Security Through Efficient and Fine-grained Address Space Randomization",
     published: "Twenty First Usenix Security Symposium",
     month: 8,
+    year: 2012,
+  },
+
+  { url: "http://arcade.cs.columbia.edu/harmony-isca12.pdf",
+    author: "Melanie Kambadur, Kui Tang, and Martha Kim",
+    title: "Harmony: Collection and Analysis of Parallel Block Vectors",
+    published: "Proceedings of the International Symposium on Computer Architecture (ISCA '12)",
+    award: 'Top Picks in Computer Architecture Selection',
+    month: 6,
     year: 2012,
   },
 
