@@ -139,6 +139,14 @@ var PUBS =
     year: 2013,
   },
 
+  { url: "http://infoscience.epfl.ch/record/186012?ln=en",
+    author: "Jonas Wagner, Volodymyr Kuznetsov, and George Candea",
+    title: "-Overify: Optimizing Programs for Fast Verification",
+    published: "Proceedings of the Fourteenth Workshop on Hot Topics in Operating Systems (HotOS XIV)",
+    month: 5,
+    year: 2013,
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2465380",
     author: "Kapil Anand, Matthew Smithson, Khaled Elwazeer, Aparna Kotha, Jim Gruen, Nathan Giles, and Rajeev Barua",
     title: "A Compiler-Level Intermediate Representation Based Binary Analysis and Rewriting System",
