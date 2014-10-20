@@ -10,6 +10,14 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://hdl.handle.net/2142/50547",
+    author: "John Criswell",
+    title: "Secure Virtual Architecture: Security for Commodity Software Systems",
+    published: "Ph.D. Dissertation,  University of Illinois at Urbana-Champaign",
+    month: 9,
+    year: 2014,
+  },
+
   { url: "http://www.pds.ewi.tudelft.nl/fileadmin/pds/homepages/fang/papers/icpp2k14a214.pdf",
     author: "Jianbin Fang, Henk Sips, Pekka J&auml;&auml;skel&auml;inen, Ana Lucia Varbanescu",
     title: "Grover: Looking for Performance Improvement by Disabling Local Memory Usage in OpenCL Kernels",
