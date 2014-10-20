@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kuznetsov.pdf",
+    author: "Volodymyr Kuznetsov, L&#225;szl&oacute; Szekeres, Mathias Payer, George Candea, R. Sekar, and Dawn Song",
+    title: "Code-Pointer Integrity",
+    published: "Proceedings of the Eleventh USENIX Symposium on Operating Systems Design and Implementation (OSDI 2014)",
+    month: 10,
+    year: 2014,
+  },
+
   { url: "http://www.pds.ewi.tudelft.nl/fileadmin/pds/homepages/fang/papers/icpp2k14a214.pdf",
     author: "Jianbin Fang, Henk Sips, Pekka J&auml;&auml;skel&auml;inen, Ana Lucia Varbanescu",
     title: "Grover: Looking for Performance Improvement by Disabling Local Memory Usage in OpenCL Kernels",
