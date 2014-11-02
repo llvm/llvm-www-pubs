@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://dx.doi.org/10.1007/978-3-319-11737-9_17",
+    author: "Si-Mohamed Lamraoui and Shin Nakajima",
+    title: "A Formula-Based Approach for Automatic Fault Localization of Imperative Programs",
+    published: "Proceedings of the Sixteenth International Conference on Formal Engineering Methods (ICFEM '14)",
+    month: 11,
+    year: 2014,
+  },
+
   { url: "https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kuznetsov.pdf",
     author: "Volodymyr Kuznetsov, L&#225;szl&oacute; Szekeres, Mathias Payer, George Candea, R. Sekar, and Dawn Song",
     title: "Code-Pointer Integrity",
