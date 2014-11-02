@@ -158,8 +158,16 @@ var PUBS =
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/pldi2013.pdf",
     author: "Jianzhou Zhao, Santosh Nagarakatte, Milo M K Martin, and Steve Zdancewic",
     title: "Formal Verification of SSA Optimizations for LLVM",
-    published: "Proceedings of the 34th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2013)",
+    published: "Proceedings of the Thirty Fourth ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2013)",
     month: 6,
+    year: 2013,
+  },
+
+  { url: "http://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201305-temporal-practical-capabilities.pdf",
+    author: "William R. Harris, Somesh Jha, Thomas Reps, Jonathan Anderson, and Robert N. M. Watson",
+    title: "Declarative, Temporal, and Practical Programming with Capabilities",
+    published: "Proceedings of the Thirty Fourth IEEE Symposium on Security and Privacy (Oakland 2013)",
+    month: 5,
     year: 2013,
   },
 
