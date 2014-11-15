@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.icir.org/robin/papers/imc14-hilti.pdf",
+    author: "Robin Sommer, Matthias Vallentin, Lorenzo De Carli, Vern Paxson",
+    title: "HILTI: An Abstract Execution Environment for Deep, Stateful Network Traffic Analysis",
+    published: "Proceedings of the ACM SIGCOMM Internet Measurement Conference",
+    month: 11,
+    year: 2014,
+  },
+
   { url: "http://dx.doi.org/10.1007/978-3-319-11737-9_17",
     author: "Si-Mohamed Lamraoui and Shin Nakajima",
     title: "A Formula-Based Approach for Automatic Fault Localization of Imperative Programs",
