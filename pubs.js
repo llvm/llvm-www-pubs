@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://james0zan.github.io/resource/fse14_zhang.pdf",
+    author: "Mingxing Zhang, Yongwei Wu, Shan Lu, Shanxiang Qi, Jinglei Ren, and Weimin Zheng",
+    title: "AI: A Lightweight System for Tolerating Concurrency Bugs",
+    published: "Proceedings of the Twenty Second ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+    month: 11,
+    year: 2014,
+  },
+
   { url: "http://www.icir.org/robin/papers/imc14-hilti.pdf",
     author: "Robin Sommer, Matthias Vallentin, Lorenzo De Carli, Vern Paxson",
     title: "HILTI: An Abstract Execution Environment for Deep, Stateful Network Traffic Analysis",
