@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cl.cam.ac.uk/~dc552/papers/asplos15-memory-safe-c.pdf",
+    author: "David Chisnall, Colin Rothwell, Robert N. M. Watson, Jonathan Woodruff, Munraj Vadera, Simon W. Moore, Michael Roe, Brooks Davis, and Peter G. Neumann",
+    title: "Beyond the PDP-11: Architectural Support for a Memory-Safe C Abstract Machine",
+    published: "Proceedings of the Twentieth International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS 2015)",
+    month: 3,
+    year: 2015,
+  },
+
   { url: "http://james0zan.github.io/resource/fse14_zhang.pdf",
     author: "Mingxing Zhang, Yongwei Wu, Shan Lu, Shanxiang Qi, Jinglei Ren, and Weimin Zheng",
     title: "AI: A Lightweight System for Tolerating Concurrency Bugs",
