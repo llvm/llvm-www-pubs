@@ -82,6 +82,14 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6888915&punumber%3D6888815%26filter%3DAND%28p_IS_Number%3A6888866%29%26pageNumber%3D2",
+    author: "R. Gad, T. Suss, and A. Brinkmann",
+    title: "Compiler Driven Automatic Kernel Context Migration for Heterogeneous Computing",
+    published: "Proceedings of the IEEE Thirty Fourth International Conference on Distributed Computing Systems (ICDCS)",
+    month: 6,
+    year: 2014,
+  },
+
   { url: "https://dspace.cc.tut.fi/dpub/handle/123456789/22234",
     author: "Mikko J&auml;rvel&auml;",
     title: "Vector Operation Support for Transport Triggered Architectures",
