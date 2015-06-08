@@ -10,6 +10,14 @@ var PUBS =
     year: 2015,
   },
 
+  { url: "http://research.google.com/pubs/pub43308.html",
+    author: "Evgeniy Stepanov and Konstantin Serebryany",
+    title: "MemorySanitizer: fast detector of uninitialized memory use in C++",
+    published: "Proceedings of the 2015 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)",
+    month: 2,
+    year: 2015,
+  },
+
   { url: "http://james0zan.github.io/resource/fse14_zhang.pdf",
     author: "Mingxing Zhang, Yongwei Wu, Shan Lu, Shanxiang Qi, Jinglei Ren, and Weimin Zheng",
     title: "AI: A Lightweight System for Tolerating Concurrency Bugs",
