@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://crypto.junod.info/spro15.pdf",
+    author: "Pascal Junod, Julien Rinaldini, Johan Wehrli and Julie Michielin",
+    title: "Obfuscator-LLVM - Software Protection for the Masses",
+    published: "Proceedings of the First International Workshop on Software Protection (SPRO 2015)",
+    month: 5,
+    year: 2015,
+  },
+
   { url: "http://www.cl.cam.ac.uk/~dc552/papers/asplos15-memory-safe-c.pdf",
     author: "David Chisnall, Colin Rothwell, Robert N. M. Watson, Jonathan Woodruff, Munraj Vadera, Simon W. Moore, Michael Roe, Brooks Davis, and Peter G. Neumann",
     title: "Beyond the PDP-11: Architectural Support for a Memory-Safe C Abstract Machine",
