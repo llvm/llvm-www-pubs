@@ -2,6 +2,23 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://web.ist.utl.pt/nuno.lopes/pubs/alive-pldi15.pdf",
+    author: "Nuno P. Lopes, David Menendez, Santosh Nagarakatte, and John Regehr",
+    title: "Provably Correct Peephole Optimizations with Alive",
+    published: "Proc. of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2015)",
+    award: "Received a Distinguished Paper Award",
+    month: 6,
+    year: 2015
+  },
+
+  { url: "http://gsd.inesc-id.pt/~nmachado/papers/pldi15-nmachado.pdf",
+    author: "Nuno Machado, Brandon Lucia, and Lu&iacute;s Rodrigues",
+    title: "Concurrency Debugging with Differential Schedule Projections",
+    published: "Proc. of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2015)",
+    month: 6,
+    year: 2015
+  },
+
   { url: "http://crypto.junod.info/spro15.pdf",
     author: "Pascal Junod, Julien Rinaldini, Johan Wehrli and Julie Michielin",
     title: "Obfuscator-LLVM - Software Protection for the Masses",
@@ -191,7 +208,7 @@ var PUBS =
 
   { url: "http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/12295-sec13-paper_haller.pdf",
     author: "Istvan Haller, Asia Slowinska, Matthias Neugschwandtner, Herbert Bos",
-    title: "Dowsing for Overﬂows: A Guided Fuzzer to Find Buffer Boundary Violations",
+    title: "Dowsing for Overflows: A Guided Fuzzer to Find Buffer Boundary Violations",
     published: "Proceedings of the Twenty Second Usenix Security Symposium",
     month: 8,
     year: 2013,
@@ -567,7 +584,7 @@ var PUBS =
     published: "Proceedings of the International Conference on Reconfigurable Computing (ReConFig 2010)",
     location: "Cancun, Mexico",
     month: 12,
-    year: 2010.
+    year: 2010
   },
 
  { url: "2010-12-Preuss-PathProfiling.html",
@@ -982,7 +999,7 @@ location: "Vancouver, BC, Canada",
 
   {url: "2009-06-PLDI-Parallelizing.html",
    title: "Parallelizing sequential applications on commodity hardware using a low-cost software transactional memory",
-   author: "Mojtaba Mehrara,	Jeff Hao,	Po-Chun Hsu, and Scott Mahlke",
+   author: "Mojtaba Mehrara, Jeff Hao, Po-Chun Hsu, and Scott Mahlke",
    published: "Proc. ACM SIGPLAN 2009 Conference on Programming Language Design and Implementation (PLDI'09)",
    location: "Dublin, Ireland",
    month: 6,
@@ -1130,7 +1147,7 @@ location: "Vancouver, BC, Canada",
 
    {url: "",
     title: "SORU: A Reconfigurable Vector Unit for Adaptable Embedded Systems",
-    author: "José M. Moya, Javier Rodríguez, et al",
+    author: "Jos&eacute; M. Moya, Javier Rodr&iacute;uez, et al",
     published: "Proc. of the 5th International Workshop on Reconfigurable Computing: Architectures, Tools and Applications",
     month: 3,
     year: 2009},
