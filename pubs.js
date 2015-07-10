@@ -43,7 +43,8 @@ var PUBS =
     year: 2015,
   },
 
-  { author: "Ghassan Shobaki, Laith Sakka, Najm Eldeen Abu-Rmaileh, and Hasan Al-Hamash",
+  { url: "http://dx.doi.org/10.1002/spe.2297",
+    author: "Ghassan Shobaki, Laith Sakka, Najm Eldeen Abu-Rmaileh, and Hasan Al-Hamash",
     title: "Experimental Evaluation of Various Register Pressure Reduction Heuristics",
     published: "Software: Practice and Experience",
     month: 11,
