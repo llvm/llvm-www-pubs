@@ -43,6 +43,13 @@ var PUBS =
     year: 2015,
   },
 
+  { author: "Ghassan Shobaki, Laith Sakka, Najm Eldeen Abu-Rmaileh, and Hasan Al-Hamash",
+    title: "Experimental Evaluation of Various Register Pressure Reduction Heuristics",
+    published: "Software: Practice and Experience",
+    month: 11,
+    year: 2014,
+  },
+
   { url: "http://james0zan.github.io/resource/fse14_zhang.pdf",
     author: "Mingxing Zhang, Yongwei Wu, Shan Lu, Shanxiang Qi, Jinglei Ren, and Weimin Zheng",
     title: "AI: A Lightweight System for Tolerating Concurrency Bugs",
