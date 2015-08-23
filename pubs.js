@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://soarlab.org/publications/ase2015-ddr.pdf",
+    author: "Pantazis Deligiannis, Alastair F. Donaldson, and Zvonimir Rakamaric",
+    title: "Fast and Precise Symbolic Analysis of Concurrency Bugs in Device Drivers",
+    published: "Proceedings of the Thirtieth IEEE/ACM International Conference on Automated Software Engineering (ASE 2015)",
+    month: 11,
+    year: 2015
+  },
+
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/alive-pldi15.pdf",
     author: "Nuno P. Lopes, David Menendez, Santosh Nagarakatte, and John Regehr",
     title: "Provably Correct Peephole Optimizations with Alive",
