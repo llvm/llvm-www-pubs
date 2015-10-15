@@ -174,6 +174,15 @@ var PUBS =
     year: 2014,
   },
 
+  { url: "http://www.cs.vu.nl/~giuffrida/papers/phdthesis.pdf",
+    author: "Cristiano Giuffrida",
+    title: "Safe and Automatic Live Update",
+    published: "Ph.D. Dissertation,  Vrije University, Netherlands",
+    award: "Received the 2015 ACM SIGOPS Dennis M. Ritchie Doctoral Dissertation Award",
+    month: 4,
+    year: 2014,
+  },
+
   { url: "http://sva.cs.illinois.edu/pubs/VirtualGhost-ASPLOS-2014.pdf",
     author: "John Criswell, Nathan Dautenhahn, and Vikram Adve",
     title: "Virtual Ghost: Protecting Applications from Hostile Operating Systems",
