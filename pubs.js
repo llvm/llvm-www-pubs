@@ -10,6 +10,14 @@ var PUBS =
     year: 2015
   },
 
+  { url: "http://tinker.cc.gatech.edu/pdfs/a25-railing.pdf",
+    author: "Brian P. Railing, Eric R. Hein, and Thomas M. Conte",
+    title: "Contech: Efficiently Generating Dynamic Task Graphs for Arbitrary Parallel Programs",
+    published: "ACM Transactions on Architecture and Code Optimization",
+    month: 7,
+    year: 2015
+  },
+
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/alive-pldi15.pdf",
     author: "Nuno P. Lopes, David Menendez, Santosh Nagarakatte, and John Regehr",
     title: "Provably Correct Peephole Optimizations with Alive",
