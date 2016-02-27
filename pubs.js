@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://dl.acm.org/citation.cfm?id=2843863",
+    author: "Luke Jones, Ryan Whelan, Jeremy Blackthorne, and Graham Baker",
+    title: "Flowtables: Program Skeletal Inversion for Defeat of Interprocedural Analysis with Unique Metamorphism",
+    published: "Proceedings of the Fifth Program Protection and Reverse Engineering Workshop (PPREW-5)",
+    month: 12,
+    year: 2015
+  },
+
   { url: "http://soarlab.org/publications/ase2015-ddr.pdf",
     author: "Pantazis Deligiannis, Alastair F. Donaldson, and Zvonimir Rakamaric",
     title: "Fast and Precise Symbolic Analysis of Concurrency Bugs in Device Drivers",
@@ -41,6 +49,22 @@ var PUBS =
     published: "Proceedings of the First International Workshop on Software Protection (SPRO 2015)",
     month: 5,
     year: 2015,
+  },
+
+  { url: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7161599&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7161599",
+    author: "Mihail Popov, Chadi Akel, Florent Conti, William Jalby, and Pablo de Oliveira Castro",
+    title: "PCERE: Fine-Grained Parallel Benchmark Decomposition for Scalability Prediction",
+    published: "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+    month: 5,
+    year: 2015
+  },
+
+  { url: "http://dl.acm.org/citation.cfm?id=2724717",
+    author: "Pablo De Oliveira Castro, Chadi Akel, Eric Petit, Mihail Popov, and William Jalby",
+    title: "CERE: LLVM Based Codelet Extractor and REplayer for Piecewise Benchmarking and Optimization",
+    published: "ACM Transactions on Architecture and Code Optimization (TACO)",
+    month: 4,
+    year: 2015
   },
 
   { url: "http://www.cl.cam.ac.uk/~dc552/papers/asplos15-memory-safe-c.pdf",
