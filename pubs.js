@@ -2,6 +2,23 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/alive-fp-sas16.pdf",
+    author: "David Menendez, Santosh Nagarakatte, and Aarti Gupta",
+    title: "Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM",
+    published: "Proceedings of the 23rd Static Analysis Symposium (SAS 2016)",
+    month: 08,
+    year: 2016
+  },
+
+  { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/icse2016-alive-loops.pdf",
+    author: "David Menendez and Santosh Nagarakatte",
+    title: "Termination-Checking for LLVM Peephole Optimizations",
+    published: "Proceedings of the 38th International Conference on Software Engineering (ICSE 2016)",
+    award: "ACM SIGSOFT Distinguished Paper Award",
+    month: 05,
+    year: 2016
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2843863",
     author: "Luke Jones, Ryan Whelan, Jeremy Blackthorne, and Graham Baker",
     title: "Flowtables: Program Skeletal Inversion for Defeat of Interprocedural Analysis with Unique Metamorphism",
