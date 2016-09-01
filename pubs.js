@@ -51,6 +51,14 @@ var PUBS =
     year: 2016
   },
 
+  { url: "http://thiernobarry.fr/publications/preprint/T-Barry.pdf",
+    author: "Thierno Barry, Damien Courousse, Bruno Robisson",
+    title: "Compilation of a Countermeasure Against Instruction-Skip Fault Attacks",
+    published: "Cryptography and Security in Computing Systems 2016” (CS2)",
+    month: 01,
+    year: 2016
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2843863",
     author: "Luke Jones, Ryan Whelan, Jeremy Blackthorne, and Graham Baker",
     title: "Flowtables: Program Skeletal Inversion for Defeat of Interprocedural Analysis with Unique Metamorphism",
