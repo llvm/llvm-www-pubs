@@ -19,6 +19,14 @@ var PUBS =
     year: 2016
   },
 
+  { url: "http://soarlab.org/publications/ipdps2016-agralslpm.pdf",
+    author: "Simone Atzeni, Ganesh Gopalakrishnan, Zvonimir Rakamaric, Dong H. Ahn, Ignacio Laguna, Martin Schulz, Greg L. Lee, Joachim Protze, Matthias S. Muller",
+    title: "Archer: Effectively Spotting Data Races in Large OpenMP Applications",
+    published: "Proceedings of the 30th IEEE International Parallel and Distributed Processing Symposium (IPDPS 2016)",
+    month: 05,
+    year: 2016
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=2843863",
     author: "Luke Jones, Ryan Whelan, Jeremy Blackthorne, and Graham Baker",
     title: "Flowtables: Program Skeletal Inversion for Defeat of Interprocedural Analysis with Unique Metamorphism",
