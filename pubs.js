@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "http://www.cse.unsw.edu.au/~ysui/papers/fse16.pdf",
+    author: "Yulei Sui and Jingling Xue",
+    title: "On-Demand Strong Update Analysis via Value-Flow Refinement",
+    published: "ACM SIGSOFT International Symposium on the Foundation of Software Engineering (FSE 2016)",
+    month: 11,
+    year: 2016
+  },
+
   { url: "http://www.cs.rutgers.edu/~santosh.nagarakatte/papers/alive-fp-sas16.pdf",
     author: "David Menendez, Santosh Nagarakatte, and Aarti Gupta",
     title: "Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM",
@@ -24,6 +32,22 @@ var PUBS =
     title: "Archer: Effectively Spotting Data Races in Large OpenMP Applications",
     published: "Proceedings of the 30th IEEE International Parallel and Distributed Processing Symposium (IPDPS 2016)",
     month: 05,
+    year: 2016
+  },
+
+  { url: "http://www.cse.unsw.edu.au/~ysui/papers/cgo16.pdf",
+    author: "Yulei Sui and Jingling Xue",
+    title: "Sparse Flow-Sensitive Pointer Analysis for Multithreaded Programs",
+    published: "2016 International Symposium on Code Generation and Optimization (CGO 2016)",
+    month: 03,
+    year: 2016
+  },
+
+  { url: "http://www.cse.unsw.edu.au/~ysui/papers/cc16.pdf",
+    author: "Yulei Sui and Jingling Xue",
+    title: "SVF: Interprocedural Static Value-Flow Analysis in LLVM",
+    published: "25th International Conference on Compiler Construction (CC 2016)",
+    month: 03,
     year: 2016
   },
 
