@@ -36,7 +36,7 @@ var PUBS =
   },
 
   { url: "http://www.cse.unsw.edu.au/~ysui/papers/cgo16.pdf",
-    author: "Yulei Sui and Jingling Xue",
+    author: "Yulei Sui, Peng Di, and Jingling Xue",
     title: "Sparse Flow-Sensitive Pointer Analysis for Multithreaded Programs",
     published: "2016 International Symposium on Code Generation and Optimization (CGO 2016)",
     month: 03,
