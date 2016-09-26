@@ -2,6 +2,14 @@
 // the page in the order listed.
 var PUBS =
 [
+  { url: "https://hal.archives-ouvertes.fr/hal-01192668",
+    author: "Christophe Denis, Pablo de Oliveira Castro, and Eric Petit",
+    title: "Verificarlo: checking floating point accuracy through Monte Carlo Arithmetic.",
+    published: "23rd IEEE International Symposium on Computer Arithmetic (ARITH)",
+    month: 07,
+    year: 2016
+  },
+
   { url: "http://www.cse.unsw.edu.au/~ysui/papers/fse16.pdf",
     author: "Yulei Sui and Jingling Xue",
     title: "On-Demand Strong Update Analysis via Value-Flow Refinement",
