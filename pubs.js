@@ -1,7 +1,26 @@
 // The array should be sorted reverse-chronologically, and will be displayed on
-// the page in the order listed.
+// the page in the order listed. Please, copy the pattern below in the right
+// place and coplete the fields.
+//
+//  { url: "",
+//    author: "",
+//    title: "",
+//    published: "",
+//    award: "",
+//    month: MM,
+//    year: YYYY,
+//  },
+
 var PUBS =
 [
+  { url: "http://formalverification.cs.utah.edu/new/Publications.html#vcsharma_hipc16",
+    author: "Vishal Chandra Sharma, Ganesh Gopalakrishnan, Sriram Krishnamoorthy",
+    title: "PRESAGE: Protecting Structured Address Generation against Soft Errors",
+    published: "IEEE International Conference of High-Performance Computing, Data, and Analysis (HiPC)",
+    month: 11,
+    year: 2016
+  },
+
   { url: "https://hal.archives-ouvertes.fr/hal-01192668",
     author: "Christophe Denis, Pablo de Oliveira Castro, and Eric Petit",
     title: "Verificarlo: checking floating point accuracy through Monte Carlo Arithmetic.",
@@ -31,6 +50,14 @@ var PUBS =
     title: "Termination-Checking for LLVM Peephole Optimizations",
     published: "Proceedings of the 38th International Conference on Software Engineering (ICSE 2016)",
     award: "ACM SIGSOFT Distinguished Paper Award",
+    month: 05,
+    year: 2016
+  },
+
+  { url: "http://www.cs.utah.edu/~vcsharma/pubs/dpdns2016-shrg.pdf",
+    author: "Vishal Chandra Sharma, Ganesh Gopalakrishnan, Sriram Krishnamoorthy",
+    title: "Towards Resiliency Evaluation of Vector Programs",
+    published: "21st IEEE Workshop on Dependable Parallel, Distributed and Network-Centric Systems (DPDNS)",
     month: 05,
     year: 2016
   },
@@ -169,6 +196,14 @@ var PUBS =
     author: "Robin Sommer, Matthias Vallentin, Lorenzo De Carli, Vern Paxson",
     title: "HILTI: An Abstract Execution Environment for Deep, Stateful Network Traffic Analysis",
     published: "Proceedings of the ACM SIGCOMM Internet Measurement Conference",
+    month: 11,
+    year: 2014,
+  },
+
+  { url: "http://formalverification.cs.utah.edu/papers/SC14-GKLEE-SESA.pdf",
+    author: "Peng Li, Guodong Li, Ganesh Gopalakrishnan",
+    title: "Practical Symbolic Checking of GPU Programs",
+    published: "Supercomputing",
     month: 11,
     year: 2014,
   },
@@ -551,6 +586,14 @@ var PUBS =
     title: "ispc: A SPMD Compiler for High-Performance CPU Programming",
     published: "Innovative Parallel Computing (InPar)",
     month: 5,
+    year: 2012,
+  },
+
+  { url: "http://www.cs.utah.edu/fv/pdf/PPoPP12-GKLEE-Extended-Version.pdf",
+    author: "Guodong Li, Peng Li, Geof Sawaya, Ganesh Gopalakrishnan, Indradeep Ghosh, Sreeranga P. Rajan",
+    title: "GKLEE: Concolic Verification and Test Generation for GPUs",
+    published: "Principles and Practices of Parallel Programming (PPoPP)",
+    month: 2,
     year: 2012,
   },
 
