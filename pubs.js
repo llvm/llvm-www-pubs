@@ -128,8 +128,8 @@ var PUBS =
   },
 
   { url: "http://dl.acm.org/citation.cfm?id=2737994",
-    author: "Yousun Ko Yonsei, Bernd Burgstaller, Bernhard Scholz",
-    title: "LaminarIR: compile-time queues for structured streams",
+    author: "Yousun Ko, Bernd Burgstaller, Bernhard Scholz",
+    title: "LaminarIR: Compile-Time Queues for Structured Streams",
     published: "Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2015)",
     month: 6,
     year: 2015
