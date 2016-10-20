@@ -127,6 +127,14 @@ var PUBS =
     year: 2015
   },
 
+  { url: "http://dl.acm.org/citation.cfm?id=2737994",
+    author: "Yousun Ko Yonsei, Bernd Burgstaller, Bernhard Scholz",
+    title: "LaminarIR: compile-time queues for structured streams",
+    published: "Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2015)",
+    month: 6,
+    year: 2015
+  },
+
   { url: "http://gsd.inesc-id.pt/~nmachado/papers/pldi15-nmachado.pdf",
     author: "Nuno Machado, Brandon Lucia, and Lu&iacute;s Rodrigues",
     title: "Concurrency Debugging with Differential Schedule Projections",
