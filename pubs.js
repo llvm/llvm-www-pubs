@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "http://dl.acm.org/citation.cfm?id=3092268&CFID=967844128&CFTOKEN=15248470",
+    author: "Zhengyang Liu and John Criswell",
+    title: "Flexible and Efficient Memory Object Metadata",
+    published: "International Symposium on Memory Management (ISMM)",
+    month: 6,
+    year: 2017
+  },
+
   { url: "http://formalverification.cs.utah.edu/new/Publications.html#vcsharma_hipc16",
     author: "Vishal Chandra Sharma, Ganesh Gopalakrishnan, Sriram Krishnamoorthy",
     title: "PRESAGE: Protecting Structured Address Generation against Soft Errors",
