@@ -13,6 +13,30 @@
 
 var PUBS =
 [
+  { url: "http://ieeexplore.ieee.org/document/8077809",
+    author: "Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, and Deian Stefan",
+    title: "FaCT: A Flexible, Constant-Time Programming Language",
+    published: "IEEE Cybersecurity Development Conference (SecDev)",
+    month: 9,
+    year: 2017
+  },
+
+  { url: "http://ieeexplore.ieee.org/document/8077808",
+    author: "Sazzadur Rahaman and Danfeng Yao",
+    title: "Program Analysis of Cryptographic Implementations for Security",
+    published: "IEEE Cybersecurity Development Conference (SecDev)",
+    month: 9,
+    year: 2017
+  },
+
+  { url: "http://ieeexplore.ieee.org/document/8077803",
+    author: "Komail Dharsee, Ethan Johnson, and John Criswell",
+    title: "A Software Solution for Hardware Vulnerabilities",
+    published: "IEEE Cybersecurity Development Conference (SecDev)",
+    month: 9,
+    year: 2017
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=3092268&CFID=967844128&CFTOKEN=15248470",
     author: "Zhengyang Liu and John Criswell",
     title: "Flexible and Efficient Memory Object Metadata",
