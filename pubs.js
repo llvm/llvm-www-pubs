@@ -37,6 +37,14 @@ var PUBS =
     year: 2017
   },
 
+  { url: "http://web.ist.utl.pt/nuno.lopes/pubs/undef-pldi17.pdf",
+    author: "Juneyoung Lee and Yoonseung Kim and Youngju Song and Chung-Kil Hur and Sanjoy Das and David Majnemer and John Regehr and Nuno P. Lopes",
+    title: "Taming Undefined Behavior in LLVM",
+    published: "Proc. of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
+    month: 6,
+    year: 2017
+  },
+
   { url: "http://dl.acm.org/citation.cfm?id=3092268&CFID=967844128&CFTOKEN=15248470",
     author: "Zhengyang Liu and John Criswell",
     title: "Flexible and Efficient Memory Object Metadata",
