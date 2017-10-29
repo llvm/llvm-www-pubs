@@ -38,7 +38,7 @@ var PUBS =
   },
 
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/undef-pldi17.pdf",
-    author: "Juneyoung Lee and Yoonseung Kim and Youngju Song and Chung-Kil Hur and Sanjoy Das and David Majnemer and John Regehr and Nuno P. Lopes",
+    author: "Juneyoung Lee, Yoonseung Kim, Youngju Song, Chung-Kil Hur, Sanjoy Das, David Majnemer, John Regehr, and Nuno P. Lopes",
     title: "Taming Undefined Behavior in LLVM",
     published: "Proc. of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)",
     month: 6,
