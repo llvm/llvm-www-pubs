@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "https://dl.acm.org/citation.cfm?doid=3135932.3135947",
+    author: "Piotr Padlewski",
+    title: "Devirtualization in LLVM",
+    published: "Proceedings Companion of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH 2017)",
+    month: 10,
+    year: 2017
+  },
+
   { url: "http://ieeexplore.ieee.org/document/8077809",
     author: "Sunjay Cauligi, Gary Soeller, Fraser Brown, Brian Johannesmeyer, Yunlu Huang, Ranjit Jhala, and Deian Stefan",
     title: "FaCT: A Flexible, Constant-Time Programming Language",
