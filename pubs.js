@@ -45,6 +45,14 @@ var PUBS =
     year: 2017
   },
 
+  { url: "http://scholarworks.rit.edu/theses/9550/",
+    author: "Connor Goldberg",
+    title: "The Design of a Custom 32-bit RISC CPU and LLVM Compiler Backend",
+    published: "Master's Thesis, Rochester Institute of Technology",
+    month: 8,
+    year: 2017
+  },
+
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/undef-pldi17.pdf",
     author: "Juneyoung Lee, Yoonseung Kim, Youngju Song, Chung-Kil Hur, Sanjoy Das, David Majnemer, John Regehr, and Nuno P. Lopes",
     title: "Taming Undefined Behavior in LLVM",
