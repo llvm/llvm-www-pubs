@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "http://soarlab.org/2017/09/aplas2017-hr",
+    author: "Shaobo He and Zvonimir Rakamaric",
+    title: "Counterexample-Guided Bit-Precision Selection",
+    published: "Proceedings of the Fifteenth Asian Symposium on Programming Languages and Systems (APLAS)",
+    month: 11,
+    year: 2017
+  },
+
   { url: "https://dl.acm.org/citation.cfm?doid=3135932.3135947",
     author: "Piotr Padlewski",
     title: "Devirtualization in LLVM",
@@ -53,6 +61,14 @@ var PUBS =
     year: 2017
   },
 
+  { url: "",
+    author: "Mihail Popov, Chadi Akel, Yohan Chatelain, William Jalby, and Pablo de Oliveira Castro",
+    title: "Piecewise Holistic Autotuning of Parallel Programs with CERE",
+    published: "Concurrency and Computation: Practice and Experience",
+    month: 6,
+    year: 2017
+  },
+
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/undef-pldi17.pdf",
     author: "Juneyoung Lee, Yoonseung Kim, Youngju Song, Chung-Kil Hur, Sanjoy Das, David Majnemer, John Regehr, and Nuno P. Lopes",
     title: "Taming Undefined Behavior in LLVM",
@@ -74,6 +90,14 @@ var PUBS =
     title: "PRESAGE: Protecting Structured Address Generation against Soft Errors",
     published: "IEEE International Conference of High-Performance Computing, Data, and Analysis (HiPC)",
     month: 11,
+    year: 2016
+  },
+
+  { url: "https://link.springer.com/chapter/10.1007/978-3-319-43659-3_18",
+    author: "Mihail Popov, Chadi Akel, William Jalby, and Pablo de Oliveira Castro",
+    title: "Piecewise Holistic Autotuning of Compiler and Runtime Parameters",
+    published: "Twenty-Second International Conference on Parallel and Distributed Computing (Euro-Par)",
+    month: 8,
     year: 2016
   },
 
