@@ -190,6 +190,14 @@ var PUBS =
     year: 2015
   },
 
+  { url: "https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-araujo.pdf",
+    author: "Frederico Araujo and Kevin W. Hamlen",
+    title: "Compiler-instrumented, Dynamic Secret-Redaction of Legacy Processes for Attacker Deception",
+    published: "Proceedings of the 24th USENIX Security Symposium",
+    month: 8,
+    year: 2015
+  },
+
   { url: "http://tinker.cc.gatech.edu/pdfs/a25-railing.pdf",
     author: "Brian P. Railing, Eric R. Hein, and Thomas M. Conte",
     title: "Contech: Efficiently Generating Dynamic Task Graphs for Arbitrary Parallel Programs",
