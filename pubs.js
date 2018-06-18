@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "https://dl.acm.org/citation.cfm?id=3214297",
+    author: "Xiaowan Dong, Zhuojia Shen, John Criswell, Alan Cox, and Sandhya Dwarkadas",
+    title: "Spectres, Virtual Ghosts, and Hardware Support",
+    published: "Proceedings of the Seventh International Workshop on Hardware and Architectural Support for Security and Privacy (HASP)",
+    month: 6,
+    year: 2018
+  },
+
   { url: "http://soarlab.org/2017/09/aplas2017-hr",
     author: "Shaobo He and Zvonimir Rakamaric",
     title: "Counterexample-Guided Bit-Precision Selection",
