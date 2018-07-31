@@ -20,6 +20,13 @@ var PUBS =
     month: 6,
     year: 2018
   },
+  { url: "https://ieeexplore.ieee.org/document/8411727/",
+    author: "Alex Denisov, Stanislav Pankevich",
+    title: "Mull It Over: Mutation Testing Based on LLVM",
+    published: "IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+    month: 4,
+    year: 2018
+  },
 
   { url: "http://soarlab.org/2017/09/aplas2017-hr",
     author: "Shaobo He and Zvonimir Rakamaric",
@@ -2278,7 +2285,7 @@ function displayPubsHistogram(id) {
   var image = document.createElement('img');
   image.src = 'http://chart.apis.google.com/chart' +
       '?cht=bvs' +                                     // vertical bars
-      '&chs=450x200' +                                 // size
+      '&chs=500x200' +                                 // size
       '&chco=76A4FB' +                                 // color
       '&chtt=Number of papers per year' +              // title
       '&chxt=x,y' +                                    // axes
