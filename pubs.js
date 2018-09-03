@@ -692,6 +692,15 @@ var PUBS =
     year: 2012,
   },
 
+  { url: "https://dl.acm.org/citation.cfm?id=2342821.2342828",
+    author: "Teemu Rinta-Aho, Mika Karlstedt, and Madhav P. Desai",
+    title: "The Click2NetFPGA toolchain",
+    published: "Proceedings of the 2012 USENIX Annual Technical Conference",
+    month: 6,
+    year: 2012,
+    location: "Boston, MA",
+  },
+
   { url: "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6270679&isnumber=6270391",
     author: "Stripf, T.; Koenig, R.; Rieder, P.; Becker, J.;",
     title: "A Compiler Back-End for Reconfigurable, Mixed-ISA Processors with Clustered Register Files",
@@ -929,6 +938,24 @@ location: "Vancouver, BC, Canada",
    author: "Andr&eacute; Tavares, Fernando Magno Pereira, Mariza Bigonha and Roberto Bigonha",
    month: 9,
    year: 2010},
+  {
+      url: "https://doi.org/10.1109/DSD.2010.52",
+      title: "A C-to-RTL Flow as an Energy Efficient Alternative to Embedded Processors in Digital Systems",
+      published: "13th Euromicro Conference on Digital System Design: Architectures, Methods and Tools",
+      author: "Sameer D. Sahasrabuddhe, Sreenivas Subramanian, Kunal P. Ghosh, Kavi Arya, and Madhav P. Desai",
+      location: "Lille, France",
+      month: 9,
+      year: 2010
+  },
+  {
+      url: "http://www.rinta-aho.org/papers/NetFPGA2010-Cmb-nikander.pdf",
+      title: "Towards Software-defined Silicon: Experiences in Compiling Click to NetFPGA",
+      published: "1st European NetFPGA Developers Workshop",
+      author: "James Kempf, Pekka Nikander, Sameer D. Sahasrabuddhe, Teemu Rinta-aho, and Benny Nyman",
+      location: "University of Cambridge, UK",
+      month: 9,
+      year: 2010
+  },
   {
             url: "2010-07-CAV-LazyAnnot.html",
             title: "Lazy Annotation for Program Testing and Verification",
