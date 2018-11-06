@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-dong.pdf",
+    author: "Xiaowan Dong, Zhuojia Shen, John Criswell, Alan L. Cox, and Sandhya Dwarkadas",
+    title: "Shielding Software from Privileged Side-Channel Attacks",
+    published: "Proceedings of the Twenty Seventh Usenix Security Symposium",
+    month: 8,
+    year: 2018
+  },
+
   { url: "https://dl.acm.org/citation.cfm?id=3214297",
     author: "Xiaowan Dong, Zhuojia Shen, John Criswell, Alan Cox, and Sandhya Dwarkadas",
     title: "Spectres, Virtual Ghosts, and Hardware Support",
@@ -20,6 +28,7 @@ var PUBS =
     month: 6,
     year: 2018
   },
+
   { url: "https://ieeexplore.ieee.org/document/8411727/",
     author: "Alex Denisov, Stanislav Pankevich",
     title: "Mull It Over: Mutation Testing Based on LLVM",
@@ -100,6 +109,14 @@ var PUBS =
     year: 2017
   },
 
+  { url: "https://dl.acm.org/citation.cfm?id=3053007",
+    author: "	Sanchuan Chen, Xiaokuan Zhang, Michael K. Reiter, and Yinqian Zhang",
+    title: "Detecting Privileged Side-Channel Attacks in Shielded Execution with D&eacutej&agrave Vu",
+    published: "Proceedings of the 2017 ACM Asia Conference on Computer and Communications Security (AsiaCCS)",
+    month: 4,
+    year: 2017
+  },
+
   { url: "http://formalverification.cs.utah.edu/new/Publications.html#vcsharma_hipc16",
     author: "Vishal Chandra Sharma, Ganesh Gopalakrishnan, Sriram Krishnamoorthy",
     title: "PRESAGE: Protecting Structured Address Generation against Soft Errors",
@@ -137,6 +154,14 @@ var PUBS =
     title: "Alive-FP: Automated Verification of Floating Point Based Peephole Optimizations in LLVM",
     published: "Proceedings of the 23rd Static Analysis Symposium (SAS 2016)",
     month: 08,
+    year: 2016
+  },
+
+  { url: "https://ieeexplore.ieee.org/document/7546545",
+    author: "Hong Hu, Shweta Shinde, Sendroiu Adrian, Zheng Leong Chua, Prateek Saxena, and Zhenkai Liang",
+    title: "Data-Oriented Programming: On the Expressiveness of Non-Control Data Attacks",
+    published: "Proceedings of the 2016 IEEE Symposium on Security and Privacy (SP 2016)",
+    month: 05,
     year: 2016
   },
 
