@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "http://web.ist.utl.pt/nuno.lopes/pubs/llvmmem-oopsla18.pdf",
+    author: "Juneyoung Lee, Chung-Kil Hur, Ralf Jung, Zhengyang Liu, John Regehr, and Nuno P. Lopes",
+    title: "Reconciling High-Level Optimizations and Low-Level Code in LLVM",
+    published: "Proc. of the ACM on Programming Languages, Volume 2 Issue OOPSLA",
+    month: 11,
+    year: 2018
+  },
+
   { url: "https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-dong.pdf",
     author: "Xiaowan Dong, Zhuojia Shen, John Criswell, Alan L. Cox, and Sandhya Dwarkadas",
     title: "Shielding Software from Privileged Side-Channel Attacks",
