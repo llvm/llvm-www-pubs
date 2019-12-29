@@ -13,6 +13,14 @@
 
 var PUBS =
 [
+  { url: "https://doi.org/10.1109/TPDS.2019.2960333",
+    author: "Naoki Shibata and Francesco Petrogalli",
+    title: "SLEEF: A Portable Vectorized Library of C Standard Mathematical Functions",
+    published: "IEEE Transactions on Parallel and Distributed Systems",
+    month: 12,
+    year: 2019
+  },
+
   { url: "http://web.ist.utl.pt/nuno.lopes/pubs/llvmmem-oopsla18.pdf",
     author: "Juneyoung Lee, Chung-Kil Hur, Ralf Jung, Zhengyang Liu, John Regehr, and Nuno P. Lopes",
     title: "Reconciling High-Level Optimizations and Low-Level Code in LLVM",
